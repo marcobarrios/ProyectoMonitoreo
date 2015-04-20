@@ -7,8 +7,8 @@
  */
 session_start();
 
-require '/xampp/htdocs/Monitoreo/config/facebook.php';
-require '/xampp/htdocs/Monitoreo/php_facebook/vendor/autoload.php';
+require '/xampp/htdocs/ProyectoMonitoreo/config/facebook.php';
+require '/xampp/htdocs/ProyectoMonitoreo/php_facebook/vendor/autoload.php';
 
 use Facebook\FacebookSession;
 use Facebook\FacebookRedirectLoginHelper;
@@ -19,7 +19,7 @@ use Facebook\GraphObject;
 use Facebook\FacebookRequestException;
 
 FacebookSession::setDefaultApplication($config['app_id'], $config['app_secret']);
-$helper = new FacebookRedirectLoginHelper('http://localhost/Monitoreo/index.php');
+$helper = new FacebookRedirectLoginHelper('http://localhost/ProyectoMonitoreo/index.php');
 
 try {
     $session = $helper->getSessionFromRedirect();

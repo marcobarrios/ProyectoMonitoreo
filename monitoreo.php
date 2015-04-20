@@ -21,7 +21,7 @@
         <h2 id = "header-h2">Instrumento de Monitoreo</h2>
     </header>
 
-    <?php if ((($_GET['id']) == "")) { ?>
+    <?php if ((($_GET['id']) != "")) { ?>
     <form name="myform" method="post" action="controllers/guardardatos.php">
 
         <input type="hidden" name="latitud" id="latitud" value="">
