@@ -12,9 +12,11 @@ require_once 'php_facebook/app/start.php';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Me muevo por mis Derechos Sexuales">
     <title>Monitoreo</title>
     <meta name = "viewport" content= "width=device-width, minimum-scale=1, maximum-scale=1"/>
     <link rel ="shortcut icon" type = "image/x-icon" href = "images/logo.ico">
+    <link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/styles-portada.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
@@ -24,7 +26,7 @@ require_once 'php_facebook/app/start.php';
     <figure id = "logo">
         <img src="images/logo.png">
     </figure>
-    <h1>Instrumento de Monitoreo</h1>
+    <h1 class = "hFonts">Me Muevo Por Mis Derechos Sexuales</h1>
     <div id = "btn-login">
         <a href="#" id = "btn-log">Iniciar Encuesta</a>
     </div>
@@ -47,12 +49,12 @@ require_once 'php_facebook/app/start.php';
 
         <div class="carousel-inner">
             <div class = "item active">
-                <img src="images/r1.jpg" alt="img1" class = "img-responsive">
+                <img src="images/r1.png" alt="img1" class = "img-responsive">
                 <div class = "carousel-caption">
                 </div>
             </div>
             <div class = "item">
-                <img src="images/r2.jpg" alt="img12" class = "img-responsive">
+                <img src="images/r2.png" alt="img12" class = "img-responsive">
                 <div class = "carousel-caption">
                 </div>
             </div>
@@ -73,9 +75,7 @@ require_once 'php_facebook/app/start.php';
 <!---->
 <footer>
     <div>
-        <img class = "img-footer" src="images/logoHIVOS.png">
-        <img class = "img-footer" src="images/logoIDEI.png">
-        <img class = "img-footer" src="images/logoPARLAMENTO.png">
+        <img class = "img-footer" src="images/footer.png">
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
