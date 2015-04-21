@@ -402,7 +402,7 @@
         </div>
 
         <div class = "btn">
-            <input type="submit"/>
+            <input type="submit" onclick="alert('Sus Datos han sido guardados, se le redirigirá a la página de inicio')"/>
         </div>
         
     </form>

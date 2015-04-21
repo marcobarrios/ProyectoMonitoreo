@@ -49,19 +49,16 @@ require_once 'php_facebook/app/start.php';
             <div class = "item active">
                 <img src="images/r1.jpg" alt="img1" class = "img-responsive">
                 <div class = "carousel-caption">
-                    <h3>Imagen1</h3>
                 </div>
             </div>
             <div class = "item">
                 <img src="images/r2.jpg" alt="img12" class = "img-responsive">
                 <div class = "carousel-caption">
-                    <h3>Imagen2</h3>
                 </div>
             </div>
             <div class = "item">
                 <img src="images/r3.jpg" alt="img3"  class = "img-responsive">
                 <div class = "carousel-caption">
-                    <h3>Imagen3</h3>
                 </div>
             </div>
         </div>

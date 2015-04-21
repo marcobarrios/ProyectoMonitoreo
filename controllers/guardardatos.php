@@ -14,6 +14,7 @@
  * Time: 6:47 PM
  */
 require '../php_facebook/app/logout.php';
+require '../index.php';
 
 $mysqli = new mysqli("localhost", "root", "", "monitoreo");
 if ($mysqli === false) {
@@ -408,8 +409,7 @@ $mysqli->close();
 
 session_start();
 unset($_SESSION['facebook']);
-header('Location: ../success.php');
+header('Location: ../index.php');
 
 ?>
 </body>
-
