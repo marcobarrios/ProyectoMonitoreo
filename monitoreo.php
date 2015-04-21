@@ -17,12 +17,14 @@
         <figure id = "logo">
             <img src="images/logo.png"/>
         </figure>
+
         <h2 id = "header-h1">Instrumento para evaluar la oferta y demanda de servicios de calidad en materia de derechos sexuales y reproductivos para adolescentes y jóvenes en centros de salud.</h2>
         <h2 id = "header-h2">Instrumento de Monitoreo</h2>
     </header>
 
     <?php if ((($_GET['id']) != "")) { ?>
     <form name="myform" method="post" action="controllers/guardardatos.php">
+
 
         <input type="hidden" name="latitud" id="latitud" value="">
         <input type="hidden" name="longitud" id="longitud" value="">
@@ -52,6 +54,7 @@
                         <label><input type="radio" name="rangoedad" value="5"/> Más de 25 años <br></label>
                 </div>
             </div>
+
 
             <div id="div_id_cultura" class="form-group">
                 <label>3. Cultura<span class="asteriskField">*</span></label>
@@ -393,7 +396,7 @@
             </div>
 
             <div id="div_id_prestador_maneja_kit" class="form-group">
-                <label>3. ¿El prestador de servicios sabe sobre el manejo del Kit de emergencia?</label>
+                <label>3, ¿El prestador de servicios sabe sobre el manejo del Kit de emergencia?</label>
                 <div class="controls ">
                         <label><input type="radio" name="prestador_maneja_kit" value="1" /> Sí <br></label>
                         <label><input type="radio" name="prestador_maneja_kit" value="2" /> No <br></label>
@@ -406,6 +409,7 @@
         </div>
         
     </form>
+
     <?php } else { header('Location: index.php'); } ?>
 
     <footer>
