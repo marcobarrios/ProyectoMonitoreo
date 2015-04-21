@@ -33,7 +33,6 @@
 }
 body
 {
-	background-image: url("../images/fondo1.jpg");
 	font-family: arial;
 	font-size: 20px;
 }
@@ -49,12 +48,12 @@ footer div
 }
 header
 {
-	background: #009688;
+	background: rgba(0, 150, 136, 0.02) no-repeat;
 	background-image: url("../images/header.jpg");
-	color: white;
-	overflow: hidden;@import url( );
+	background-size: auto;
+	overflow: hidden;
 	position: relative;
-	height: 100%;
+	padding: 6.5em;
 }
 
 header figure
@@ -64,7 +63,7 @@ header figure
 header figure img
 {
 	width: 100px;
-	margin: 0.4em;
+	margin: -1em;
 }
 header h1
 {
@@ -84,16 +83,14 @@ header a
 	margin: 2em 0.5em 0 0;
 	position: absolute;
 	right: 0;
-	top: 0; text-decoration: none;
-	font-family: arial;
-	
+	top: 0;
+	text-decoration: none;
 }
 header a:hover
 {
 	background: #7dcd40;
 	text-decoration: none;
 	color: white;
-	font-family: arial;
 }
 
 #facebook
@@ -121,16 +118,19 @@ header a:hover
 {
 	margin: 1em;
 }
+
 @media screen and (max-width: 650px) {
+	header
+	{
+	background-image: url("../images/header1.jpg");
+
+	}
 	header a
 	{
-		display: none;
+		color: white;
+
 	}
-	#facebook
-	{
-		display: inline-block;
-		
-	}
+
 	#box-img
 	{
 		margin: 0;

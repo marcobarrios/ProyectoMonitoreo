@@ -17,8 +17,6 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
-	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -51,7 +49,7 @@ body
 	background-size: 100%;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
-	font-family: "Segoe UI Light";
+	font-family: "Segoe UI Light", arial, sans-serif;
 	font-size: 20px;
 
 }
@@ -64,6 +62,7 @@ footer
 header
 {
 	background: #1A237E;
+	background-image: url("../images/header1.jpg");
 	color: white;
 	padding: 0.3em;
 	text-align: center;
@@ -178,41 +177,32 @@ input[type ="submit"]:hover
 	cursor: pointer; 
 	background: #8FB6C8;
 }
-.textinput
-{
-	text-align: center;
-	text-indent: 0%;
-	width: 82%;
-}
+
 
 .img-footer
 {
-	width: 80px;
+	width: 200px;
 	margin-top: 0.5em;
 	margin-bottom: -0.5em;
 	display: inline;
 }
 
-#id_requisitos_pf
-{
-	height: 9em;
-}
-#id_razon_no_proporciona_pf
-{
-	height: 5em;
-}
 #header-h2
 {
 	display: none;
 }
-
+#header-h1
+{
+	font-weight: bolder;
+	text-shadow: 3px 3px 5px #f00,
+	6px 6px 5px #0f0,
+	9px 9px 5px #00f;
+}
 @media screen and (max-width: 800px) {
 	body
 	{
 		background-image: url("../images/fondo2.jpg");
 		background-size: 100%;
-		background-repeat: repeat-y;
-		background-attachment: fixed;
 	}
 	header
 	{
@@ -245,11 +235,7 @@ input[type ="submit"]:hover
 	}
 	.img-footer
 	{
-		width: 50px;
-		margin-top: 0.5em;
-		margin-bottom: -0.5em;
-		display: inline;
-		margin: 0.2em auto;
+		width: 200px;
 	}
 	#header-h1, #logo
 	{
@@ -258,5 +244,8 @@ input[type ="submit"]:hover
 	#header-h2
 	{
 		display: inline-block;
+		text-shadow: 3px 3px 5px #f00,
+		6px 6px 5px #0f0,
+		9px 9px 5px #00f;
 	}
 }

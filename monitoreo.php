@@ -409,9 +409,7 @@
     <?php } else { header('Location: index.php'); } ?>
 
     <footer>
-          <img src="images/logoIDEI.png" class = "img-footer" />
-          <img src="images/logoPARLAMENTO.png" class = "img-footer" />
-          <img src="images/logoHIVOS.png" class = "img-footer" />
+          <img src="images/footer.png" class = "img-footer" />
     </footer>
     
 </body>

@@ -23,10 +23,10 @@ require_once 'php_facebook/app/start.php';
 </head>
 <body>
 <header>
-    <figure id = "logo">
+    <!--figure id = "logo">
         <img src="images/logo.png">
     </figure>
-    <h1 class = "hFonts">Me Muevo Por Mis Derechos Sexuales</h1>
+    <!--h1 class = "hFonts">Me Muevo Por Mis Derechos Sexuales</h1-->
     <div id = "btn-login">
         <a href="#" id = "btn-log">Iniciar Encuesta</a>
     </div>

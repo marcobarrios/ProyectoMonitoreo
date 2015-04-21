@@ -9,7 +9,6 @@ session_start();
 
 require '/xampp/htdocs/ProyectoMonitoreo/config/facebook.php';
 require '/xampp/htdocs/ProyectoMonitoreo/php_facebook/vendor/autoload.php';
-
 use Facebook\FacebookSession;
 use Facebook\FacebookRedirectLoginHelper;
 use Facebook\FacebookRequest;
