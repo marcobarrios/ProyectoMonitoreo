@@ -49,7 +49,7 @@ body
 	background-size: 100%;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
-	font-family: "Segoe UI Light", arial, sans-serif;
+	font-family: arial, sans-serif;
 	font-size: 20px;
 
 }
@@ -116,8 +116,6 @@ input[type ="submit"]
 	padding: 0.6em;
 	padding-right: 2em;
 	text-shadow: rgba(0,0,0,0.5) 2px 5px 5px;
-	
-
 }
 input[type ="submit"]:hover
 {
@@ -198,6 +196,10 @@ input[type ="submit"]:hover
 	6px 6px 5px #0f0,
 	9px 9px 5px #00f;
 }
+.pregunta
+{
+	font-weight: bold;
+}
 @media screen and (max-width: 800px) {
 	body
 	{
@@ -247,5 +249,10 @@ input[type ="submit"]:hover
 		text-shadow: 3px 3px 5px #f00,
 		6px 6px 5px #0f0,
 		9px 9px 5px #00f;
+	}
+
+	.pregunta
+	{
+		padding-right: 0%;
 	}
 }

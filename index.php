@@ -20,12 +20,14 @@ require_once 'php_facebook/app/start.php';
     <link rel="stylesheet" href="styles/styles-portada.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header>
     <div id = "btn-login">
         <a href="#" id = "btn-log">Iniciar Encuesta</a>
     </div>
+    <h1>Me Muevo Por Mis Derechos Sexuales</h1>
 </header>
         <div id = "facebook">
             <?php if(!isset($_SESSION['facebook'])): ?>
