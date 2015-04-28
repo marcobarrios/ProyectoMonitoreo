@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69e29ccc-b2c5-4ce6-924a-ae781b6d1e5e" name="Default" comment="cambiar fuente">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/header1.rar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/header1.jpg" afterPath="$PROJECT_DIR$/images/header1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoreo.php" afterPath="$PROJECT_DIR$/monitoreo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles-portada.css" afterPath="$PROJECT_DIR$/styles/styles-portada.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
+    <list default="true" id="69e29ccc-b2c5-4ce6-924a-ae781b6d1e5e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Monitoreo.iws" />
@@ -301,7 +296,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430250524808</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fuente y font preguntas">
+      <created>1430254177084</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1430254177084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -370,7 +371,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="cambiar fuente" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambiar fuente" />
+    <MESSAGE value="Fuente y font preguntas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fuente y font preguntas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
