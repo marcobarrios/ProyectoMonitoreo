@@ -16,7 +16,7 @@
 require '../php_facebook/app/logout.php';
 require '../index.php';
 
-$mysqli = new mysqli("localhost", "root", "", "monitoreo");
+$mysqli = new mysqli("localhost", "root", "1234", "monitoreo");
 if ($mysqli === false) {
     die ("ERROR: No se estableció la conexión. " . mysqli_connect_error());
 } else {
@@ -403,7 +403,7 @@ if ($mysqli === false) {
         echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
     }
     //</editor-fold>
-
+    echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
 }
 $mysqli->close();
 

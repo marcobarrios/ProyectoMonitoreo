@@ -1,6 +1,6 @@
 /**
- * Created by Marco Barrios on 23/02/2015.
- */
+* Created by Marco Barrios on 23/02/2015.
+*/
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(mostrarUbicacion);
 } else {alert("¡Error! Este navegador no soporta la Geolocalización.");}

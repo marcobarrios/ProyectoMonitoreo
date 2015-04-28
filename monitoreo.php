@@ -4,7 +4,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name = "viewport" content= "width=device-width, minimum-scale=1, maximum-scale=1"/>
-    <title>Monitoreo</title>
+    <title>Instrumento de Monitoreo</title>
     <link rel = "stylesheet" href = "styles/normalize.css"/>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel ="shortcut icon" type = "image/x-icon" href = "images/logo.ico">
@@ -14,17 +14,12 @@
 </head>
 <body>
     <header>
-        <figure id = "logo">
-            <img src="images/logo.png"/>
-        </figure>
-
-        <h2 id = "header-h1">Instrumento para evaluar la oferta y demanda de servicios de calidad en materia de derechos sexuales y reproductivos para adolescentes y jóvenes en centros de salud.</h2>
+        <h2 id = "header-h1">Instrumento para el Monitoreo y Demanda de servicios de salud sexual y reprodutiva</h2>
         <h2 id = "header-h2">Instrumento de Monitoreo</h2>
     </header>
 
-    <?php if ((($_GET['id']) != "")) { ?>
+    <?php if ((($_GET['id']) == "")) { ?>
     <form name="myform" method="post" action="controllers/guardardatos.php">
-
 
         <input type="hidden" name="latitud" id="latitud" value="">
         <input type="hidden" name="longitud" id="longitud" value="">
@@ -37,10 +32,10 @@
             <h3><span><img src="images/logo.png" width="50px"></span> A. Información General</h3>
 
             <div id="div_id_sexo" class="form-group">
-                <label>1. Sexo<span class="asteriskField">*</span></label>
+                <label>1. Género<span class="asteriskField">*</span></label>
                 <div class="controls">
                         <label><input type="radio" name="sexo" value="1"/> Femenino <br></label>
-                        <label><input type="radio" name="sexo" value="2" /> No Masculino <br></label>
+                        <label><input type="radio" name="sexo" value="2" /> Masculino <br></label>
                 </div>
             </div>
 
@@ -55,9 +50,28 @@
                 </div>
             </div>
 
+            <div id="div_id_estado_civil" class="form-group">
+                <label>3. Estado Civil<span class="asteriskField">*</span></label>
+                <div class="controls">
+                    <label><input type="radio" name="estadocivil" value="1"/> Casado <br></label>
+                    <label><input type="radio" name="estadocivil" value="2"/> Soltero <br></label>
+                    <label><input type="radio" name="estadocivil" value="3"/> Unido <br></label>
+                    <label><input type="radio" name="estadocivil" value="4"/> Divorciado <br></label>
+                </div>
+            </div>
+
+            <div id="div_id_dedica" class="form-group">
+                <label>4. ¿A qué se dedica actualmente?<span class="asteriskField">*</span></label>
+                <div class="controls">
+                    <label><input type="radio" name="dedica" value="1"/> Estudia <br></label>
+                    <label><input type="radio" name="dedica" value="2"/> Trabaja <br></label>
+                    <label><input type="radio" name="dedica" value="3"/> Ambos <br></label>
+                    <label><input type="radio" name="dedica" value="4"/> Ninguno <br></label>
+                </div>
+            </div>
 
             <div id="div_id_cultura" class="form-group">
-                <label>3. Cultura<span class="asteriskField">*</span></label>
+                <label>5. Cultura<span class="asteriskField">*</span></label>
                 <div class="controls" onchange="SelectChanged();">
                         <label><input type="radio" name="cultura" value="1"/> Mestizo <br></label>
                         <label><input type="radio" name="cultura" value="2"/> Maya <br></label>
@@ -75,10 +89,28 @@
                     <input class="textinput textInput form-control" id="id_otra_cultura" maxlength="45" name="otra_cultura" type="text">
                 </div>
             </div>
+
+
+        <div id="div_id_situacion_vivienda" class="form-group">
+            <label>6. Situación de Vivienda<span class="asteriskField">*</span></label>
+            <div class="controls" onchange="SelectChanged();">
+                <label><input type="radio" name="vivienda" value="1"/> Casa Propia <br></label>
+                <label><input type="radio" name="vivienda" value="2"/> Alquila <br></label>
+                <label><input type="radio" name="vivienda" value="3"/> Vive con sus padres <br></label>
+                <label><input type="radio" name="vivienda" value="4"/> Algun Familiar <br></label>
+                <label><input type="radio" name="vivienda" value="5"/> Otro <br></label>
+            </div>
+        </div>
+        <div id="div_id_otra_vivienda" class="form-group">
+            <label for="id_otra_vivienda" class="control-label ">Especifica Otra Vivienda</label>
+            <div class="controls ">
+                <input class="textinput textInput form-control" id="id_otra_vivienda" maxlength="45" name="otra_vivienda" type="text">
+            </div>
+        </div>
         </div>
 
         <div id="groupB" name="groupB">
-            <h3><span><img src="images/logo.png" width="50px"></span> B. Información del Centro a Monitorear</h3>
+            <h3><span><img src="images/logo.png" width="50px"></span> B. Percepción de Servicios Actuales sobre Derechos Sexuales y Reproductivos</h3>
 
             <div id="div_id_idservicio_salud" class="form-group">
                 <label>1. Tipo de servicio o establecimiento de salud que usas<span class="asteriskField">*</span>
@@ -99,307 +131,325 @@
                 </div>
             </div>
 
-            <div id="div_id_idubicacion_servicio" class="form-group">
-                <label>2. Ubicacion del establecimiento de salud<span class="asteriskField">*</span></label>
+            <div id="div_id_veces_visita" class="form-group">
+                <label>2. Las veces que has visitado el centro o puesto de Salud<span class="asteriskField">*</span></label>
                 <div class="controls ">
-                        <label><input type="radio" name="idubicacion_servicio" value="1" /> Cabecera <br></label>
-                        <label><input type="radio" name="idubicacion_servicio" value="2" /> Comunidad <br></label>
+                        <label><input type="radio" name="veces_visita" value="1" /> Primera Vez <br></label>
+                        <label><input type="radio" name="veces_visita" value="2" /> Con Regularidad <br></label>
+                        <label><input type="radio" name="veces_visita" value="3" /> De Vez en Cuando <br></label>
                 </div>
             </div>
 
-            <div id="div_id_tiempo_servicio" class="form-group">
-                <label>3. ¿A qué distancia de tu casa se ubica el centro o puesto de salud más cercano?</label>
+            <div id="div_id_motivo_acercamiento" class="form-group">
+                <label>3. ¿Cuál fue el motivo por el que te  acercaste al centro o puesto de salud?</label>
                 <div class="controls" onchange="SelectChanged();">
-                        <label><input type="radio" name="tiempo_servicio" value="1" /> Menos de 15 minutos <br></label>
-                        <label><input type="radio" name="tiempo_servicio" value="2" /> Entre 15 minutos a 30 minutos <br></label>
-                        <label><input type="radio" name="tiempo_servicio" value="3" /> Entre 20 minutos a 1 hora <br></label>
-                        <label><input type="radio" name="tiempo_servicio" value="4" /> Más de una hora <br></label>
+                        <label><input type="radio" name="motivo_acercamiento" value="1" /> Por Planificación Familiar <br></label>
+                        <label><input type="radio" name="motivo_acercamiento" value="2" /> Por Información sobre Sexualidad <br></label>
+                        <label><input type="radio" name="motivo_acercamiento" value="3" /> Demanda de Condones <br></label>
+                        <label><input type="radio" name="motivo_acercamiento" value="4" /> Pruebas de VIH <br></label>
+                        <label><input type="radio" name="motivo_acercamiento" value="5" /> Por Riesgo de Abuso Sexual <br></label>
+                        <label><input type="radio" name="motivo_acercamiento" value="6" /> Por Alcoholismo o drogas <br></label>
+                        <label><input type="radio" name="motivo_acercamiento" value="7" /> Otros <br></label>
                 </div>
             </div>
-            <div id="div_id_especifica_tiempo" class="form-group">
-                <label for="id_especifica_tiempo" class="control-label ">Especifica distancia en horas</label>
+            <div id="div_id_especifica_motivo" class="form-group">
+                <label for="id_especifica_motivo" class="control-label ">Especifica otro motivo</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_especifica_tiempo" maxlength="45" name="especifica_tiempo" type="text">
+                    <input class="textinput textInput form-control" id="id_especifica_motivo" maxlength="45" name="especifica_motivo" type="text">
                 </div>
             </div>
 
             <div id="div_id_personal_capacitado_im" class="form-group">
-                <label>4. ¿Existe &nbsp;personal capacitado para brindar atencion en tu idioma materno?</label>
+                <label>4. ¿Existe  personal capacitado para brindar atención en tu idioma materno?</label>
                 <div class="controls ">
-                        <label><input type="radio" name="personal_capacitado_im" value="1" /> Sí <br></label>
-                        <label><input type="radio" name="personal_capacitado_im" value="2" /> No <br></label>
+                        <label><input type="radio" name="personal_capacitado" value="1" /> Sí <br></label>
+                        <label><input type="radio" name="personal_capacitado" value="2" /> No <br></label>
                 </div>
             </div>
 
-            <div id="div_id_sala_equipada" class="form-group">
-                <label>5. La sala de espera se encuentra equipada con mobiliario suficiente para las personas que esperan la atencion
-                </label>
+            <div id="div_id_donde_escucho" class="form-group">
+                <label>5. ¿Dónde escuchaste sobre los Programas de Salud Sexual y Reproductiva y VIH?</label>
+                <div class="controls " onchange="SelectChanged();">
+                        <label><input type="radio" name="donde_escucho" value="1" /> Medios de Comunicación Local <br></label>
+                        <label><input type="radio" name="donde_escucho" value="2" /> Amigos <br></label>
+                        <label><input type="radio" name="donde_escucho" value="3" /> Escuelas <br></label>
+                        <label><input type="radio" name="donde_escucho" value="4" /> Centro de Salud <br></label>
+                        <label><input type="radio" name="donde_escucho" value="5" /> Otros <br></label>
+                </div>
+            </div>
+            <div id="div_id_especifica_escucho" class="form-group">
+                <label for="id_especifica_escucho" class="control-label ">Especifica Lugar</label>
                 <div class="controls ">
-                        <label><input type="radio" name="sala_equipada" value="2" /> Sí <br></label>
-                        <label><input type="radio" name="sala_equipada" value="2" /> No <br></label>
+                    <input class="textinput textInput form-control" id="id_especifica_escucho" maxlength="45" name="especifica_escucho" type="text">
                 </div>
             </div>
 
-            <div id="div_id_hay_carteles" class="form-group">
-                <label>6. Existen carteles o señalizaciones en cada uno de los ambientes del centro o puesto de salud.
+            <div id="div_id_consige_condones" class="form-group">
+                <label>6.1 ¿En tu comunidad donde consigues los condones?
                 </label>
+                <div class="controls " onchange="SelectChanged();">
+                        <label><input type="radio" name="consigue_condones" value="1" /> Centro o Puesto de Salud <br></label>
+                        <label><input type="radio" name="consigue_condones" value="2" /> ONG <br></label>
+                        <label><input type="radio" name="consigue_condones" value="3" /> Farmacia <br></label>
+                        <label><input type="radio" name="consigue_condones" value="4" /> Hospital <br></label>
+                        <label><input type="radio" name="consigue_condones" value="5" /> Comadronas <br></label>
+                        <label><input type="radio" name="consigue_condones" value="6" /> Otros <br></label>
+                </div>
+            </div>
+            <div id="div_id_otro_lugar_condones" class="form-group">
+                <label for="id_otro_lugar_condones" class="control-label ">Especifica Lugar</label>
                 <div class="controls ">
-                        <label><input type="radio" name="hay_carteles" value="1" /> Sí <br></label>
-                        <label><input type="radio" name="hay_carteles" value="2" /> No <br></label>
+                    <input class="textinput textInput form-control" id="id_otro_lugar_condones" maxlength="45" name="otro_lugar_condones" type="text">
                 </div>
             </div>
 
-            <div id="div_id_carteles_im" class="form-group">
-                <label>7. La informacion de los carteles o señalizaciones está escrita en el idioma materno.
+            <div id="div_id_consigue_pruebas" class="form-group">
+                <label>6.2 ¿En tu comunidad donde consigues las pruebas de embarazo?
                 </label>
                 <div class="controls ">
-                        <label><input type="radio" name="carteles_im" value="1" /> Sí <br></label>
-                        <label><input type="radio" name="carteles_im" value="2" /> No <br></label>
+                    <label><input type="radio" name="consigue_pruebas" value="1" /> Centro o Puesto de Salud <br></label>
+                    <label><input type="radio" name="consigue_pruebas" value="2" /> ONG <br></label>
+                    <label><input type="radio" name="consigue_pruebas" value="3" /> Farmacia <br></label>
+                    <label><input type="radio" name="consigue_pruebas" value="4" /> Hospital <br></label>
+                    <label><input type="radio" name="consigue_pruebas" value="5" /> Comadronas <br></label>
+                    <label><input type="radio" name="consigue_pruebas" value="6" /> Otros <br></label>
+                </div>
+            </div>
+
+            <div id="div_id_consigue_metodos" class="form-group">
+                <label>6.3 ¿En tu comunidad donde consigues Métodos de Planificación Familiar?
+                </label>
+                <div class="controls ">
+                    <label><input type="radio" name="consigue_metodos" value="1" /> Centro o Puesto de Salud <br></label>
+                    <label><input type="radio" name="consigue_metodos" value="2" /> ONG <br></label>
+                    <label><input type="radio" name="consigue_metodos" value="3" /> Farmacia <br></label>
+                    <label><input type="radio" name="consigue_metodos" value="4" /> Hospital <br></label>
+                    <label><input type="radio" name="consigue_metodos" value="5" /> Comadronas <br></label>
+                    <label><input type="radio" name="consigue_metodos" value="6" /> Otros <br></label>
                 </div>
             </div>
         </div>
 
         <div id="groupC" name="groupC">
-            <h3><span><img src="images/logo.png" width="50px"></span> C. Reportes sobre la atención recibida en el establecimiento de salud</h3>
+            <h3><span><img src="images/logo.png" width="50px"></span> C. Sobre comportamientos y riesgo sexual</h3>
 
-            <div id="div_id_id_motivo_acercamiento" class="form-group">
-                <label>1. ¿Cual fue el motivo de tu acercamiento al centro de servicio?
+            <div id="div_id_id_inicio_relacion" class="form-group">
+                <label>1. ¿A qué edad iniciaste tus relaciones sexuales?</label>
+                <div class="controls ">
+                    <label><input type="radio" name="inicio_relacion" value="1" /> 10 a 15 años <br></label>
+                    <label><input type="radio" name="inicio_relacion" value="2" /> 16 a 18 años <br></label>
+                    <label><input type="radio" name="inicio_relacion" value="3" /> 19 a 24 años <br></label>
+                    <label><input type="radio" name="inicio_relacion" value="4" /> No he tenido relaciones sexuales <br></label>
+                </div>
+            </div>
+
+            <div id="div_id_relacion_6meses" class="form-group">
+                <label>2. ¿Has tenido relaciones sexuales en los últimos 6 meses?
                 </label>
                 <div class="controls ">
-                        <label><input type="radio" name="id_motivo_acercamiento" value="1" /> Por planificación familiar <br></label>
-                        <label><input type="radio" name="id_motivo_acercamiento" value="2" /> Por información sobre sexualidad <br></label>
-                        <label><input type="radio" name="id_motivo_acercamiento" value="3" /> Demanda de condones <br></label>
-                        <label><input type="radio" name="id_motivo_acercamiento" value="4" /> Por riesgo de un abuso sexual <br></label>
+                        <label><input type="radio" name="relacion_6meses" value="1" /> Si <br></label>
+                        <label><input type="radio" name="relacion_6meses" value="2" /> No <br></label>
                 </div>
             </div>
 
-            <div id="div_id_id_tiempo_espera" class="form-group">
-                <label>2. ¿El tiempo de espera para ser atendido en el establecimiento de salud te parece?</label>
+            <div id="div_id_estado_relacion" class="form-group">
+                <label>3. ¿En la última relación Sexual que tuviste te encontrabas?</label>
                 <div class="controls ">
-                        <label><input type="radio" name="id_tiempo_espera" value="1" /> Aceptable <br></label>
-                        <label><input type="radio" name="id_tiempo_espera" value="2" /> Poco aceptable <br></label>
-                        <label><input type="radio" name="id_tiempo_espera" value="3" /> Exagerado <br></label>
-                        <label><input type="radio" name="id_tiempo_espera" value="4" /> Demasiado tiempo <br></label>
+                    <label><input type="radio" name="estado_relacion" value="1" /> En estado de ebriedad <br></label>
+                    <label><input type="radio" name="estado_relacion" value="2" /> Bajo efectos de drogas  <br></label>
+                    <label><input type="radio" name="estado_relacion" value="3" /> Violación <br></label>
                 </div>
             </div>
 
-            <div id="div_id_id_calificacion" class="form-group">
-                <label>3. ¿Como calificas el servicio?</label>
+            <div id="div_id_quien_relacion" class="form-group">
+                <label>4. ¿Con quién tuviste relaciones sexuales en la última relación sexual?</label>
                 <div class="controls ">
-                    <label><input type="radio" name="id_calificacion" value="1" /> Excelente <br></label>
-                    <label><input type="radio" name="id_calificacion" value="2" /> Bueno <br></label>
-                    <label><input type="radio" name="id_calificacion" value="3" /> Pésimo <br></label>
-                    <label><input type="radio" name="id_calificacion" value="4" /> Deficiente <br></label>
+                        <label><input type="radio" name="quien_relacion" value="1" /> Novia o Novio <br></label>
+                        <label><input type="radio" name="quien_relacion" value="2" /> Amigo o Amiga <br></label>
+                        <label><input type="radio" name="quien_relacion" value="3" /> Trabajadora de Sexo <br></label>
+                        <label><input type="radio" name="quien_relacion" value="4" /> Persona Desconocida <br></label>
                 </div>
             </div>
 
-            <div id="div_id_id_horario_atencion" class="form-group">
-                <label>4. ¿El horario de atencion del establecimiento de salud te resulta?</label>
+            <div id="div_id_utilizo_condon" class="form-group">
+                <label>5. ¿Utilizaste condón en tu última relación sexual?</label>
                 <div class="controls ">
-                        <label><input type="radio" name="id_horario_atencion" value="1" /> Accesible <br></label>
-                        <label><input type="radio" name="id_horario_atencion" value="2" /> Poco Accesible <br></label>
-                        <label><input type="radio" name="id_horario_atencion" value="3" /> Inaccesible <br></label>
+                    <label><input type="radio" name="utilizo_condon" value="1" /> Si <br></label>
+                    <label><input type="radio" name="utilizo_condon" value="2" /> No <br></label>
+                </div>
+            </div>
+
+            <div id="div_id_sabe_condon" class="form-group">
+                <label>6. ¿Sabes cómo usar un Condón correctamente?
+                <div class="controls ">
+                    <label><input type="radio" name="sabe_condon" value="1" /> Si <br></label>
+                    <label><input type="radio" name="sabe_condon" value="2" /> No <br></label>
+                </div>
+            </div>
+
+            <div id="div_id_sabe_condon" class="form-group">
+                <label>7. ¿Has requerido una atención del servicio de salud por algunos de los siguientes síntomas?
+                    <div class="controls ">
+                        <label>Llagas-----</Llagas><input type="radio" name="llagas" value="1" /> Si </label>
+                        <label><input type="radio" name="llagas" value="2" /> No <br></label>
+                    </div>
+                    <div class="controls ">
+                        <label>Comezón o picazón en sus genitales----- <input type="radio" name="picazon" value="1" /> Si </label>
+                        <label><input type="radio" name="picazon" value="2" /> No <br></label>
+                    </div>
+                    <div class="controls ">
+                        <label>Dolor o ardor al orinar-----<input type="radio" name="dolor" value="1" /> Si </label>
+                        <label><input type="radio" name="dolor" value="2" /> No <br></label>
+                    </div>
+                    <div class="controls ">
+                        <label>Materia o Pus en sus Genitales----- <input type="radio" name="materia" value="1" /> Si </label>
+                        <label><input type="radio" name="materia" value="2" /> No <br></label>
+                    </div>
+                    <div class="controls ">
+                        <label>Flujo vaginal  espeso o con mal olor----- <input type="radio" name="flujo" value="1" /> Si </label>
+                        <label><input type="radio" name="flujo" value="2" /> No <br></label>
+                    </div>
+                    <div class="controls ">
+                        <label>Úlceras en los genitales----- <input type="radio" name="ulcera" value="1" /> Si </label>
+                        <label><input type="radio" name="ulcera" value="2" /> No <br></label>
+                    </div>
+            </div>
+            <div id="div_id_servicio_sugerido" class="form-group">
+                <label>8. ¿Qué servicios sugieres que se brinden en el centro salud para buena atención a los adolescentes?
+                    <div class="controls " onchange="SelectChanged();">
+                        <label><input type="radio" name="servicio_sugerido" value="1" /> Pruebas de VIH <br></label>
+                        <label><input type="radio" name="servicio_sugerido" value="2" /> Kit de Emergencia <br></label>
+                        <label><input type="radio" name="servicio_sugerido" value="3" /> Espacios Amigables <br></label>
+                        <label><input type="radio" name="servicio_sugerido" value="4" /> Métodos de Planificacion Familiar <br></label>
+                        <label><input type="radio" name="servicio_sugerido" value="5" /> Condones <br></label>
+                        <label><input type="radio" name="servicio_sugerido" value="6" /> Otros <br></label>
+                    </div>
+            </div>
+            <div id="div_otro_servicio_sugerido" class="form-group">
+                <label for="id_otro_servicio_sugerido" class="control-label ">Especifica Otro</label>
+                <div class="controls ">
+                    <input class="textinput textInput form-control" id="otro_servicio_sugerido" maxlength="45" name="otro_servicio_sugerido" type="text">
                 </div>
             </div>
         </div>
 
         <div id="groupD" name="groupD">
-            <h3><span><img src="images/logo.png" width="50px"></span> D. Confiabilidad del Servicio Recibido</h3>
+            <h3><span><img src="images/logo.png" width="50px"></span> D. Prácticas y Costumbres</h3>
 
-            <div id="div_id_persona_demuestra" class="form-group">
-                <label>1. La persona que te atendió demostró</label>
+            <div id="div_id_quien_debe_utilizar" class="form-group">
+                <label>1. ¿Según la cultura de la comunidad los  condones los deben utilizar?</label>
                 <div class="controls ">
-                        <label><input type="radio" name="demuestra" value="1" /> Amabilidad <br></label>
-                        <label><input type="radio" name="demuestra" value="2" /> Respeto <br></label>
-                        <label><input type="radio" name="demuestra" value="3" /> Confiabilidad <br></label>
-                        <label><input type="radio" name="demuestra" value="4" /> Interés en brindar atención <br></label>
+                        <label><input type="radio" name="quien_debe_utilizar" value="1" /> Hombres <br></label>
+                        <label><input type="radio" name="quien_debe_utilizar" value="2" /> Hombres y Mujeres <br></label>
+                        <label><input type="radio" name="quien_debe_utilizar" value="3" /> Trabajadoras del Sexo  <br></label>
+                        <label><input type="radio" name="quien_debe_utilizar" value="4" /> Para los de la ciudad <br></label>
                 </div>
             </div>
 
-            <div id="div_id_personal_atiende" class="form-group">
-                <label>2. El personal que te atendio:<span class="asteriskField">*</span></label>
+            <div id="div_id_hablar_condon" class="form-group">
+                <label>2. ¿Se puede hablar libremente del uso de condón con tu pareja?<span class="asteriskField">*</span></label>
                 <div class="controls ">
-                    <label><input type="radio" name="personal_atiende" value="1" /> Está Capacitado <br></label>
-                    <label><input type="radio" name="personal_atiende" value="2" /> Poco Capacitado <br></label>
-                    <label><input type="radio" name="personal_atiende" value="3" /> No sabe del tema <br></label>
+                    <label><input type="radio" name="hablar_condon" value="1" /> Si <br></label>
+                    <label><input type="radio" name="hablar_condon" value="2" /> No <br></label>
                 </div>
             </div>
 
-            <div id="div_id_por_edad" class="form-group">
-                <label>3-1. Califica el trato brindado, de acuerdo a tu edad<span class="asteriskField">*</span></label>
+            <div id="div_id_hablar_prueba" class="form-group">
+                <label>3. ¿Se puede hablar libremente sobre hacerse la prueba del VIH con tu pareja?<span class="asteriskField">*</span></label>
                 <div class="controls ">
-                    <label><input type="radio" name="por_edad" value="1" /> Excelente <br></label>
-                    <label><input type="radio" name="por_edad" value="2" /> Bueno <br></label>
-                    <label><input type="radio" name="por_edad" value="3" /> Deficiente <br></label>
-                    <label><input type="radio" name="por_edad" value="4" /> Malo <br></label>
+                    <label><input type="radio" name="hablar_prueba" value="1" /> Si <br></label>
+                    <label><input type="radio" name="hablar_prueba" value="2" /> No <br></label>
                 </div>
             </div>
 
-            <div id="div_id_por_cultura" class="form-group">
-                <label>3-2. Califica el trato brindado, de acuerdo a tu cultura<span class="asteriskField">*</span></label>
+            <div id="div_id_mujer_derecho_relacion" class="form-group">
+                <label>4. En tu opinión ¿consideras que las mujeres tienen derecho a decidir  tener o no una relación sexual?<span class="asteriskField">*</span></label>
                 <div class="controls ">
-                    <label><input type="radio" name="por_cultura" value="1" /> Excelente <br></label>
-                    <label><input type="radio" name="por_cultura" value="2" /> Bueno <br></label>
-                    <label><input type="radio" name="por_cultura" value="3" /> Deficiente <br></label>
-                    <label><input type="radio" name="por_cultura" value="4" /> Malo <br></label>
+                    <label><input type="radio" name="mujer_derecho_relacion" value="1" /> Si <br></label>
+                    <label><input type="radio" name="mujer_derecho_relacion" value="2" /> No <br></label>
+                </div>
+            </div>
+            <div id="div_porque_derecho_relacion" class="form-group">
+                <label for="id_otra_cultura" class="control-label ">Especifica Por Qué</label>
+                <div class="controls ">
+                    <input class="textinput textInput form-control" id="porque_derecho_relacion" maxlength="45" name="porque_derecho_relacion" type="text">
                 </div>
             </div>
 
-            <div id="div_id_por_vestimenta" class="form-group">
-                <label>3-3. Califica el trato brindado, de acuerdo a tu vestimenta<span class="asteriskField">*</span></label>
+            <div id="div_id_mujer_derecho_condon" class="form-group">
+                <label>5. En tu opinión ¿las mujeres tienen derecho a decidir usar un condón en las relaciones sexuales?<span class="asteriskField">*</span></label>
                 <div class="controls ">
-                    <label><input type="radio" name="por_vestimenta" value="1" /> Excelente <br></label>
-                    <label><input type="radio" name="por_vestimenta" value="2" /> Bueno <br></label>
-                    <label><input type="radio" name="por_vestimenta" value="3" /> Deficiente <br></label>
-                    <label><input type="radio" name="por_vestimenta" value="4" /> Malo <br></label>
+                    <label><input type="radio" name="mujer_derecho_condon" value="1" /> Si <br></label>
+                    <label><input type="radio" name="mujer_derecho_condon" value="2" /> No <br></label>
+                </div>
+            </div>
+            <div id="div_porque_derecho_condon" class="form-group">
+                <label for="id_otra_cultura" class="control-label ">Especifica Por Qué</label>
+                <div class="controls ">
+                    <input class="textinput textInput form-control" id="porque_derecho_condon" maxlength="45" name="porque_derecho_condon" type="text">
                 </div>
             </div>
 
             <div id="div_id_por_idioma" class="form-group">
-                <label>3-4. Califica el trato brindado, de acuerdo a tu idioma<span class="asteriskField">*</span></label>
+                <label>6. ¿Cuál es la respuesta de la atención de los servicios de salud en relación a los condones y otros métodos de planificación familiar?<span class="asteriskField">*</span></label>
                 <div class="controls ">
-                    <label><input type="radio" name="por_idioma" value="1" /> Excelente <br></label>
-                    <label><input type="radio" name="por_idioma" value="2" /> Bueno <br></label>
-                    <label><input type="radio" name="por_idioma" value="3" /> Deficiente <br></label>
-                    <label><input type="radio" name="por_idioma" value="4" /> Malo <br></label>
+                    <label><input type="radio" name="por_idioma" value="1" /> Sólo se Proporcionan a mayores de edad <br></label>
+                    <label><input type="radio" name="por_idioma" value="2" /> Se debe Firmar un consentimiento <br></label>
+                    <label><input type="radio" name="por_idioma" value="3" /> Se debe estar acompañado por un adulto <br></label>
+                    <label><input type="radio" name="por_idioma" value="4" /> Otro <br></label>
                 </div>
             </div>
 
-            <div id="div_id_por_religion" class="form-group">
-                <label>3-5. Califica el trato brindado, de acuerdo a tu religion<span class="asteriskField">*</span></label>
-                <div class="controls ">
-                    <label><input type="radio" name="por_religion" value="1" /> Excelente <br></label>
-                    <label><input type="radio" name="por_religion" value="2" /> Bueno <br></label>
-                    <label><input type="radio" name="por_religion" value="3" /> Deficiente <br></label>
-                    <label><input type="radio" name="por_religion" value="4" /> Malo <br></label>
-            </div>
-            </div>
-
-            <div id="div_id_por_servicio" class="form-group">
-                <label>3-6. Califica el trato que te han brindado, de acuerdo al tipo de servicio que requeriste<span class="asteriskField">*</span></label>
-                <div class="controls ">
-                    <label><input type="radio" name="por_servicio" value="1" /> Excelente <br></label>
-                    <label><input type="radio" name="por_servicio" value="2" /> Bueno <br></label>
-                    <label><input type="radio" name="por_servicio" value="3" /> Deficiente <br></label>
-                    <label><input type="radio" name="por_servicio" value="4" /> Malo <br></label>
-            </div>
-            </div>
         </div>
 
         <div id="groupE" name="groupE">
-            <h3><span><img src="images/logo.png" width="50px"></span> E. Acceso a Condones y Otros Métodos de Planificación Familiar</h3>
+            <h3><span><img src="images/logo.png" width="50px"></span> E. Acceso a información sobre Kit de emergencia</h3>
 
-            <div id="div_id_donde_consigue_pf" class="form-group">
-                <label>1. ¿En tu comunidad donde consigues los condones y otros metodos de Planificacion Familiar?<span class="asteriskField">*</span></label>
-                <div class="controls " onchange='SelectChanged();'>
-                    <label><input type="radio" name="donde_consigue_pf" value="1" /> Centro o puesto de salud <br></label>
-                    <label><input type="radio" name="donde_consigue_pf" value="2" /> ONG <br></label>
-                    <label><input type="radio" name="donde_consigue_pf" value="3" /> Farmacia <br></label>
-                    <label><input type="radio" name="donde_consigue_pf" value="4" /> Hospital <br></label>
-                    <label><input type="radio" name="donde_consigue_pf" value="5" /> Comadronas <br></label>
-                    <label><input type="radio" name="donde_consigue_pf" value="6" /> Otros <br></label>
-                </div>
-            </div>
-            <div id="div_donde_consigue_condon" class="form-group">
-                <label for="id_otra_cultura" class="control-label ">Especifica Otro Lugar</label>
-                <div class="controls ">
-                    <input class="textinput textInput form-control" id="donde_consigue_condon" maxlength="45" name="consigue_condgon" type="text">
+            <div id="div_id_existe_servicio" class="form-group">
+                <label>1. ¿Existe servicio o atención en el centro o puesto de salud más cercano en caso de abuso sexual?<span class="asteriskField">*</span></label>
+                <div class="controls">
+                    <label><input type="radio" name="existe_servicio" value="1" /> Si <br></label>
+                    <label><input type="radio" name="existe_servicio" value="2" /> No <br></label>
                 </div>
             </div>
 
-            <div id="div_id_oferta_pf" class="form-group">
-                <label>2. Al acercarte al centro de servicio para solicitar informacion sobre métodos de Planificacion Familiar, ¿Cuales te ofertaron?<span class="asteriskField">*</span></label>
+            <div id="div_id_existe_kit" class="form-group">
+                <label>2. ¿El centro de servicio cuenta con Kit de emergencia?<span class="asteriskField">*</span></label>
                 <div class="controls ">
-                    <label><input type="radio" name="oferta_pf" value="1" /> Condones <br></label>
-                    <label><input type="radio" name="oferta_pf" value="2" /> T de Cobre <br></label>
-                    <label><input type="radio" name="oferta_pf" value="3" /> DIU <br></label>
-                    <label><input type="radio" name="oferta_pf" value="4" /> Inyecciones <br></label>
-                    <label><input type="radio" name="oferta_pf" value="5" /> Pastillas anticonceptivas <br></label>
-                    <label><input type="radio" name="oferta_pf" value="6" /> No me brindaron información <br></label>
+                    <label><input type="radio" name="existe_kit" value="1" /> Si <br></label>
+                    <label><input type="radio" name="existe_kit" value="2" /> No <br></label>
                 </div>
             </div>
 
-            <div id="div_id_proporcionaron_pf" class="form-group">
-                <label>3. ¿Se te proporcionaron condones y otros métodos de planificacion familiar cuando los solicitaste en tu centro de servicios?</label>
-                <div class="controls " onchange='SelectChanged();'>
-                    <label><input type="radio" name="proporcionaron_pf" value="3" /> Sí <br></label>
-                    <label><input type="radio" name="proporcionaron_pf" value="3" /> No <br></label>
+            <div id="div_id_prestador_conoce" class="form-group">
+                <label>3. ¿El prestador de servicios sabe sobre el manejo del Kit de emergencia?</label>
+                <div class="controls ">
+                    <label><input type="radio" name="prestador_conoce" value="1" /> Sí <br></label>
+                    <label><input type="radio" name="prestador_conoce" value="2" /> No <br></label>
                 </div>
             </div>
 
-            <div id="div_id_brindaron_opciones" class="form-group">
-                <label>4. Ademas, te han dado otras opciones:<span class="asteriskField">*</span></label>
-                <div class="controls " onchange='SelectChanged();'>
-                    <label><input type="radio" name="brindaron_opciones" value="1" /> Información sobre uso correcto del condón <br></label>
-                    <label><input type="radio" name="brindaron_opciones" value="2" /> Información pertinente sobre espaciar embarazos <br></label>
-                    <label><input type="radio" name="brindaron_opciones" value="3" /> Han referido a otro lugar <br></label>
-                </div>
-            </div>
-            <div id="div_id_especifica_opciones" class="form-group">
-                <label for="id_especifica_opciones" class="control-label ">Especifica otras opciones</label>
-                <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_especifica_opciones" maxlength="45" name="especifica_opciones" type="text">
-                </div>
-            </div>
-
-            <div id="div_id_requisitos_pf" class="form-group">
-                <label>5. ¿Que requisitos debes llenar para obtener condones y otros metodos de planificacion familiar en tu puesto o centro de salud?<span class="asteriskField">*</span></label>
-                <div class="controls ">
-                    <label><input type="checkbox" name="requisitos_pf[]" value="1"> Mayor de edad </input><br></label>
-                    <label><input type="checkbox" name="requisitos_pf[]" value="2"> Firmar consentimiento </input><br></label>
-                    <label><input type="checkbox" name="requisitos_pf[]" value="3"> Estar acompañado por un adulto </input><br></label>
-                    <label><input type="checkbox" name="requisitos_pf[]" value="4"> Estar casado o unido </input><br></label>
-                    <label><input type="checkbox" name="requisitos_pf[]" value="5"> Pago económico </input><br></label>
-                    <label><input type="checkbox" name="requisitos_pf[]" value="6"> Otro </input><br></label>
-                </div>
-            </div>
-            <div id="div_id_especifica_requisitos" class="form-group">
-                <label>Especifica los requisitos</label>
-                <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_especifica_requisitos" maxlength="45" name="especifica_requisitos" type="text">
-                </div>
-            </div>
-
-            <div id="div_id_razon_no_proporciona_pf" class="form-group">
-                <label>6. ¿Cual fue la razón por la que tu prestador de servicios no te proporciono condones y otros metodos de planificacion familiar?<span class="asteriskField">*</span></label>
-                <div class="controls " onchange='SelectChanged();'>
-                        <label><input type="checkbox" name="razon_no_proporciona_pf[]" value="1"> No hay </input><br></label>
-                        <label><input type="checkbox" name="razon_no_proporciona_pf[]" value="2"> No se proporcionan a menores de edad </input><br></label>
-                        <label><input type="checkbox" name="razon_no_proporciona_pf[]" value="3"> Otra (especifique) </input><br></label>
-                </div>
-            </div>
-            <div id="div_id_especifica_razon_no_pf" class="form-group">
-                <label>Especifica la razón</label>
-                <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_especifica_razon_no_pf" maxlength="45" name="especifica_razon_no_pf" type="text">
-                </div>
-            </div>
         </div>
 
         <div id="groupF" name="groupF">
             <h3><span><img src="images/logo.png" width="50px"></span> F. Acceso a Información sobre Kit de Emergencia</h3>
 
-            <div id="div_id_atencion_abuso" class="form-group">
-                <label>1. ¿Existe servicio o atencion en el centro o puesto de salud mas cercano en caso de abuso sexual?</label>
-                <div class="controls " onchange='SelectChanged();'>
-                        <label><input type="radio" name="atencion_abuso" value="1" /> Sí <br></label>
-                        <label><input type="radio" name="atencion_abuso" value="2" /> No <br></label>
+            <div id="div_id_califica_servicio" class="form-group">
+                <label>1. ¿Cómo calificas el servicio?</label>
+                <div class="controls">
+                        <label><input type="radio" name="califica_servicio" value="1" /> Excelente <br></label>
+                        <label><input type="radio" name="califica_servicio" value="2" /> Bueno <br></label>
+                        <label><input type="radio" name="califica_servicio" value="3" /> Pésimo <br></label>
+                        <label><input type="radio" name="califica_servicio" value="4" /> Deficiente <br></label>
                 </div>
             </div>
 
-            <div id="div_id_kit_emergencia" class="form-group">
-                <label>2. ¿El centro de servicio cuenta con Kit de emergencia?</label>
+            <div id="div_id_horario_atencion" class="form-group">
+                <label>2. ¿El horario de atención del establecimiento de salud te resulta</label>
                 <div class="controls ">
-                        <label><input type="radio" name="kit_emergencia" value="1" /> Sí <br></label>
-                        <label><input type="radio" name="kit_emergencia" value="2" /> No <br></label>
-                </div>
-            </div>
-
-            <div id="div_id_prestador_maneja_kit" class="form-group">
-                <label>3, ¿El prestador de servicios sabe sobre el manejo del Kit de emergencia?</label>
-                <div class="controls ">
-                        <label><input type="radio" name="prestador_maneja_kit" value="1" /> Sí <br></label>
-                        <label><input type="radio" name="prestador_maneja_kit" value="2" /> No <br></label>
+                        <label><input type="radio" name="horario_atencion" value="1" /> Accesible <br></label>
+                        <label><input type="radio" name="horario_atencion" value="2" /> Poco Accesible <br></label>
+                        <label><input type="radio" name="horario_atencion" value="3" /> Inaccesible <br></label>
                 </div>
             </div>
         </div>

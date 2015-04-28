@@ -13,7 +13,7 @@ require_once 'php_facebook/app/start.php';
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Me muevo por mis Derechos Sexuales">
-    <title>Monitoreo</title>
+    <title>Instrumento de Monitoreo</title>
     <meta name = "viewport" content= "width=device-width, minimum-scale=1, maximum-scale=1"/>
     <link rel ="shortcut icon" type = "image/x-icon" href = "images/logo.ico">
     <link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
@@ -23,10 +23,6 @@ require_once 'php_facebook/app/start.php';
 </head>
 <body>
 <header>
-    <!--figure id = "logo">
-        <img src="images/logo.png">
-    </figure>
-    <!--h1 class = "hFonts">Me Muevo Por Mis Derechos Sexuales</h1-->
     <div id = "btn-login">
         <a href="#" id = "btn-log">Iniciar Encuesta</a>
     </div>

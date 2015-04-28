@@ -7,4 +7,4 @@ function mostrarDiv()
 }
 
 //eventos
-$btn1.click( mostrarDiv )
+$btn1.click( mostrarDiv );
