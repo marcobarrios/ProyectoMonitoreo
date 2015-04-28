@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="controllers/functions.js"></script>
     <script type="text/javascript" src="controllers/geolocalizacion.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
         <h2 id = "header-h2">Instrumento de Monitoreo</h2>
     </header>
 
-    <!--?php if ((($_GET['id']) == "")) { ?-->
+    <?php if ((($_GET['id']) == "")) { ?>
     <form name="myform" method="post" action="controllers/guardardatos.php">
 
         <input type="hidden" name="latitud" id="latitud" value="">
@@ -29,7 +30,7 @@
         <input type="hidden" name="name" id="name" value="<?php echo $_GET['name'] ?>">
 
         <div id="groupA" name="groupA">
-            <h3><span><img src="images/logo.png" width="50px"></span> A. Información General</h3>
+            <h3> A. Información General</h3>
 
             <div id="div_id_sexo" class="form-group">
                 <label class = "pregunta">1. Género<span class="asteriskField">*</span></label>
@@ -110,7 +111,7 @@
         </div>
 
         <div id="groupB" name="groupB">
-            <h3><span><img src="images/logo.png" width="50px"></span> B. Percepción de Servicios Actuales sobre Derechos Sexuales y Reproductivos</h3>
+            <h3>B. Percepción de Servicios Actuales sobre Derechos Sexuales y Reproductivos</h3>
 
             <div id="div_id_idservicio_salud" class="form-group">
                 <label class = "pregunta">1. Tipo de servicio o establecimiento de salud que usas<span class="asteriskField">*</span>
@@ -231,7 +232,7 @@
         </div>
 
         <div id="groupC" name="groupC">
-            <h3><span><img src="images/logo.png" width="50px"></span> C. Sobre comportamientos y riesgo sexual</h3>
+            <h3>C. Sobre comportamientos y riesgo sexual</h3>
 
             <div id="div_id_id_inicio_relacion" class="form-group">
                 <label class = "pregunta">1. ¿A qué edad iniciaste tus relaciones sexuales?</label>
@@ -280,7 +281,7 @@
             </div>
 
             <div id="div_id_sabe_condon" class="form-group">
-                <label class = "pregunta">6. ¿Sabes cómo usar un Condón correctamente?
+                <label class = "pregunta">6. ¿Sabes cómo usar un Condón correctamente?</label>
                 <div class="controls ">
                     <label><input type="radio" name="sabe_condon" value="1" /> Si <br></label>
                     <label><input type="radio" name="sabe_condon" value="2" /> No <br></label>
@@ -288,7 +289,7 @@
             </div>
 
             <div id="div_id_sabe_condon" class="form-group">
-                <label class = "pregunta">7. ¿Has requerido una atención del servicio de salud por algunos de los siguientes síntomas?
+                <label class = "pregunta">7. ¿Has requerido una atención del servicio de salud por algunos de los siguientes síntomas? </label>
                     <div class="controls ">
                         <label>Llagas-----</Llagas><input type="radio" name="llagas" value="1" /> Si </label>
                         <label><input type="radio" name="llagas" value="2" /> No <br></label>
@@ -315,7 +316,7 @@
                     </div>
             </div>
             <div id="div_id_servicio_sugerido" class="form-group">
-                <label class = "pregunta">8. ¿Qué servicios sugieres que se brinden en el centro salud para buena atención a los adolescentes?
+                <label class = "pregunta">8. ¿Qué servicios sugieres que se brinden en el centro salud para buena atención a los adolescentes?</label>
                     <div class="controls " onchange="SelectChanged();">
                         <label><input type="radio" name="servicio_sugerido" value="1" /> Pruebas de VIH <br></label>
                         <label><input type="radio" name="servicio_sugerido" value="2" /> Kit de Emergencia <br></label>
@@ -334,7 +335,7 @@
         </div>
 
         <div id="groupD" name="groupD">
-            <h3><span><img src="images/logo.png" width="50px"></span> D. Prácticas y Costumbres</h3>
+            <h3>D. Prácticas y Costumbres</h3>
 
             <div id="div_id_quien_debe_utilizar" class="form-group">
                 <label class = "pregunta">1. ¿Según la cultura de la comunidad los  condones los deben utilizar?</label>
@@ -403,7 +404,7 @@
         </div>
 
         <div id="groupE" name="groupE">
-            <h3><span><img src="images/logo.png" width="50px"></span> E. Acceso a información sobre Kit de emergencia</h3>
+            <h3>E. Acceso a información sobre Kit de emergencia</h3>
 
             <div id="div_id_existe_servicio" class="form-group">
                 <label class = "pregunta">1. ¿Existe servicio o atención en el centro o puesto de salud más cercano en caso de abuso sexual?<span class="asteriskField">*</span></label>
@@ -432,8 +433,8 @@
         </div>
 
         <div id="groupF" name="groupF">
-            <h3><span><img src="images/logo.png" width="50px"></span> F. Acceso a Información sobre Kit de Emergencia</h3>
-
+            <h3>F. Acceso a Información sobre Kit de Emergencia</h3>
+            
             <div id="div_id_califica_servicio" class="form-group">
                 <label class = "pregunta">1. ¿Cómo calificas el servicio?</label>
                 <div class="controls">
@@ -460,7 +461,7 @@
         
     </form>
 
-    <!--?php } else { header('Location: index.php'); } ?-->
+    <?php } else { header('Location: index.php'); } ?>
 
     <footer>
           <img src="images/footer.png" class = "img-footer" />

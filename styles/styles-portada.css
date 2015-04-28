@@ -120,7 +120,7 @@ header a:hover
 @media screen and (max-width: 650px) {
 	header
 	{
-	background-image: url("../images/header1.jpg");
+	background-image: url("../images/header.jpg");
 
 	}
 	header a
