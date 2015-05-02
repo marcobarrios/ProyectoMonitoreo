@@ -38,22 +38,40 @@ function SelectChanged() {
         ocultar('div_id_otro_lugar_condones');
     }
 
-    if(document.myform.atencion_abuso.value == "1") {
-        mostrar('div_id_prestador_maneja_kit');
+    if(document.myform.consigue_pruebas.value == "6") {
+        mostrar('div_id_otro_lugar_pruebas');
     } else {
-        ocultar('div_id_prestador_maneja_kit');
+        ocultar('div_id_otro_lugar_pruebas');
     }
 
-    if(document.myform.atencion_abuso.value == "1") {
-        mostrar('div_id_prestador_maneja_kit');
+    if(document.myform.consigue_metodos.value == "6") {
+        mostrar('div_id_otro_lugar_metodos');
     } else {
-        ocultar('div_id_prestador_maneja_kit');
+        ocultar('div_id_otro_lugar_metodos');
     }
 
-    if(document.myform.atencion_abuso.value == "1") {
-        mostrar('div_id_prestador_maneja_kit');
+    if(document.myform.inicio_relacion.value != "4") {
+        mostrar('div_id_relacion_6meses');
+        mostrar('div_id_estado_relacion');
+        mostrar('div_id_quien_relacion');
+        mostrar('div_id_utilizo_condon');
     } else {
-        ocultar('div_id_prestador_maneja_kit');
+        ocultar('div_id_relacion_6meses');
+        ocultar('div_id_estado_relacion');
+        ocultar('div_id_quien_relacion');
+        ocultar('div_id_utilizo_condon');
+    }
+
+    if(document.myform.servicio_sugerido.value == "6") {
+        mostrar('div_otro_servicio_sugerido');
+    } else {
+        ocultar('div_otro_servicio_sugerido');
+    }
+
+    if(document.myform.por_idioma.value == "4") {
+        mostrar('div_id_otra_razon');
+    } else {
+        ocultar('div_id_otra_razon');
     }
 }
 
@@ -81,4 +99,6 @@ window.onload = function() {
     ocultar('div_id_estado_relacion');
     ocultar('div_id_quien_relacion');
     ocultar('div_id_utilizo_condon');
+    ocultar('div_id_otro_lugar_pruebas');
+    ocultar('div_id_otro_lugar_metodos');
 }

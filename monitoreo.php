@@ -19,15 +19,11 @@
         <h2 id = "header-h2">Instrumento de Monitoreo</h2>
     </header>
 
-    <?php if ((($_GET['id']) == "")) { ?>
     <form name="myform" method="post" action="controllers/guardardatos.php">
 
         <input type="hidden" name="latitud" id="latitud" value="">
         <input type="hidden" name="longitud" id="longitud" value="">
         <input type="hidden" name="altitud" id="altitud" value="">
-
-        <input type="hidden" name="id" id="id" value="<?php echo $_GET['id'] ?>">
-        <input type="hidden" name="name" id="name" value="<?php echo $_GET['name'] ?>">
 
         <div id="groupA" name="groupA">
             <h3> A. Información General</h3>
@@ -207,7 +203,7 @@
             <div id="div_id_consigue_pruebas" class="form-group">
                 <label class = "pregunta">6.2 ¿En tu comunidad donde consigues las pruebas de embarazo?
                 </label>
-                <div class="controls ">
+                <div class="controls " onchange="SelectChanged();">
                     <label><input type="radio" name="consigue_pruebas" value="1" /> Centro o Puesto de Salud <br></label>
                     <label><input type="radio" name="consigue_pruebas" value="2" /> ONG <br></label>
                     <label><input type="radio" name="consigue_pruebas" value="3" /> Farmacia <br></label>
@@ -216,17 +212,29 @@
                     <label><input type="radio" name="consigue_pruebas" value="6" /> Otros <br></label>
                 </div>
             </div>
+            <div id="div_id_otro_lugar_pruebas" class="form-group">
+                <label for="id_otro_lugar_pruebas" class="control-label ">Especifica Lugar</label>
+                <div class="controls ">
+                    <input class="textinput textInput form-control" id="id_otro_lugar_pruebas" maxlength="45" name="id_otro_lugar_pruebas" type="text">
+                </div>
+            </div>
 
             <div id="div_id_consigue_metodos" class="form-group">
                 <label class = "pregunta">6.3 ¿En tu comunidad donde consigues Métodos de Planificación Familiar?
                 </label>
-                <div class="controls ">
+                <div class="controls " onchange="SelectChanged();">
                     <label><input type="radio" name="consigue_metodos" value="1" /> Centro o Puesto de Salud <br></label>
                     <label><input type="radio" name="consigue_metodos" value="2" /> ONG <br></label>
                     <label><input type="radio" name="consigue_metodos" value="3" /> Farmacia <br></label>
                     <label><input type="radio" name="consigue_metodos" value="4" /> Hospital <br></label>
                     <label><input type="radio" name="consigue_metodos" value="5" /> Comadronas <br></label>
                     <label><input type="radio" name="consigue_metodos" value="6" /> Otros <br></label>
+                </div>
+            </div>
+            <div id="div_id_otro_lugar_metodos" class="form-group">
+                <label for="id_otro_lugar_metodos" class="control-label ">Especifica Lugar</label>
+                <div class="controls ">
+                    <input class="textinput textInput form-control" id="id_otro_lugar_metodos" maxlength="45" name="id_otro_lugar_metodos" type="text">
                 </div>
             </div>
         </div>
@@ -236,7 +244,7 @@
 
             <div id="div_id_id_inicio_relacion" class="form-group">
                 <label class = "pregunta">1. ¿A qué edad iniciaste tus relaciones sexuales?</label>
-                <div class="controls ">
+                <div class="controls " onchange="SelectChanged();">
                     <label><input type="radio" name="inicio_relacion" value="1" /> 10 a 15 años <br></label>
                     <label><input type="radio" name="inicio_relacion" value="2" /> 16 a 18 años <br></label>
                     <label><input type="radio" name="inicio_relacion" value="3" /> 19 a 24 años <br></label>
@@ -393,14 +401,19 @@
 
             <div id="div_id_por_idioma" class="form-group">
                 <label class = "pregunta">6. ¿Cuál es la respuesta de la atención de los servicios de salud en relación a los condones y otros métodos de planificación familiar?<span class="asteriskField">*</span></label>
-                <div class="controls ">
+                <div class="controls " onchange="SelectChanged();">
                     <label><input type="radio" name="por_idioma" value="1" /> Sólo se Proporcionan a mayores de edad <br></label>
                     <label><input type="radio" name="por_idioma" value="2" /> Se debe Firmar un consentimiento <br></label>
                     <label><input type="radio" name="por_idioma" value="3" /> Se debe estar acompañado por un adulto <br></label>
                     <label><input type="radio" name="por_idioma" value="4" /> Otro <br></label>
                 </div>
             </div>
-
+            <div id="div_id_otra_razon" class="form-group">
+                <label for="id_otra_razon" class="control-label ">Especifica Otra Razon</label>
+                <div class="controls ">
+                    <input class="textinput textInput form-control" id="id_otra_razon" maxlength="45" name="id_otra_razon" type="text">
+                </div>
+            </div>
         </div>
 
         <div id="groupE" name="groupE">
@@ -460,9 +473,6 @@
         </div>
         
     </form>
-
-    <?php } else { header('Location: index.php'); } ?>
-
     <footer>
           <img src="images/footer.png" class = "img-footer" />
     </footer>

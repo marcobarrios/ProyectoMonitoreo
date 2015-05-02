@@ -1,13 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Marco Barrios
- * Date: 23/02/2015
- * Time: 9:55 PM
- */
-require_once 'php_facebook/app/start.php';
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,18 +14,12 @@ require_once 'php_facebook/app/start.php';
 </head>
 <body>
 <header>
-    <div id = "btn-login">
-        <a href="#" id = "btn-log">Iniciar Encuesta</a>
+    <div>
+        <a href="monitoreo.php" class="btn btn-primary">Iniciar Encuesta</a>
     </div>
     <h1>Me Muevo Por Mis Derechos Sexuales</h1>
 </header>
-        <div id = "facebook">
-            <?php if(!isset($_SESSION['facebook'])): ?>
-                <a href="<?php echo $helper->getLoginUrl($config['scopes']); ?>" class="btn btn-primary">Iniciar Sesión con Facebook</a>
-            <?php else:
-                header('Location: monitoreo.php?name='.$facebook_user->getName() . '&id='.$facebook_user->getId());
-            endif; ?>
-        </div>
+
 <div id = "box-img">
     <!---->
     <div id="myCarousel" class = "carousel">
@@ -79,6 +63,5 @@ require_once 'php_facebook/app/start.php';
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<script src = "controllers/ingreso_facebook.js"></script>
 </body>
 </html>

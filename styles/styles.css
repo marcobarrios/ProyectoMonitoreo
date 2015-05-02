@@ -192,8 +192,7 @@ input[type ="submit"]:hover
 	font-weight: bolder;
 	font-family:  "Alex Brush";
 	font-size: 3em;
-	text-shadow: 3px 3px 5px #f00,
-	6px 6px 5px #0f0;
+	text-shadow: 3px 3px 5px #f00;
 	padding-top: -3em;
 }
 .pregunta
