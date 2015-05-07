@@ -2,97 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e29ccc-b2c5-4ce6-924a-ae781b6d1e5e" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\config\facebook.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\controllers\ingreso_facebook.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\app\logout.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\app\start.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\composer\ClassLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\composer\autoload_classmap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\composer\autoload_namespaces.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\composer\autoload_psr4.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\composer\autoload_real.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\composer\installed.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\FacebookCanvasLoginHelper.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\FacebookJavaScriptLoginHelper.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\FacebookRedirectLoginHelper.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\FacebookRequest.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\FacebookRequestException.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\FacebookResponse.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\FacebookSession.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\GraphObject.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\post_links.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\retrieve_user_profile.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\sdk_getting_started.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\sdk_landing_page.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\docs\upload_photo.fbmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\Entities\AccessToken.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\Entities\SignedRequest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookAuthorizationException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookCanvasLoginHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookClientException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookJavaScriptLoginHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookOtherException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookPageTabHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookPermissionException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookRedirectLoginHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookRequest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookRequestException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookSDKException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookServerException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookSession.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookSignedRequestFromInputHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\FacebookThrottleException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\GraphAlbum.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\GraphLocation.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\GraphObject.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\GraphPage.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\GraphSessionInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\GraphUser.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\GraphUserPage.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\HttpClients\FacebookCurl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\HttpClients\FacebookCurlHttpClient.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\HttpClients\FacebookGuzzleHttpClient.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\HttpClients\FacebookHttpable.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\HttpClients\FacebookStream.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\HttpClients\FacebookStreamHttpClient.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\src\Facebook\HttpClients\certs\DigiCertHighAssuranceEVRootCA.pem" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\Entities\AccessTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\Entities\SignedRequestTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookCanvasLoginHelperTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookJavaScriptLoginHelperTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookPageTabHelperTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookRedirectLoginHelperTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookRequestExceptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookRequestTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookSessionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookSignedRequestFromInputHelperTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookTestCredentials.php.dist" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\FacebookTestHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\GraphAlbumTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\GraphLocationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\GraphObjectTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\GraphSessionInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\GraphUserTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\HttpClients\AbstractTestHttpClient.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\HttpClients\FacebookCurlHttpClientTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\HttpClients\FacebookGuzzleHttpClientTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\HttpClients\FacebookStreamHttpClientTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\php_facebook\vendor\facebook\php-sdk-v4\tests\bootstrap.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/functions.js" afterPath="$PROJECT_DIR$/controllers/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/guardardatos.php" afterPath="$PROJECT_DIR$/controllers/guardardatos.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoreo.php" afterPath="$PROJECT_DIR$/monitoreo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Monitoreo.iws" />
@@ -121,8 +32,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1224">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1224">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -131,8 +42,8 @@
       <file leaf-file-name="monitoreo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/monitoreo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4190141" vertical-offset="3944" max-vertical-offset="8262">
-              <caret line="246" column="39" selection-start-line="246" selection-start-column="39" selection-end-line="246" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8262">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,13 +52,13 @@
       <file leaf-file-name="guardardatos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="306" max-vertical-offset="7157">
-              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="7106">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
               <folding>
-                <marker date="1430245824000" expanded="true" signature="556:736" placeholder="INSERT INTO ..." />
-                <marker date="1430245824000" expanded="true" signature="1354:1410" placeholder="SELECT MAX(i..tblEncuestas..." />
-                <marker date="1430245824000" expanded="true" signature="1656:1753" placeholder="INSERT INTO ..." />
-                <marker date="1430245824000" expanded="true" signature="19279:19379" placeholder="INSERT INTO ..." />
+                <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+                <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+                <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+                <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -156,8 +67,8 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="787" max-vertical-offset="1853">
-              <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1853">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -178,6 +89,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controllers/functions.js" />
         <option value="$PROJECT_DIR$/monitoreo.php" />
+        <option value="$PROJECT_DIR$/controllers/guardardatos.php" />
       </list>
     </option>
   </component>
@@ -214,7 +126,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,14 +144,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Monitoreo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoMonitoreo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="js.buildTools.gulp.node_interpreter" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -249,8 +182,10 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -263,6 +198,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -272,7 +210,25 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <option name="name" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="Node-webkit">
+      <option name="name" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
       <method />
     </configuration>
     <list size="0" />
@@ -306,7 +262,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430254219655</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="otros cambios minimos">
+      <created>1430586988881</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1430586988881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -321,19 +283,19 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -354,9 +316,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -376,13 +338,88 @@
     </option>
     <MESSAGE value="cambiar fuente" />
     <MESSAGE value="Fuente y font preguntas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fuente y font preguntas" />
+    <MESSAGE value="otros cambios minimos" />
+    <option name="LAST_COMMIT_MESSAGE" value="otros cambios minimos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1224">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoreo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8262">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="7106">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1853">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoreo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="8262">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="7157">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1853">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1224">
@@ -404,10 +441,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7157">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1430245824000" expanded="true" signature="556:736" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="1354:1410" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1430245824000" expanded="true" signature="1656:1753" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="19279:19379" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -455,10 +492,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="7157">
           <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
           <folding>
-            <marker date="1430245824000" expanded="true" signature="556:736" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="1354:1410" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1430245824000" expanded="true" signature="1656:1753" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="19279:19379" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -492,10 +529,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7157">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1430245824000" expanded="true" signature="556:736" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="1354:1410" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1430245824000" expanded="true" signature="1656:1753" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="19279:19379" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -529,10 +566,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7157">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1430245824000" expanded="true" signature="556:736" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="1354:1410" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1430245824000" expanded="true" signature="1656:1753" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="19279:19379" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -566,10 +603,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7157">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1430245824000" expanded="true" signature="556:736" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="1354:1410" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1430245824000" expanded="true" signature="1656:1753" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="19279:19379" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -603,10 +640,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7157">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1430245824000" expanded="true" signature="556:736" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="1354:1410" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1430245824000" expanded="true" signature="1656:1753" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="19279:19379" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -640,10 +677,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7157">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1430245824000" expanded="true" signature="556:736" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="1354:1410" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1430245824000" expanded="true" signature="1656:1753" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="19279:19379" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -722,39 +759,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/controllers/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1224">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/functions.js">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="787" max-vertical-offset="1853">
-          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1224">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="7157">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="7106">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
           <folding>
-            <marker date="1430245824000" expanded="true" signature="556:736" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="1354:1410" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1430245824000" expanded="true" signature="1656:1753" placeholder="INSERT INTO ..." />
-            <marker date="1430245824000" expanded="true" signature="19279:19379" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="514:694" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="1312:1368" placeholder="SELECT MAX(i..tblEncuestas..." />
+            <marker date="1430676064746" expanded="true" signature="1614:1711" placeholder="INSERT INTO ..." />
+            <marker date="1430676064746" expanded="true" signature="19237:19337" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/monitoreo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4190141" vertical-offset="3944" max-vertical-offset="8262">
-          <caret line="246" column="39" selection-start-line="246" selection-start-column="39" selection-end-line="246" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8262">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

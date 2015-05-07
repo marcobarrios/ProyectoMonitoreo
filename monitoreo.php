@@ -29,7 +29,7 @@
             <h3> A. Información General</h3>
 
             <div id="div_id_sexo" class="form-group">
-                <label class = "pregunta">1. Género<span class="asteriskField">*</span></label>
+                <label class = "pregunta">1. Género</label>
                 <div class="controls">
                         <label><input type="radio" name="sexo" value="1"/> Femenino <br></label>
                         <label><input type="radio" name="sexo" value="2" /> Masculino <br></label>
@@ -37,7 +37,7 @@
             </div>
 
             <div id="div_id_rango_edad" class="form-group">
-                <label class = "pregunta">2. Rango de Edad<span class="asteriskField">*</span></label>
+                <label class = "pregunta">2. Rango de Edad</label>
                 <div class="controls">
                         <label><input type="radio" name="rangoedad" value="1"/> 13 a 15 años <br></label>
                         <label><input type="radio" name="rangoedad" value="2"/> 16 a 18 años <br></label>
@@ -48,7 +48,7 @@
             </div>
 
             <div id="div_id_estado_civil" class="form-group">
-                <label class = "pregunta">3. Estado Civil<span class="asteriskField">*</span></label>
+                <label class = "pregunta">3. Estado Civil</label>
                 <div class="controls">
                     <label><input type="radio" name="estadocivil" value="1"/> Casado <br></label>
                     <label><input type="radio" name="estadocivil" value="2"/> Soltero <br></label>
@@ -58,7 +58,7 @@
             </div>
 
             <div id="div_id_dedica" class="form-group">
-                <label class = "pregunta">4. ¿A qué se dedica actualmente?<span class="asteriskField">*</span></label>
+                <label class = "pregunta">4. ¿A qué se dedica actualmente?</label>
                 <div class="controls">
                     <label><input type="radio" name="dedica" value="1"/> Estudia <br></label>
                     <label><input type="radio" name="dedica" value="2"/> Trabaja <br></label>
@@ -68,7 +68,7 @@
             </div>
 
             <div id="div_id_cultura" class="form-group">
-                <label class = "pregunta">5. Cultura<span class="asteriskField">*</span></label>
+                <label class = "pregunta">5. Cultura</label>
                 <div class="controls" onchange="SelectChanged();">
                         <label><input type="radio" name="cultura" value="1"/> Mestizo <br></label>
                         <label><input type="radio" name="cultura" value="2"/> Maya <br></label>
@@ -89,7 +89,7 @@
 
 
         <div id="div_id_situacion_vivienda" class="form-group">
-            <label class = "pregunta">6. Situación de Vivienda<span class="asteriskField">*</span></label>
+            <label class = "pregunta">6. Situación de Vivienda</label>
             <div class="controls" onchange="SelectChanged();">
                 <label><input type="radio" name="vivienda" value="1"/> Casa Propia <br></label>
                 <label><input type="radio" name="vivienda" value="2"/> Alquila <br></label>
@@ -110,7 +110,7 @@
             <h3>B. Percepción de Servicios Actuales sobre Derechos Sexuales y Reproductivos</h3>
 
             <div id="div_id_idservicio_salud" class="form-group">
-                <label class = "pregunta">1. Tipo de servicio o establecimiento de salud que usas<span class="asteriskField">*</span>
+                <label class = "pregunta">1. Tipo de servicio o establecimiento de salud que usas
                 </label>
                 <div class="controls" onchange="SelectChanged();">
                         <label><input type="radio" name="idservicio_salud" value="1" /> CAP <br></label>
@@ -129,7 +129,7 @@
             </div>
 
             <div id="div_id_veces_visita" class="form-group">
-                <label class = "pregunta">2. Las veces que has visitado el centro o puesto de Salud<span class="asteriskField">*</span></label>
+                <label class = "pregunta">2. Las veces que has visitado el centro o puesto de Salud</label>
                 <div class="controls ">
                         <label><input type="radio" name="veces_visita" value="1" /> Primera Vez <br></label>
                         <label><input type="radio" name="veces_visita" value="2" /> Con Regularidad <br></label>
@@ -356,7 +356,7 @@
             </div>
 
             <div id="div_id_hablar_condon" class="form-group">
-                <label class = "pregunta">2. ¿Se puede hablar libremente del uso de condón con tu pareja?<span class="asteriskField">*</span></label>
+                <label class = "pregunta">2. ¿Se puede hablar libremente del uso de condón con tu pareja?</label>
                 <div class="controls ">
                     <label><input type="radio" name="hablar_condon" value="1" /> Si <br></label>
                     <label><input type="radio" name="hablar_condon" value="2" /> No <br></label>
@@ -364,7 +364,7 @@
             </div>
 
             <div id="div_id_hablar_prueba" class="form-group">
-                <label class = "pregunta">3. ¿Se puede hablar libremente sobre hacerse la prueba del VIH con tu pareja?<span class="asteriskField">*</span></label>
+                <label class = "pregunta">3. ¿Se puede hablar libremente sobre hacerse la prueba del VIH con tu pareja?</label>
                 <div class="controls ">
                     <label><input type="radio" name="hablar_prueba" value="1" /> Si <br></label>
                     <label><input type="radio" name="hablar_prueba" value="2" /> No <br></label>
@@ -372,7 +372,7 @@
             </div>
 
             <div id="div_id_mujer_derecho_relacion" class="form-group">
-                <label class = "pregunta">4. En tu opinión ¿consideras que las mujeres tienen derecho a decidir  tener o no una relación sexual?<span class="asteriskField">*</span></label>
+                <label class = "pregunta">4. En tu opinión ¿consideras que las mujeres tienen derecho a decidir  tener o no una relación sexual?</label>
                 <div class="controls ">
                     <label><input type="radio" name="mujer_derecho_relacion" value="1" /> Si <br></label>
                     <label><input type="radio" name="mujer_derecho_relacion" value="2" /> No <br></label>
@@ -386,7 +386,7 @@
             </div>
 
             <div id="div_id_mujer_derecho_condon" class="form-group">
-                <label class = "pregunta">5. En tu opinión ¿las mujeres tienen derecho a decidir usar un condón en las relaciones sexuales?<span class="asteriskField">*</span></label>
+                <label class = "pregunta">5. En tu opinión ¿las mujeres tienen derecho a decidir usar un condón en las relaciones sexuales?</label>
                 <div class="controls ">
                     <label><input type="radio" name="mujer_derecho_condon" value="1" /> Si <br></label>
                     <label><input type="radio" name="mujer_derecho_condon" value="2" /> No <br></label>
@@ -400,7 +400,7 @@
             </div>
 
             <div id="div_id_por_idioma" class="form-group">
-                <label class = "pregunta">6. ¿Cuál es la respuesta de la atención de los servicios de salud en relación a los condones y otros métodos de planificación familiar?<span class="asteriskField">*</span></label>
+                <label class = "pregunta">6. ¿Cuál es la respuesta de la atención de los servicios de salud en relación a los condones y otros métodos de planificación familiar?</label>
                 <div class="controls " onchange="SelectChanged();">
                     <label><input type="radio" name="por_idioma" value="1" /> Sólo se Proporcionan a mayores de edad <br></label>
                     <label><input type="radio" name="por_idioma" value="2" /> Se debe Firmar un consentimiento <br></label>
@@ -420,7 +420,7 @@
             <h3>E. Acceso a información sobre Kit de emergencia</h3>
 
             <div id="div_id_existe_servicio" class="form-group">
-                <label class = "pregunta">1. ¿Existe servicio o atención en el centro o puesto de salud más cercano en caso de abuso sexual?<span class="asteriskField">*</span></label>
+                <label class = "pregunta">1. ¿Existe servicio o atención en el centro o puesto de salud más cercano en caso de abuso sexual?</label>
                 <div class="controls">
                     <label><input type="radio" name="existe_servicio" value="1" /> Si <br></label>
                     <label><input type="radio" name="existe_servicio" value="2" /> No <br></label>
@@ -428,7 +428,7 @@
             </div>
 
             <div id="div_id_existe_kit" class="form-group">
-                <label class = "pregunta">2. ¿El centro de servicio cuenta con Kit de emergencia?<span class="asteriskField">*</span></label>
+                <label class = "pregunta">2. ¿El centro de servicio cuenta con Kit de emergencia?</label>
                 <div class="controls ">
                     <label><input type="radio" name="existe_kit" value="1" /> Si <br></label>
                     <label><input type="radio" name="existe_kit" value="2" /> No <br></label>
