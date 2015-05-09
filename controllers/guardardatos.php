@@ -21,18 +21,16 @@ if ($mysqli === false) {
 } else {
 
     //<editor-fold desc="INGRESO DE ENCUESTA">
-    $sql = "INSERT INTO tblEncuestas(idEncuesta, idFacebookEncuestado, nombreFacebookEncuestado, fechaEncuesta, latitudEncuesta, longitudEncuesta, altitudEncuesta) VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO tblEncuestas(idEncuesta, fechaEncuesta, latitudEncuesta, longitudEncuesta, altitudEncuesta) VALUES (?, ?, ?, ?, ?)";
     if ($stmt = $mysqli->prepare($sql)) {
         $idenc = '';
-        $idfacebook = $_POST['id'];
-        $namefacebook = $_POST['name'];
         $hoy = getdate();
         $fechaEncuesta = $hoy ['year'] . '/' . $hoy ['mon'] . '/' . $hoy ['mday'] . ' ' . $hoy ['hours'] . ':' . $hoy ['minutes'] . ':' . $hoy ['seconds'];
         $latitud = $_POST['latitud'];
         $longitud = $_POST['longitud'];
         $altitud = $_POST['altitud'];
 
-        $stmt->bind_param('isssddd', $idenc, $idfacebook, $namefacebook, $fechaEncuesta, $latitud, $longitud, $altitud);
+        $stmt->bind_param('isddd', $idenc, $fechaEncuesta, $latitud, $longitud, $altitud);
         if ($stmt->execute()) {
                 $sql = "SELECT MAX(idEncuesta) AS 'idEncuesta' FROM tblEncuestas";
                 $result = $mysqli->query($sql);
@@ -43,241 +41,346 @@ if ($mysqli === false) {
             $sql = "INSERT INTO tblRespuestas(idRespuesta, idPregunta, idNoRespuesta, idEncuesta) VALUES (?, ?, ?, ?)";
             if ($stmt = $mysqli->prepare($sql)) {
                 $idrepuesta = '';
-                $nopregunta = 1;
+                $nopregunta = 1.1;
                 $respuesta = $_POST['sexo'];
 
-                $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                 if ($stmt->execute()) {
                     $idrepuesta = '';
-                    $nopregunta = 2;
+                    $nopregunta = 1.2;
                     $respuesta = $_POST['rangoedad'];
 
-                    $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                     if ($stmt->execute()) {
                         $idrepuesta = '';
-                        $nopregunta = 3;
-                        $respuesta = $_POST['cultura'];
+                        $nopregunta = 1.3;
+                        $respuesta = $_POST['estadocivil'];
 
-                        $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                        $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                         if ($stmt->execute()) {
                             $idrepuesta = '';
-                            $nopregunta = 4;
-                            $respuesta = $_POST['idservicio_salud'];
+                            $nopregunta = 1.4;
+                            $respuesta = $_POST['dedica'];
 
-                            $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                            $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                             if ($stmt->execute()) {
                                 $idrepuesta = '';
-                                $nopregunta = 5;
-                                $respuesta = $_POST['idubicacion_servicio'];
+                                $nopregunta = 1.5;
+                                $respuesta = $_POST['cultura'];
 
-                                $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                 if ($stmt->execute()) {
                                     $idrepuesta = '';
-                                    $nopregunta = 6;
-                                    $respuesta = $_POST['tiempo_servicio'];
+                                    $nopregunta = 1.6;
+                                    $respuesta = $_POST['vivienda'];
 
-                                    $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                     if ($stmt->execute()) {
                                         $idrepuesta = '';
-                                        $nopregunta = 7;
-                                        $respuesta = $_POST['personal_capacitado_im'];
+                                        $nopregunta = 2.1;
+                                        $respuesta = $_POST['idservicio_salud'];
 
-                                        $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                        $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                         if ($stmt->execute()) {
                                             $idrepuesta = '';
-                                            $nopregunta = 8;
-                                            $respuesta = $_POST['sala_equipada'];
+                                            $nopregunta = 2.2;
+                                            $respuesta = $_POST['veces_visita'];
 
-                                            $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                            $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                             if ($stmt->execute()) {
                                                 $idrepuesta = '';
-                                                $nopregunta = 9;
-                                                $respuesta = $_POST['hay_carteles'];
+                                                $nopregunta = 2.3;
+                                                $respuesta = $_POST['motivo_acercamiento'];
 
-                                                $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                 if ($stmt->execute()) {
                                                     $idrepuesta = '';
-                                                    $nopregunta = 10;
-                                                    $respuesta = $_POST['carteles_im'];
+                                                    $nopregunta = 2.4;
+                                                    $respuesta = $_POST['personal_capacitado'];
 
-                                                    $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                     if ($stmt->execute()) {
                                                         $idrepuesta = '';
-                                                        $nopregunta = 11;
-                                                        $respuesta = $_POST['id_motivo_acercamiento'];
+                                                        $nopregunta = 2.5;
+                                                        $respuesta = $_POST['donde_escucho'];
 
-                                                        $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                        $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                         if ($stmt->execute()) {
                                                             $idrepuesta = '';
-                                                            $nopregunta = 12;
-                                                            $respuesta = $_POST['id_tiempo_espera'];
+                                                            $nopregunta = 2.61;
+                                                            $respuesta = $_POST['consigue_condones'];
 
-                                                            $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                            $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                             if ($stmt->execute()) {
                                                                 $idrepuesta = '';
-                                                                $nopregunta = 13;
-                                                                $respuesta = $_POST['id_calificacion'];
+                                                                $nopregunta = 2.62;
+                                                                $respuesta = $_POST['consigue_pruebas'];
 
-                                                                $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                 if ($stmt->execute()) {
                                                                     $idrepuesta = '';
-                                                                    $nopregunta = 14;
-                                                                    $respuesta = $_POST['id_horario_atencion'];
+                                                                    $nopregunta = 2.63;
+                                                                    $respuesta = $_POST['consigue_metodos'];
 
-                                                                    $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                     if ($stmt->execute()) {
                                                                         $idrepuesta = '';
-                                                                        $nopregunta = 15;
-                                                                        $respuesta = $_POST['demuestra'];
+                                                                        $nopregunta = 3.1;
+                                                                        $respuesta = $_POST['inicio_relacion'];
 
-                                                                        $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                        $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                         if ($stmt->execute()) {
                                                                             $idrepuesta = '';
-                                                                            $nopregunta = 16;
-                                                                            $respuesta = $_POST['personal_atiende'];
+                                                                            $nopregunta = 3.2;
+                                                                            $respuesta = $_POST['relacion_6meses'];
 
-                                                                            $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                            $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                             if ($stmt->execute()) {
                                                                                 $idrepuesta = '';
-                                                                                $nopregunta = 17;
-                                                                                $respuesta = $_POST['por_edad'];
+                                                                                $nopregunta = 3.3;
+                                                                                $respuesta = $_POST['estado_relacion'];
 
-                                                                                $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                 if ($stmt->execute()) {
                                                                                     $idrepuesta = '';
-                                                                                    $nopregunta = 18;
-                                                                                    $respuesta = $_POST['por_cultura'];
+                                                                                    $nopregunta = 3.4;
+                                                                                    $respuesta = $_POST['quien_relacion'];
 
-                                                                                    $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                     if ($stmt->execute()) {
                                                                                         $idrepuesta = '';
-                                                                                        $nopregunta = 19;
-                                                                                        $respuesta = $_POST['por_vestimenta'];
+                                                                                        $nopregunta = 3.5;
+                                                                                        $respuesta = $_POST['utilizo_condon'];
 
-                                                                                        $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                        $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                         if ($stmt->execute()) {
                                                                                             $idrepuesta = '';
-                                                                                            $nopregunta = 20;
-                                                                                            $respuesta = $_POST['por_idioma'];
+                                                                                            $nopregunta = 3.6;
+                                                                                            $respuesta = $_POST['sabe_condon'];
 
-                                                                                            $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                            $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                             if ($stmt->execute()) {
                                                                                                 $idrepuesta = '';
-                                                                                                $nopregunta = 21;
-                                                                                                $respuesta = $_POST['por_religion'];
+                                                                                                $nopregunta = 3.71;
+                                                                                                $respuesta = $_POST['llagas'];
 
-                                                                                                $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                 if ($stmt->execute()) {
                                                                                                     $idrepuesta = '';
-                                                                                                    $nopregunta = 22;
-                                                                                                    $respuesta = $_POST['por_servicio'];
+                                                                                                    $nopregunta = 3.72;
+                                                                                                    $respuesta = $_POST['picazon'];
 
-                                                                                                    $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                     if ($stmt->execute()) {
                                                                                                         $idrepuesta = '';
-                                                                                                        $nopregunta = 23;
-                                                                                                        $respuesta = $_POST['donde_consigue_pf'];
+                                                                                                        $nopregunta = 3.73;
+                                                                                                        $respuesta = $_POST['dolor'];
 
-                                                                                                        $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                        $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                         if ($stmt->execute()) {
                                                                                                             $idrepuesta = '';
-                                                                                                            $nopregunta = 24;
-                                                                                                            $respuesta = $_POST['oferta_pf'];
+                                                                                                            $nopregunta = 3.74;
+                                                                                                            $respuesta = $_POST['materia'];
 
-                                                                                                            $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                            $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                             if ($stmt->execute()) {
                                                                                                                 $idrepuesta = '';
-                                                                                                                $nopregunta = 25;
-                                                                                                                $respuesta = $_POST['proporcionaron_pf'];
+                                                                                                                $nopregunta = 3.75;
+                                                                                                                $respuesta = $_POST['flujo'];
 
-                                                                                                                $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                 if ($stmt->execute()) {
                                                                                                                     $idrepuesta = '';
-                                                                                                                    $nopregunta = 26;
-                                                                                                                    $respuesta = $_POST['brindaron_opciones'];
+                                                                                                                    $nopregunta = 3.76;
+                                                                                                                    $respuesta = $_POST['ulcera'];
 
-                                                                                                                    $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                     if ($stmt->execute()) {
                                                                                                                         $idrepuesta = '';
-                                                                                                                        $nopregunta = 27;
-                                                                                                                        $respuesta = $_POST['requisitos_pf'];
+                                                                                                                        $nopregunta = 3.8;
+                                                                                                                        $respuesta = $_POST['servicio_sugerido'];
 
-                                                                                                                        $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                                        $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                         if ($stmt->execute()) {
                                                                                                                             $idrepuesta = '';
-                                                                                                                            $nopregunta = 28;
-                                                                                                                            $respuesta = $_POST['razon_no_proporciona_pf'];
+                                                                                                                            $nopregunta = 4.1;
+                                                                                                                            $respuesta = $_POST['quien_debe_utilizar'];
 
-                                                                                                                            $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                                            $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                             if ($stmt->execute()) {
                                                                                                                                 $idrepuesta = '';
-                                                                                                                                $nopregunta = 29;
-                                                                                                                                $respuesta = $_POST['atencion_abuso'];
+                                                                                                                                $nopregunta = 4.2;
+                                                                                                                                $respuesta = $_POST['hablar_condon'];
 
-                                                                                                                                $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                                                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                 if ($stmt->execute()) {
                                                                                                                                     $idrepuesta = '';
-                                                                                                                                    $nopregunta = 30;
-                                                                                                                                    $respuesta = $_POST['kit_emergencia'];
+                                                                                                                                    $nopregunta = 4.3;
+                                                                                                                                    $respuesta = $_POST['hablar_prueba'];
 
-                                                                                                                                    $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                                                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                     if ($stmt->execute()) {
                                                                                                                                         $idrepuesta = '';
-                                                                                                                                        $nopregunta = 31;
-                                                                                                                                        $respuesta = $_POST['prestador_maneja_kit'];
+                                                                                                                                        $nopregunta = 4.4;
+                                                                                                                                        $respuesta = $_POST['mujer_derecho_relacion'];
 
-                                                                                                                                        $stmt->bind_param('siii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                                                        $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                         if ($stmt->execute()) {
+                                                                                                                                            $idrepuesta = '';
+                                                                                                                                            $nopregunta = 4.5;
+                                                                                                                                            $respuesta = $_POST['mujer_derecho_condon'];
 
-                                                                                                                                            $sql = "INSERT INTO tblRespuestaTextos(idRespuestaTexto, noRespuesta, idEncuesta, texto) VALUES (?, ?, ?, ?)";
-                                                                                                                                            if ($stmt = $mysqli->prepare($sql)) {
-                                                                                                                                                $respuestaTexto = '';
-                                                                                                                                                $respuestaid = 3;
-                                                                                                                                                $texto = $_POST['otra_cultura'];
+                                                                                                                                            $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
+                                                                                                                                            if ($stmt->execute()) {
+                                                                                                                                                $idrepuesta = '';
+                                                                                                                                                $nopregunta = 4.6;
+                                                                                                                                                $respuesta = $_POST['por_idioma'];
 
-                                                                                                                                                $stmt->bind_param('siis', $respuestaTexto, $respuestaid, $idencuesta, $texto);
+                                                                                                                                                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                                 if ($stmt->execute()) {
-                                                                                                                                                    $respuestaTexto = '';
-                                                                                                                                                    $respuestaid = 4;
-                                                                                                                                                    $texto = $_POST['otro_servicio_salud'];
+                                                                                                                                                    $idrepuesta = '';
+                                                                                                                                                    $nopregunta = 5.1;
+                                                                                                                                                    $respuesta = $_POST['existe_servicio'];
 
-                                                                                                                                                    $stmt->bind_param('siis', $respuestaTexto, $respuestaid, $idencuesta, $texto);
+                                                                                                                                                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                                     if ($stmt->execute()) {
-                                                                                                                                                        $respuestaTexto = '';
-                                                                                                                                                        $respuestaid = 6;
-                                                                                                                                                        $texto = $_POST['especifica_tiempo'];
+                                                                                                                                                        $idrepuesta = '';
+                                                                                                                                                        $nopregunta = 5.2;
+                                                                                                                                                        $respuesta = $_POST['existe_kit'];
 
-                                                                                                                                                        $stmt->bind_param('siis', $respuestaTexto, $respuestaid, $idencuesta, $texto);
+                                                                                                                                                        $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                                         if ($stmt->execute()) {
-                                                                                                                                                            $respuestaTexto = '';
-                                                                                                                                                            $respuestaid = 23;
-                                                                                                                                                            $texto = $_POST['consigue_condgon'];
+                                                                                                                                                            $idrepuesta = '';
+                                                                                                                                                            $nopregunta = 5.3;
+                                                                                                                                                            $respuesta = $_POST['prestador_conoce'];
 
-                                                                                                                                                            $stmt->bind_param('siis', $respuestaTexto, $respuestaid, $idencuesta, $texto);
+                                                                                                                                                            $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                                             if ($stmt->execute()) {
-                                                                                                                                                                $respuestaTexto = '';
-                                                                                                                                                                $respuestaid = 26;
-                                                                                                                                                                $texto = $_POST['especifica_opciones'];
+                                                                                                                                                                $idrepuesta = '';
+                                                                                                                                                                $nopregunta = 6.1;
+                                                                                                                                                                $respuesta = $_POST['califica_servicio'];
 
-                                                                                                                                                                $stmt->bind_param('siis', $respuestaTexto, $respuestaid, $idencuesta, $texto);
+                                                                                                                                                                $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                                                 if ($stmt->execute()) {
-                                                                                                                                                                    $respuestaTexto = '';
-                                                                                                                                                                    $respuestaid = 27;
-                                                                                                                                                                    $texto = $_POST['especifica_requisitos'];
+                                                                                                                                                                    $idrepuesta = '';
+                                                                                                                                                                    $nopregunta = 6.2;
+                                                                                                                                                                    $respuesta = $_POST['horario_atencion'];
 
-                                                                                                                                                                    $stmt->bind_param('siis', $respuestaTexto, $respuestaid, $idencuesta, $texto);
+                                                                                                                                                                    $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                                                     if ($stmt->execute()) {
-                                                                                                                                                                        $respuestaTexto = '';
-                                                                                                                                                                        $respuestaid = 28;
-                                                                                                                                                                        $texto = $_POST['especifica_razon_no_pf'];
+                                                                                                                                                                        $sql = "INSERT INTO tblRespuestaTextos(idRespuestaTexto, noRespuesta, idEncuesta, texto) VALUES (?, ?, ?, ?)";
+                                                                                                                                                                        if ($stmt = $mysqli->prepare($sql)) {
+                                                                                                                                                                            $idrespuestatexto = '';
+                                                                                                                                                                            $norespuesta = 1.5;
+                                                                                                                                                                            $texto = $_POST['otra_cultura'];
+                                                                                                                                                                            $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                            if ($stmt->execute()) {
+                                                                                                                                                                                $idrespuestatexto = '';
+                                                                                                                                                                                $norespuesta = 1.6;
+                                                                                                                                                                                $texto = $_POST['otra_vivienda'];
+                                                                                                                                                                                $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                if ($stmt->execute()) {
+                                                                                                                                                                                    $idrespuestatexto = '';
+                                                                                                                                                                                    $norespuesta = 2.1;
+                                                                                                                                                                                    $texto = $_POST['otro_servicio_salud'];
 
-                                                                                                                                                                        $stmt->bind_param('siis', $respuestaTexto, $respuestaid, $idencuesta, $texto);
-                                                                                                                                                                        if ($stmt->execute()) {
-                                                                                                                                                                            echo "Datos Guardados";
+                                                                                                                                                                                    $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                    if ($stmt->execute()) {
+                                                                                                                                                                                        $idrespuestatexto = '';
+                                                                                                                                                                                        $norespuesta = 2.3;
+                                                                                                                                                                                        $texto = $_POST['especifica_motivo'];
+
+                                                                                                                                                                                        $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                        if ($stmt->execute()) {
+                                                                                                                                                                                            $idrespuestatexto = '';
+                                                                                                                                                                                            $norespuesta = 2.5;
+                                                                                                                                                                                            $texto = $_POST['especifica_escucho'];
+
+                                                                                                                                                                                            $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                            if ($stmt->execute()) {
+                                                                                                                                                                                                $idrespuestatexto = '';
+                                                                                                                                                                                                $norespuesta = 2.61;
+                                                                                                                                                                                                $texto = $_POST['otro_lugar_condones'];
+
+                                                                                                                                                                                                $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                                if ($stmt->execute()) {
+                                                                                                                                                                                                    $idrespuestatexto = '';
+                                                                                                                                                                                                    $norespuesta = 2.62;
+                                                                                                                                                                                                    $texto = $_POST['id_otro_lugar_pruebas'];
+
+                                                                                                                                                                                                    $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                                    if ($stmt->execute()) {
+                                                                                                                                                                                                        $idrespuestatexto = '';
+                                                                                                                                                                                                        $norespuesta = 2.63;
+                                                                                                                                                                                                        $texto = $_POST['id_otro_lugar_metodos'];
+
+                                                                                                                                                                                                        $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                                        if ($stmt->execute()) {
+                                                                                                                                                                                                            $idrespuestatexto = '';
+                                                                                                                                                                                                            $norespuesta = 3.8;
+                                                                                                                                                                                                            $texto = $_POST['otro_servicio_sugerido'];
+
+                                                                                                                                                                                                            $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                                            if ($stmt->execute()) {
+                                                                                                                                                                                                                $idrespuestatexto = '';
+                                                                                                                                                                                                                $norespuesta = 4.4;
+                                                                                                                                                                                                                $texto = $_POST['porque_derecho_relacion'];
+
+                                                                                                                                                                                                                $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                                                if ($stmt->execute()) {
+                                                                                                                                                                                                                    $idrespuestatexto = '';
+                                                                                                                                                                                                                    $norespuesta = 4.5;
+                                                                                                                                                                                                                    $texto = $_POST['porque_derecho_condon'];
+
+                                                                                                                                                                                                                    $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                                                    if ($stmt->execute()) {
+                                                                                                                                                                                                                        $idrespuestatexto = '';
+                                                                                                                                                                                                                        $norespuesta = 4.6;
+                                                                                                                                                                                                                        $texto = $_POST['id_otra_razon'];
+
+                                                                                                                                                                                                                        $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
+                                                                                                                                                                                                                        if ($stmt->execute()) {
+                                                                                                                                                                                                                            $mysqli->close();
+                                                                                                                                                                                                                            header('Location: ../index.php');
+                                                                                                                                                                                                                        } else {
+                                                                                                                                                                                                                            echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                    } else {
+                                                                                                                                                                                                                        echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                } else {
+                                                                                                                                                                                                                    echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            } else {
+                                                                                                                                                                                                                echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        } else {
+                                                                                                                                                                                                            echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    } else {
+                                                                                                                                                                                                        echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                } else {
+                                                                                                                                                                                                    echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                                }
+                                                                                                                                                                                            } else {
+                                                                                                                                                                                                echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                            }
+                                                                                                                                                                                        } else {
+                                                                                                                                                                                            echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                        }
+                                                                                                                                                                                    } else {
+                                                                                                                                                                                        echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                    }
+                                                                                                                                                                                } else {
+                                                                                                                                                                                    echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                                }
+                                                                                                                                                                            } else {
+                                                                                                                                                                                echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
+                                                                                                                                                                            }
                                                                                                                                                                         } else {
                                                                                                                                                                             echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
                                                                                                                                                                         }
-
                                                                                                                                                                     } else {
                                                                                                                                                                         echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
                                                                                                                                                                     }
@@ -296,6 +399,8 @@ if ($mysqli === false) {
                                                                                                                                                 } else {
                                                                                                                                                     echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
                                                                                                                                                 }
+                                                                                                                                            } else {
+                                                                                                                                                echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
                                                                                                                                             }
                                                                                                                                         } else {
                                                                                                                                             echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
@@ -402,11 +507,6 @@ if ($mysqli === false) {
         echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
     }
     //</editor-fold>
-    echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
 }
-$mysqli->close();
-
-header('Location: ../index.php');
-
 ?>
 </body>
