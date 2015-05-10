@@ -469,7 +469,7 @@
         </div>
 
         <div class = "btn">
-            <input type="submit" onclick="alert('Sus Datos está siendo guardados, se le redirigirá a la página de inicio')"/>
+            <input type="submit" value="Guardar Respuestas" onclick="alert('Sus respuestas está siendo guardadas\nSe le redirigirá a la página de inicio')"/>
         </div>
         
     </form>

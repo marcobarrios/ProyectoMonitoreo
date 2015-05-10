@@ -5,7 +5,6 @@
     <title>Monitoreo</title>
 </head>
 <body>
-
 <?php
 /**
  * Created by PhpStorm.
@@ -19,7 +18,6 @@ $mysqli = new mysqli("localhost", "root", "1234", "monitoreo");
 if ($mysqli === false) {
     die ("ERROR: No se estableció la conexión. " . mysqli_connect_error());
 } else {
-
     //<editor-fold desc="INGRESO DE ENCUESTA">
     $sql = "INSERT INTO tblEncuestas(idEncuesta, fechaEncuesta, latitudEncuesta, longitudEncuesta, altitudEncuesta) VALUES (?, ?, ?, ?, ?)";
     if ($stmt = $mysqli->prepare($sql)) {
