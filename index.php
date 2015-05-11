@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
     <link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
-
 </head>
 <body>
 <header>
@@ -31,7 +30,7 @@
             <option value="ixil">Ixil</option>
             <option value="mam">Mam</option>
         </select>
-        <input type="submit" class="btn btn-success"/>
+        <input type="submit" value="Aceptar" class="btn btn-success"/>
     </form>
 
 </div>

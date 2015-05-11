@@ -14,7 +14,7 @@
  */
 require '../index.php';
 
-$mysqli = new mysqli("localhost", "root", "1234", "monitoreo");
+$mysqli = new mysqli("localhost", "root", "", "monitoreo");
 if ($mysqli === false) {
     die ("ERROR: No se estableció la conexión. " . mysqli_connect_error());
 } else {

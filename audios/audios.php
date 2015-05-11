@@ -10,7 +10,7 @@
 <!--Genero-->
 <audio src="audios/<?php echo $idioma;?>/A.1 SEXO.wav" id = "a1"></audio>
 <audio src="audios/<?php echo $idioma;?>/A.1.1 FEMENINO.wav" id = "a1-1"></audio>
-<audio src="audios/<?php echo $idioma;?>/A.1.2. MASCUÑLINO.wav" id = "a1-2"></audio>
+<audio src="audios/<?php echo $idioma;?>/A.1.2. MASCULINO.wav" id = "a1-2"></audio>
 <!--Rango de Edad-->
 <audio src="audios/<?php echo $idioma;?>/A.2 RANGO DE EDAD.wav" id = "a2"></audio>
 <audio src="audios/<?php echo $idioma;?>/A.2.1 13 A 15 AÑOS.wav" id = "a2-1"></audio>
