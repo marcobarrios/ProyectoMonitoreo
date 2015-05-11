@@ -21,7 +21,7 @@
         <h2 id = "header-h2">Instrumento de Monitoreo</h2>
     </header>
 
-    <form name="myform" method="post" action="controllers/guardardatos.php">
+    <form name="myform" method="post" action="controllers/guardardatos.php" id = "myform">
 
         <input type="hidden" name="latitud" id="latitud" value="">
         <input type="hidden" name="longitud" id="longitud" value="">
@@ -93,7 +93,7 @@
             <div id="div_id_otra_cultura" class="form-group">
                 <label for="id_otra_cultura" class="control-label ">Especifica tu cultura</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_otra_cultura" maxlength="45" name="otra_cultura" type="text">
+                    <input class="textinput textInput form-control" id="id_otra_cultura" maxlength="45" name="otra_cultura" type="text" placeholder="Especifique cultura">
                 </div>
             </div>
 
@@ -112,7 +112,7 @@
         <div id="div_id_otra_vivienda" class="form-group">
             <label for="id_otra_vivienda" class="control-label ">Especifica Otra Vivienda</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="id_otra_vivienda" maxlength="45" name="otra_vivienda" type="text">
+                <input class="textinput textInput form-control" id="id_otra_vivienda" maxlength="45" name="otra_vivienda" type="text" placeholder="Especifique vivienda">
             </div>
         </div>
         </div>
@@ -136,7 +136,7 @@
             <div id="div_id_otro_servicio" class="form-group">
                 <label for="id_otro_servicio" class="control-label ">Especifica otro servicio o establecimiento</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_otro_servicio" maxlength="45" name="otro_servicio_salud" type="text">
+                    <input class="textinput textInput form-control" id="id_otro_servicio" maxlength="45" name="otro_servicio_salud" type="text" placeholder="Especifique Servicio o Establecimiento">
                 </div>
             </div>
 
@@ -166,7 +166,7 @@
             <div id="div_id_especifica_motivo" class="form-group">
                 <label for="id_especifica_motivo" class="control-label ">Especifica otro motivo</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_especifica_motivo" maxlength="45" name="especifica_motivo" type="text">
+                    <input class="textinput textInput form-control" id="id_especifica_motivo" maxlength="45" name="especifica_motivo" type="text" placeholder="Especifique Motivo">
                 </div>
             </div>
 
@@ -193,7 +193,7 @@
             <div id="div_id_especifica_escucho" class="form-group">
                 <label for="id_especifica_escucho" class="control-label ">Especifica Lugar</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_especifica_escucho" maxlength="45" name="especifica_escucho" type="text">
+                    <input class="textinput textInput form-control" id="id_especifica_escucho" maxlength="45" name="especifica_escucho" type="text" placeholder="Especifique Lugar">
                 </div>
             </div>
 
@@ -213,7 +213,7 @@
             <div id="div_id_otro_lugar_condones" class="form-group">
                 <label for="id_otro_lugar_condones" class="control-label ">Especifica Lugar</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_otro_lugar_condones" maxlength="45" name="otro_lugar_condones" type="text">
+                    <input class="textinput textInput form-control" id="id_otro_lugar_condones" maxlength="45" name="otro_lugar_condones" type="text" placeholder="Especifique Lugar">
                 </div>
             </div>
 
@@ -233,7 +233,7 @@
             <div id="div_id_otro_lugar_pruebas" class="form-group">
                 <label for="id_otro_lugar_pruebas" class="control-label ">Especifica Lugar</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_otro_lugar_pruebas" maxlength="45" name="id_otro_lugar_pruebas" type="text">
+                    <input class="textinput textInput form-control" id="id_otro_lugar_pruebas" maxlength="45" name="id_otro_lugar_pruebas" type="text" placeholder="Especifique Lugar">
                 </div>
             </div>
 
@@ -252,7 +252,7 @@
             <div id="div_id_otro_lugar_metodos" class="form-group">
                 <label for="id_otro_lugar_metodos" class="control-label ">Especifica Lugar</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_otro_lugar_metodos" maxlength="45" name="id_otro_lugar_metodos" type="text">
+                    <input class="textinput textInput form-control" id="id_otro_lugar_metodos" maxlength="45" name="id_otro_lugar_metodos" type="text" placeholder="Especifique Lugar">
                 </div>
             </div>
         </div>
@@ -377,7 +377,7 @@
             <div id="div_otro_servicio_sugerido" class="form-group">
                 <label for="id_otro_servicio_sugerido" class="control-label ">Especifica Otro</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="otro_servicio_sugerido" maxlength="45" name="otro_servicio_sugerido" type="text">
+                    <input class="textinput textInput form-control" id="otro_servicio_sugerido" maxlength="45" name="otro_servicio_sugerido" type="text" placeholder="Especifique Otro">
                 </div>
             </div>
         </div>
@@ -457,7 +457,7 @@
             <div id="div_id_otra_razon" class="form-group">
                 <label for="id_otra_razon" class="control-label ">Especifica Otra Razon</label>
                 <div class="controls ">
-                    <input class="textinput textInput form-control" id="id_otra_razon" maxlength="45" name="id_otra_razon" type="text">
+                    <input class="textinput textInput form-control" id="id_otra_razon" maxlength="45" name="id_otra_razon" type="text" placeholder="Especifique Otra Razon">
                 </div>
             </div>
         </div>
@@ -527,9 +527,10 @@
     <footer>
           <img src="images/footer.png" class = "img-footer" />
     </footer>
+
     <?php
-     $idioma =  $_POST['idiomas'];
-     if($idioma == "Ningun Idioma")
+        $idioma = $_GET['idiomas'];
+    if($idioma == "ni")
      {
      }
      elseif($idioma == "espaniol")

@@ -68,6 +68,7 @@ header
 	text-align: center;
 	font-size: 65%;
 	top: 0;
+
 }
 
 header figure
@@ -87,12 +88,7 @@ header #logo img, h3 img
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 }
-header #logo img:hover, h3 img:hover
-{
-	-moz-transform:rotate(360deg);
-	-webkit-transform:rotate(360deg);
-	-o-transform:rotate(360deg);
-}
+
 h3
 {
 	background: #009688;
@@ -102,7 +98,6 @@ h3
 	margin: 0.2em auto;
 	color: white;
 }
-
 
 input[type ="submit"]
 {
@@ -120,7 +115,12 @@ input[type ="submit"]:hover
 	background:#ff4842;
 	cursor: pointer; 
 	box-shadow: inset 0 -3px rgba(0,0,0,0.3);
+
 }
+label:hover{
+	cursor:pointer;
+}
+
 .btn
 {
 	position: relative;
@@ -182,7 +182,9 @@ input[type ="submit"]:hover
 	margin-bottom: -0.5em;
 	display: inline;
 }
+#myform{
 
+}
 #header-h2
 {
 	display: none;
@@ -209,6 +211,9 @@ input[type ="submit"]:hover
 	display: block;
 	text-align: left;
 	color: #003296
+}
+.pregunta:hover{
+	cursor:pointer;
 }
 @media screen and (max-width: 800px) {
 	body

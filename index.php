@@ -21,18 +21,25 @@
 </header>
 
 <div id="idiomas">
-    <p class="eIdioma">Elija un Idioma</p>
-    <form action="monitoreo.php" method="post">
-        <select name="idiomas" class = "form-control">
-            <option value="Ningun Idioma">Ningun Idioma</option>
-            <option value="aguacateco">Aguacateco</option>
-            <option value="espaniol">Español</option>
-            <option value="ixil">Ixil</option>
-            <option value="mam">Mam</option>
-        </select>
-        <input type="submit" value="Aceptar" class="btn btn-success"/>
-    </form>
+    <a href="monitoreo.php?idiomas=espaniol" class = "btn btn-primary">
+        <img src="images/maya.png" width="20px" alt=""/> Español
+    </a>
 
+    <a href="monitoreo.php?idiomas=aguacateco" class = "btn btn-primary">
+        <img src="images/maya.png" width="20px" alt=""/> Aguacateco
+    </a>
+
+    <a href="monitoreo.php?idiomas=mam" class = "btn btn-primary">
+        <img src="images/maya.png" width="20px" alt=""/> Mam
+    </a>
+
+    <a href="monitoreo.php?idiomas=ixil" class = "btn btn-primary">
+        <img src="images/maya.png" width="20px" alt=""/> Ixil
+    </a>
+
+    <a href="monitoreo.php?idiomas=ni" class = "btn btn-primary">
+        <img src="images/maya.png" width="20px" alt=""/> Sin Audio
+    </a>
 </div>
 
 <div id = "box-img">
@@ -69,6 +76,7 @@
         </a>
     </div>
 </div>
+<audio src="audios/Bienvenida.mp3" autoplay="autoplay"></audio>
 <!---->
 <footer>
     <div>

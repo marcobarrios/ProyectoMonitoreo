@@ -91,18 +91,29 @@ header a:hover
 	color: white;
 }
 
+#idiomas a{
+	width: 120px;
+	margin: 5px;
+}
 #idiomas{
 	text-align: center;
 	display: none;
+	padding: 3em;
 	background: #efefef;
+	background-image: url("../images/fh1.jpg");
 }
-#idiomas select{
+#idiomas a img{
+	-webkit-transition: 1.2s;
+	-o-transition: 1.2s;
+	-moz-transition: 1.2s;
+}
+#idiomas a img:hover{
+	-webkit-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+}
 
-	margin: 0.5em 0 0.5em 0;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
 #facebook
 {
 	padding: 1.5em;
@@ -132,7 +143,7 @@ header a:hover
 @media screen and (max-width: 650px) {
 	header
 	{
-	background-image: url("../images/header.jpg");
+	background-image: url("../images/header3.jpg");
 
 	}
 	header a
@@ -152,5 +163,8 @@ header a:hover
 		text-shadow: 3px 3px 5px #f00,
 		6px 6px 5px #0f0,
 		9px 9px 5px #00f;
+	}
+	#idiomas a{
+		margin: 5px;
 	}
 }

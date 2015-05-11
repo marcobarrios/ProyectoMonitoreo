@@ -4,6 +4,7 @@
         global $idioma;
         $idioma = $var1;
     }
+echo "hola munodo...$idioma";
 ?>
 
 <!--Informacion General-->
