@@ -11,18 +11,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
     <link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 <header>
-    <div>
-        <a href="monitoreo.php" class="btn btn-primary">Iniciar Encuesta</a>
-    </div>
     <h1>Me Muevo Por Mis Derechos Sexuales</h1>
+    <div id = "btn-login">
+        <a href="#" class="btn">Iniciar Encuesta</a>
+    </div>
 </header>
+
+<div id="idiomas">
+    <p class="eIdioma">Elija un Idioma</p>
+    <form action="monitoreo.php" method="post">
+        <select name="idiomas" class = "form-control">
+            <option value="Ningun Idioma">Ningun Idioma</option>
+            <option value="aguacateco">Aguacateco</option>
+            <option value="espaniol">Español</option>
+            <option value="ixil">Ixil</option>
+            <option value="mam">Mam</option>
+        </select>
+        <input type="submit" class="btn btn-success"/>
+    </form>
+
+</div>
 
 <div id = "box-img">
     <!---->
-    <div id="myCarousel" class = "carousel">
+    <div id="myCarousel" class = "carousel slide">
         <ol class = "carousel-indicators">
             <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
             <li data-target = "#myCarousel" data-slide-to = "1"></li>
@@ -63,5 +79,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="controllers/iniciar-encuesta.js"></script>
 </body>
 </html>

@@ -49,7 +49,7 @@ body
 	background-size: 100%;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
-	font-family: arial, sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 20px;
 
 }
@@ -61,8 +61,8 @@ footer
 }
 header
 {
-	background: no-repeat;
-	background-image: url("../images/header.jpg");
+	background: repeat-x;
+	background-image: url("../images/header3.jpg");
 	color: white;
 	padding: 0.3em;
 	text-align: center;
@@ -192,8 +192,16 @@ input[type ="submit"]:hover
 	font-weight: bolder;
 	font-family:  "Alex Brush";
 	font-size: 3em;
-	text-shadow: 3px 3px 5px #f00;
+	text-shadow: 3px 3px 5px #211095;
 	padding-top: -3em;
+	display: inline;
+}
+.container{
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .pregunta
 {
@@ -247,7 +255,7 @@ input[type ="submit"]:hover
 	}
 	#header-h2
 	{
-		display: inline-block;
+		display: inline;
 		font-weight: bolder;
 		font-family:  "Alex Brush";
 		font-size: 2.5em;

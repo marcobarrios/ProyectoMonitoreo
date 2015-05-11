@@ -48,8 +48,8 @@ footer div
 }
 header
 {
-	background: rgba(0, 150, 136, 0.02) no-repeat;
-	background-image: url("../images/header.jpg");
+	background: rgba(0, 150, 136, 0.02) repeat-x;
+	background-image: url("../images/header3.jpg");
 	background-size: auto;
 	overflow: hidden;
 	position: relative;
@@ -91,6 +91,18 @@ header a:hover
 	color: white;
 }
 
+#idiomas{
+	text-align: center;
+	display: none;
+	background: #efefef;
+}
+#idiomas select{
+
+	margin: 0.5em 0 0.5em 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 #facebook
 {
 	padding: 1.5em;
