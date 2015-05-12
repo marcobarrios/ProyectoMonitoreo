@@ -24,6 +24,7 @@
         <input type="hidden" name="latitud" id="latitud" value="">
         <input type="hidden" name="longitud" id="longitud" value="">
         <input type="hidden" name="altitud" id="altitud" value="">
+
         <div id="groupA" name="groupA">
             <h3> A. Información General</h3>
             <div id="div_id_sexo" class="form-group">
@@ -134,7 +135,7 @@
             </div>
 
             <div id="div_id_veces_visita" class="form-group">
-                <label class = "pregunta" onmouseover="PlaySound('b2')" onmouseout="StopSound('b2')">2. Las veces que has visitado el centro o puesto de Salud</label>
+                <label class = "pregunta" onclick="PlaySound('b2')" onmouseout="StopSound('b2')">2. Las veces que has visitado el centro o puesto de Salud</label>
                 <div class="controls ">
                     <input type="radio" name="veces_visita" value="0" hidden="" checked="true"/>
                     <label onclick="PlaySound('b2-1')" onmouseout="StopSound('b2-1')"><input type="radio" name="veces_visita" value="1" /> Primera Vez <br></label>
@@ -144,7 +145,7 @@
             </div>
 
             <div id="div_id_motivo_acercamiento" class="form-group">
-                <label class = "pregunta" onmouseover="PlaySound('b3')" onmouseout="StopSound('b3')">3. ¿Cuál fue el motivo por el que te  acercaste al centro o puesto de salud?</label>
+                <label class = "pregunta" onclick="PlaySound('b3')" onmouseout="StopSound('b3')">3. ¿Cuál fue el motivo por el que te  acercaste al centro o puesto de salud?</label>
                 <div class="controls" onchange="SelectChanged();">
                     <input type="radio" name="motivo_acercamiento" value="0" hidden="" checked="true"/>
                     <label onclick="PlaySound('b3-1')" onmouseout="StopSound('b3-1')"><input type="radio" name="motivo_acercamiento" value="1" /> Por Planificación Familiar <br></label>
@@ -237,7 +238,7 @@
                     <label onclick="PlaySound('b8-5')" onmouseout="StopSound('b8-5')"><input type="radio" name="consigue_metodos" value="5" /> Comadronas <br></label>
                     <label onclick="PlaySound('b8-6')" onmouseout="StopSound('b8-6')"><input type="radio" name="consigue_metodos" value="6" /> Otros <br></label>
                 </div>
-            </div>
+
             <div id="div_id_otro_lugar_metodos" class="form-group">
                 <label for="id_otro_lugar_metodos" class="control-label ">Especifica Lugar</label>
                 <div class="controls ">
@@ -511,6 +512,7 @@
         </div>
         
     </form>
+
     <footer>
           <img src="images/footer.png" class = "img-footer" />
     </footer>
@@ -542,5 +544,6 @@
      }
 
     ?>
+
 </body>
 </html>
