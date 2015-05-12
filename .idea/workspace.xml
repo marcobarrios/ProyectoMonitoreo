@@ -2,502 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e29ccc-b2c5-4ce6-924a-ae781b6d1e5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.1 SEXO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.1.1 FEMENINO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.1.2 MASCULINO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.2 RANGO DE EDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.2 RANGO DE EDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.2 RANGO DE EDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.2.1 13 A 15 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.2.1 13 A 15 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.2.1 13 A 15 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.2.2 16 A 18 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.2.2. 16 A 18 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.2.2. 16 A 18 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.2.3. 19 A21 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.2.3. 19 A21 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.2.3. 19 A21 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.2.4 22 A 25 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.2.4. 22 A 25 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.2.4. 22 A 25 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.2.5 MAS DE 25 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.2.5 MAS DE 25 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.2.5 MAS DE 25 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.3 ESTADO CIVIL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.3 ESTADO CIVIL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.3 ESTADO CIVIL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.3.1 CASADO (A).wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.3.1 CASADO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.3.1 CASADO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.3.2 UNIDO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.3.2 UNIDO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.3.2 UNIDO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.3.3 SOLTERO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.3.3 SOLTERO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.3.3 SOLTERO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.3.4 DIVORCIADO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.3.4 DIVORCIADO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.3.4 DIVORCIADO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.4 A QUE SE DEDICA ACTUALMENTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.4 A QUE SE DEDICA ACTUALMENTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.4 A QUE SE DEDICA ACTUALMENTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.4.1 ESTUDIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.4.1 ESTUDIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.4.1 ESTUDIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.4.2 TRABAJA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.4.2 TRABAJA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.4.2 TRABAJA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.4.3 AMBOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.4.3 AMBOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.4.3 AMBOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.4.4 NINGUNO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.4.4 NINGUNO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.4.4 NINGUNO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.5 CULTURA A LA QUE PERTENECE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.5 CULTURA A LA QUE PERTENECE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.5 CULTURA A LA QUE PERTENECE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.5.1 MESTIZO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.5.1 MESTIZO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.5.1 MESTIZO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.5.2 MAYA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.5.2 MAYA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.5.2 MAYA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.5.3 MAYA MAM.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.5.3 MAYA MAM.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.5.3 MAYA MAM.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.5.4 MAYA KICHE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.5.4 MAYA KICHE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.5.4 MAYA KICHE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.5.5 MAYA CHALCHITECO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.5.5 MAYA CHALCHITECO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.5.5 MAYA CHALCHITECO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.5.6 MAYA IXIL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.5.6 MAYA IXIL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.5.6 MAYA IXIL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.5.7 MAYA AGUACATECO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.5.7 MAYA AGUACATECO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.5.7 MAYA AGUACATECO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.5.8 OTRO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.5.8 OTRO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.5.8 OTRO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.6 SITUACION DE VIVIENDA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.6 SITUACION DE VIVIENDA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.6 SITUACION DE VIVIENDA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.6.1 CASA PROPIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.6.1 CASA PROPIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.6.1 CASA PROPIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.6.2 ALQUILA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.6.2 ALQUILA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.6.2 ALQUILA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.6.3 VIVE CON SUS PADRES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.6.3 VIVE CON SUS PADRES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.6.3 VIVE CON SUS PAPAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.6.4 ALGUN FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.6.4 ALGUN FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.6.4 ALGUN FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/A.6.5 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/A.6.5 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/A.6.5 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.1 TIPO DE SERVICIO O ESTABLECIMIENTO DE SALUD QUE USAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.1 TIPO DE SERVICIO O ESTABLECIMIENTO DE SALUD QUE USAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.1 TIPO DE SERVICIO O ESTABLECIMIENTO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.1.1 CAP.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.1.1 CAP.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.1.1 CAP.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.1.2 PEC.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.1.2 PEC.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.1.2 PEC.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.1.3 CENTRO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.1.3 CENTRO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.1.3 CENTRO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.1.4 ESPACIOS AMIGABLES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.1.4 ESPACIOS AMIGABLES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.1.4 ESPACIOS AMIGABLES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.1.5 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.1.5 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.1.5 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.1.6 OTROS, ESPECIFIQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.1.6 OTROS, ESPECIFIQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.1.6 OTROS, ESPECIFIQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.2 LAS VECES QUE HAS VICITADO EL PUESTO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.2 LAS VECES QUE HAS VICITADO EL PUESTO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.2 LAS VECES QUE HAS VISITADO EL PUESTO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.2.1 PRIMERA VEZ.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.2.1 PRIMERA VEZ.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.2.1 PRIMERA VEZ.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.2.2 CON REGULARIDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.2.2 CON REGULARIDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.2.2 CON REGULARIDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.2.3 DE VEZ EN CUANDO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.2.3 DE VEZ EN CUANDO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.2.3 DE VEZ EN CUANDO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.3 CUAL FUE EL MOTIVO POR EL QUE TE ACERCASTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.3 CUAL FUE EL MOTIVO POR EL QUE TE ACERCASTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.3 CUAL FUE EL MOTIVO POR EL QUE TE ACERCASTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.3.1 POR PLANIFICACION FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.3.1 POR PLANIFICACION FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.3.1 POR PLANIFICACION FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.3.2 POR INFORMACION SOBRE SEXUALIDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.3.2 POR INFORMACION SOBRE SEXUALIDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.3.2 POR INFORMACION SOBRE SEXUALIDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.3.3 DEMANDAD DE CONDONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.3.3 DEMANDAD DE CONDONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.3.3 DEMANDAD DE CONDONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.3.4 PRUEBAS DE VIH.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.3.4 PRUEBAS DE VIH.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.3.4 PRUEBAS DE VIH.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.3.5 POR RIESGO DE UN ABUSO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.3.5 POR RIESGO DE UN ABUSO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.3.5 POR RIESGO DE UN ABUSO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.3.6 POR ALCOHOLISMOO DROGAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.3.6 POR ALCOHOLISMOO DROGAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.3.6 POR ALCOHOLISMOS O DROGAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.3.7 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.3.7 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.3.7 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.4 EXISTE PERSONAL CAPACITADO PARA BRINDAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.4 EXISTE PERSONAL CAPACITADO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.4 EXISTE PERSONAL CAPACITADO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.4.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.4.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.4.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.4.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.4.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.4.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.5 DONDE ESCUCHATE SOBRE LOS PROGRAMAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.5 DONDE ESCUCUCHASTE SOBRE LOS PROGRAMAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.5 DONDE ESCUCUCHASTE SOBRE LOS PROGRAMAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.5.1 MEDIOS DE COMUNICACION LOCAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.5.1 MEDIOS DE COMUNICACION LOCAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.5.1 MEDIOS DE COMUNICACION LOCAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.5.2 AMIGOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.5.2 AMIGOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.5.2 AMIGOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.5.3 ESCUELAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.5.3 ESCUELAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.5.3 ESCUELAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.5.4 CENTRO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.5.4 CENTRO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.5.4 CENTRO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.5.5 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.5.5 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.5.5 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6 EN TU COM,UNIDAD DONDE CONSIGUES LOS SIGUIENTES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6 EN TUCOMUNIDAD DONDE CONSIGUES LOS SIGUIENTES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6 EN TUCOMUNIDAD DONDE CONSIGUES LOS SIGUIENTES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.1 CONDONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.1 CONDONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.1 CONDONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.1.1 CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.1.2 CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.1.2 CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.1.2 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.1.3 FARMACIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.1.3 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.1.3 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.1.4 FARMACIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.1.4 FARMACIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.1.4 HOSPITAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.1.5 COMADRONAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.1.5 HOSPITAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.1.5 HOSPITAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.1.6 COMADRONAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.1.6 COMADRONAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.1.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.1.7 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.1.7 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.2 PRUEBAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.2 PRUEBAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.2 PRUEBAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.2.1 CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.2.1 CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.2.1 CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.2.2 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.2.2 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.2.2 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.2.3 FARMACIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.2.3 FARMACIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.2.3 FARMACIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.2.4 HOSPITAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.2.4 HOSPITAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.2.4 HOSPITAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.2.5 COMADRONAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.2.5 COMADRONAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.2.5 COMADRONAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.2.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.2.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.2.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.3 METODOS DE PLANIFICACION FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.3 METODOS DE PLANIFICACION FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.3 METODOS DE PLANIFICACION FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.3.1 CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.3.1 CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.3.1 CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.3.2 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.3.2 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.3.2 ONG.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.3.3 FARMACIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.3.3 FARMACIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.3.3 FARMACIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.3.4 HOSPITAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.3.4 HOSPITAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.3.4 HOSPITAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.3.5 COMADRONAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.3.5 COMADRONAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.3.5 COMADRONAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/B.6.3.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/B.6.3.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/B.6.3.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.1 HAS TENIDO RELACIONES SEXUALES EN LOS ULTIMOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.1 HAS TENIDORELACIONES SEXUALES EN LOS ULTIMOS SEIS MESES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.1 HAS TENIDORELACIONES SEXUALES EN LOS ULTIMOS SEIS MESES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.1.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.1.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.1.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.1.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.1.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.1.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.2 A QUE EDAD INICIASTE TUS RELACIONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.2 A QUE EDAD INICIASTE TUS RELACIONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.2 A QUE EDAD INICIASTE TUS RELACIONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.2.1  10 A 15 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.2.1 10 A 15 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.2.1 10 A 15 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.2.2 16 A 18 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.2.2 16 A 18 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.2.2 16 A 18 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.2.3 19 A 24 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.2.3 19 A 24 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.2.3 19 A 24 AÑOS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.2.4 NO HE TENIDO RELACIONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.2.4 NO HE TIENIDO RELACIONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.2.4 NO HE TIENIDO RELACIONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.3 EN LA ULTIMA RELACION SEXUAL QUE TUVISTE TE ENCONTRABAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.3 EN LA ULTIMA RELACION SEXUAL QUE TUVISTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.3 EN LA ULTIMA RELACION SEXUAL QUE TUVISTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.3.1 EN ESTADO DE EBRIEDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.3.1 EN ESTADO DE EBRIEDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.3.1 EN ESTADO DE EBRIEDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.3.2 BAJO EFECTO DE DROGAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.3.2 BAJO EFECTO DE DROGAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.3.2 BAJO EFECTOS DE DROGAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.3.3 VIOLACION.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.3.3 VIOLACION.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.3.3 VIOLACION.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.4 CON QUIEN TUVISTE RELACIONES SEXUALES EN LA ULTIMA RELACION.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.4 CON QUIEN TUVISTE RELACIONES SEXUALES EN LA ULTIMA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.4 CON QUIEN TUVISTE RELACIONES SEXUALES EN LA ULTIMA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.4.1 NOVIA O NOVIO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.4.1 NOVIO (A).wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.4.1 NOVIO (A).wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.4.2 AMIGO (A).wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.4.2 AMIGO (A).wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.4.2 AMIGO A OMAIGA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.4.3 TRABAJADORA DEL SEXO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.4.3 TRABAJADORA DEL SEXO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.4.3 TRABAJADORA DEL SEXO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.4.4 PERSONA DESCONOCIDA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.4.4 PERSONA DESCONOCIDA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.4.4 PERSONA DESCONOCIDA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.5 UTILIZASTE CONDON EN TU ULTIMA RELACION SEXUAL.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.5 UTILIZASTE CONDON.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.5 UTILIZASTE CONDON.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.5.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.5.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.5.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.5.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.5.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.5.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.6 SABES COMO USAR UN CONDON CORRECTAMENTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.6 SABES COMO USAR UN CONDON.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.6 SABES COMO USAR UN CONDON.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.6.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.6.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.6.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.6.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.6.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.6.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.7 HAS REQUERIDO UNA ATENCION DEL SERVICIO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.7 HAS REQUERIDO UNA ATENCION DEL SERVICIO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.7 HAS REQUERIDO UNA ATENCION DEL SERVICIO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.7.1 LLAGAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.7.1 LLAGAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.7.1 LLAGAS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.7.2 COMEZON O PICAZON EN SUS GENITALES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.7.2 COMEZON O PICAZON EN SUS GENITALES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.7.2 COMEZON O PICAZON.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.7.3 DOLOR O ARDOR AL ORINAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.7.3 DOLOR O ARDOR AL ORINAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.7.3 DOLOR O ARDOR AL ORINAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.7.4 MATERIA O PUS EN SUS GENITALES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.7.4 MATERIA O PUS EN SUS GENITALES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.7.4 MATERIO O PUS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.7.5 FLUJO VAGINAL ESPESO O CON MAL OLOR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.7.5 FLUJO VAGINAL ESPESO O CON MAL OLOR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.7.5 FLUJO VAGINAL ESPESO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.7.6 ULCERAS EN LOS GENITALES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.7.6 ULCERAS EN LOS GENITALES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.7.6ULCERAS EN LOS GENITALES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.7.7 OTROS, ESPECIFIQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.8 QUE SEGICIOS SUGIRES QUE SE BRINDEN.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.8 QUE SEGICIOS SUGIRES QUE SE BRINDEN.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.8 QUE SERVICIOS SUGIERES QUE SE BRINDEN EN EL CENTRO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.8.1 PRUEBAS DE VIH.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.8.1 PRUEBAS DE VIH.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.8.1 PRUEBAS DE VIH.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.8.2 KIT DE EMERGENCIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.8.2 KIT DE EMERGENCIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.8.2 KIT DE EMERGENCIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.8.3 ESPACIOS AMIGABLES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.8.3 ESPACIOS AMIGABLES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.8.3 ESPACIOS AMIGABLES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.8.4 METODOS DE PLANIFICACION FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.8.4 METODOS DE PLANIFICACION FAMILIAR.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.8.4 METODOS DE PLANIFICACION.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.8.5 CONDONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.8.5 CONDONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.8.5 CONDONES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C.8.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C.8.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/C.8.6 OTROS.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/C7.7 OTROS, ESPECIFIQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/C7.7 OTROS, ESPECIFIQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D. PRACTICAS Y COSTUMBRES.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.1 SEGUN LA CULTURA DE LA COMUNIDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.1 SEGUN LA CULTURA DE LA COMUNIDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.1 SEGUN LA CULTURA.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.1.1 HOMBRES.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.1.1 HOMBRES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.1.1 HOMBRES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.1.2 HOMBRE Y MUJERES.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.1.2 HOMBRES Y MUJERES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.1.2 HOMBRES Y MUJERES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.1.3 TRABAJADORAS DEL SEXO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.1.3 TRABAJADORAS DEL SEXO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.1.3 TRABAJADORAS DEL SEXO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.1.4 PARA LOS DE LA CIUDAD.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.1.4 PARA LOS DE LA CIUDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.1.4 PARA LOS DE LA CIUDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.2 SE PUEDE HABLAR LIBREMENTE DEL USO DEL CONDON.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.2 SE PUEDE HABLAR LIBREMENTE DEL USO DEL CONDON.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.2 SE PUEDE HABLAR LIBREMENTE.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.2.1 SI.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.2.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.2.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.2.2 NO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.2.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.2.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.3 SE PUEDE HABLAR LIBREMENTE SOBRE HACERSE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.3 SE PUEDE HABLAR LIBREMENTE SOBRE HACERSE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.3 SE PUEDE HABLAR SOBRE LAS PRUEVAS.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.3.1 SI.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.3.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.3.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.3.2 NO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.3.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.3.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.4 CONSIDERAS QUE TIENEN DERECHO LAS MUJERES.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.4 EN TU OPINION CONSIDERAS QUE LAS MUJERES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.4 EN TU OPINION CONSIDERAS QUE LAS MUJERES.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.4.1 SI.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.4.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.4.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.4.2 NO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.4.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.4.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.4.3 PORQUE.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.4.3 PORQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.4.3 PORQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.5 EN TU OPINION LA MUJERES TIENEN DERECHO A DECIDIR USAR UN CONDON.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.5 EN TU OPINION LA MUJERES TIENEN DERECHO A DECIDIR USAR UN CONDON.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.5 LAS MUJERES TIENEN DERECHO A USAR CONDON.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.5.1 SI.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.5.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.5.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.5.2 NO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.5.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.5.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.5.3 PORQUE.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.5.3 PROQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.5.3 PROQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.6 CUAL ES LA RESPUESTA DE LA ATENCION.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.6 CUAL ES LA RESPUESTA DE LA ATENCION.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.6 CUAL ES LA RESPUESTA DE LA ATENCION.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.6.1 SOLO SE PROPORCIONAN A MAYORES DE EDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.6.1 SOLO SE PROPORCIONAN A MAYORES DE EDAD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.6.1 SOLO SE PROPORCIONAN A MAYORES.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.6.2 SE DEBE FIRMAR CONCENTIMIENTO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.6.2 SE DEBE FRIMAR UN CONCENTIMIENTO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.6.2 SE DEBE FRIMAR UN CONCENTIMIENTO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.6.3 SE DEBE ESTAR ACOMPAÑADO POR UN ADULTO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.6.3 SE DEBE ESTAR ACOMPAÑADO POR UN ADULTO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.6.3 SE DEBE ESTAR ACOMPAÑADO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.6.4 NO HAY.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.6.4 NO HAY.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.6.4 NO HAY.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/D.6.5 OTRO ESPECIFIQUE.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/D.6.5 OTRO, ESPECIFIQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/D.6.5 OTRO, ESPECIFIQUE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E. ACCESO A INFORMACION SOBRE KIT.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E.1 EXISTE SERVICIO O ATENCION EN EL CENTRO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/E.1 EXISTE SERVICIO P ATENCION EN EL CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/E.1 EXISTE SERVICIO P ATENCION EN EL CENTRO O PUESTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E.1.1 SI.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/E.1.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/E.1.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E.1.2 NO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/E.1.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/E.1.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E.2 EL CENTRO DE SERVICIO CUENTA CON KIT.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/E.2 EL CENTRO DE SERVICO CUENTA CON KIT DE EMERGENCIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/E.2 EL CENTRO DE SERVICO CUENTA CON KIT DE EMERGENCIA.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E.2.1 SI.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/E.2.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/E.2.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E.2.2 NO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/E.2.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/E.2.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/E.3 EL PRESTADOR DE SERVICIOS SABE SOBRE EL MANEJO DE KIT.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/E.3 EL PRESTADOR DE SERVICIOS SABE SOBRE EL MANEJO DE KIT.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E.3 EL PRESTADOR DE SERVICIOS SABE SOBRE EL MANEJO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E.3.1 SI.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/E.3.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/E.3.1 SI.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/E.3.2 NO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/E.3.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/E.3.2 NO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F. SOBRE LA INFORMACION SALUD SR.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F.1 COMO CALIFICAS EL SERVICIO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/F.1 COMO CALIFICAS EL SERVICIO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/F.1 COMO CALIFICAS EL SERVICIO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F.1.1 EXCELENTE.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/F.1.1 EXELENTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/F.1.1 EXELENTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F.1.2 BUENO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/F.1.2 BUENO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/F.1.2 BUENO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F.1.3 PESIMO.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/F.1.3 PESIMO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/F.1.3 PESIMO.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F.1.4 DEFICIENTE.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/F.1.4 DEFICIENTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/F.1.4 DEFICIENTE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/F.2 EL HORARIO DE ATENCION DEL ESTABLECIMIENTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/F.2 EL HORARIO DE ATENCION DEL ESTABLECIMIENTO DE SALUD.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F.2 HORARIO DE ATENCION TE RESULTA.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F.2.1 ACCESIBLE.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/F.2.1 ACCESIBLE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/F.2.1 ACCESIBLE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F.2.2 POCO ACCESIBLE.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/F.2.2 POCO ACCESIBLE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/F.2.2 POCO ACCESIBLE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/mam/F.2.3 INACCESIBLE.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/aguacateco/F.2.3 INACCESIBLE.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audios/espaniol/F.2.3 INACCESIBLE.wav" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\images.rar" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/header.jpg" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ProyectoMonitoreo\images\footer - copia.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/header3.jpg" afterPath="$PROJECT_DIR$/images/header3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/r2.png" afterPath="$PROJECT_DIR$/images/r2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/r3.jpg" afterPath="$PROJECT_DIR$/images/r3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoreo.php" afterPath="$PROJECT_DIR$/monitoreo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles-portada.css" afterPath="$PROJECT_DIR$/styles/styles-portada.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Monitoreo.iws" />
@@ -523,11 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1632">
-              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+            <state vertical-scroll-proportion="-39.23077" vertical-offset="0" max-vertical-offset="1632">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles-portada.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/styles-portada.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="804" max-vertical-offset="2856">
+              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -536,24 +57,19 @@
       <file leaf-file-name="monitoreo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monitoreo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="442" max-vertical-offset="9418">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="9418">
+              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guardardatos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="8755">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <marker date="1431366477441" expanded="true" signature="508:634" placeholder="INSERT INTO ..." />
-                <marker date="1431366477441" expanded="true" signature="1146:1202" placeholder="SELECT MAX(i..tblEncuestas..." />
-                <marker date="1431366477441" expanded="true" signature="1448:1545" placeholder="INSERT INTO ..." />
-                <marker date="1431366477441" expanded="true" signature="25672:25772" placeholder="INSERT INTO ..." />
-              </folding>
+            <state vertical-scroll-proportion="5.517298" vertical-offset="0" max-vertical-offset="4743">
+              <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -575,18 +91,18 @@
         <option value="$PROJECT_DIR$/audios/espaniol.php" />
         <option value="$PROJECT_DIR$/audios/espan.php" />
         <option value="$PROJECT_DIR$/controllers/iniciar-encuesta.js" />
-        <option value="$PROJECT_DIR$/styles/styles.css" />
-        <option value="$PROJECT_DIR$/styles/styles-portada.css" />
         <option value="$PROJECT_DIR$/audios/audios.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/monitoreo.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/styles/styles-portada.css" />
+        <option value="$PROJECT_DIR$/styles/styles.css" />
       </list>
     </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -616,6 +132,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -634,51 +151,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Monitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoMonitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Monitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoMonitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Monitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoMonitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -695,7 +169,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\ProyectoMonitoreo\images" />
       <recent name="C:\xampp\htdocs\ProyectoMonitoreo\styles" />
       <recent name="C:\xampp\htdocs\ProyectoMonitoreo" />
     </key>
@@ -704,13 +177,31 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
     <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
       <method />
     </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <option name="name" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="Node-webkit">
+      <option name="name" value="" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -720,37 +211,18 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
-      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
-      <option name="name" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeWebKit" factoryName="Node-webkit">
-      <option name="name" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -832,13 +304,7 @@
       <option name="project" value="LOCAL" />
       <updated>1431393403785</updated>
     </task>
-    <task id="LOCAL-00012" summary="Otros cambios">
-      <created>1431396843302</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1431396843302</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -852,7 +318,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2057101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20644216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -892,14 +358,27 @@
     <MESSAGE value="menu idiomasa" />
     <MESSAGE value="menu idiomasa12" />
     <MESSAGE value="342" />
-    <MESSAGE value="Otros cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Otros cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="342" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/monitoreo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="8262">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="7157">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1853">
@@ -1152,31 +631,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audios/espan.php">
+    <entry file="file://$PROJECT_DIR$/controllers/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/styles-portada.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1416" max-vertical-offset="2992">
-          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/audios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3360791" vertical-offset="0" max-vertical-offset="607">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1187,69 +650,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/iniciar-encuesta.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3360791" vertical-offset="0" max-vertical-offset="607">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42009884" vertical-offset="0" max-vertical-offset="1853">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10378913" vertical-offset="1960" max-vertical-offset="4777">
-          <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audios/audios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29259896" vertical-offset="68" max-vertical-offset="3740">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.056013178" vertical-offset="0" max-vertical-offset="607">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="8755">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1431366477441" expanded="true" signature="508:634" placeholder="INSERT INTO ..." />
-            <marker date="1431366477441" expanded="true" signature="1146:1202" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1431366477441" expanded="true" signature="1448:1545" placeholder="INSERT INTO ..." />
-            <marker date="1431366477441" expanded="true" signature="25672:25772" placeholder="INSERT INTO ..." />
-          </folding>
+        <state vertical-scroll-proportion="-0.9876761" vertical-offset="612" max-vertical-offset="8755">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/r3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/r1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoreo.php">
+    <entry file="file://$PROJECT_DIR$/audios/espan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="442" max-vertical-offset="9418">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/audios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3360791" vertical-offset="0" max-vertical-offset="607">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audios/audios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3201375" vertical-offset="3159" max-vertical-offset="3740">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="391" max-vertical-offset="1632">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        <state vertical-scroll-proportion="-39.23077" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/styles-portada.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="804" max-vertical-offset="2856">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoreo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="9418">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.517298" vertical-offset="0" max-vertical-offset="4743">
+          <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
           <folding />
         </state>
       </provider>

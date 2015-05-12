@@ -53,17 +53,17 @@
 
         <div class="carousel-inner">
             <div class = "item active">
-                <img src="images/r1.png" alt="img1" class = "img-responsive">
+                <img src="images/r1.png" alt="img1" class = "img-responsive"  width="1350px" height="500px">
                 <div class = "carousel-caption">
                 </div>
             </div>
             <div class = "item">
-                <img src="images/r2.png" alt="img12" class = "img-responsive">
+                <img src="images/r2.png" alt="img12" class = "img-responsive" width="1350px" height="500px">
                 <div class = "carousel-caption">
                 </div>
             </div>
             <div class = "item">
-                <img src="images/r3.jpg" alt="img3"  class = "img-responsive">
+                <img src="images/r3.jpg" alt="img3"  class = "img-responsive" width="1350px" height="500px">
                 <div class = "carousel-caption">
                 </div>
             </div>
