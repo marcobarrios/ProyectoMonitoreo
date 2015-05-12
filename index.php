@@ -26,15 +26,15 @@
     </a>
 
     <a href="monitoreo.php?idiomas=aguacateco" class = "btn btn-primary">
-        <img src="images/maya.png" width="20px" alt=""/> Aguacateco
+        <img src="images/maya2.png" width="20px" alt=""/> Aguacateco
     </a>
 
     <a href="monitoreo.php?idiomas=mam" class = "btn btn-primary">
-        <img src="images/maya.png" width="20px" alt=""/> Mam
+        <img src="images/maya3.png" width="20px" alt=""/> Mam
     </a>
 
     <a href="monitoreo.php?idiomas=ixil" class = "btn btn-primary">
-        <img src="images/maya.png" width="20px" alt=""/> Ixil
+        <img src="images/maya4.png" width="20px" alt=""/> Ixil
     </a>
 
     <a href="monitoreo.php?idiomas=ni" class = "btn btn-primary">
