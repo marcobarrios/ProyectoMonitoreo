@@ -1,10 +1,10 @@
 <?php
     $idioma;
-    function var1($var1){
+    function var1($var1)
+    {
         global $idioma;
         $idioma = $var1;
     }
-echo "hola munodo...$idioma";
 ?>
 
 <!--Informacion General-->

@@ -20,20 +20,13 @@
         <h2 id = "header-h1">Instrumento para el Monitoreo y Demanda de Servicios de Salud Sexual y Reprodutiva</h2>
         <h2 id = "header-h2">Instrumento de Monitoreo</h2>
     </header>
-
     <form name="myform" method="post" action="controllers/guardardatos.php" id = "myform">
-
         <input type="hidden" name="latitud" id="latitud" value="">
         <input type="hidden" name="longitud" id="longitud" value="">
         <input type="hidden" name="altitud" id="altitud" value="">
-
         <div id="groupA" name="groupA">
             <h3> A. Información General</h3>
-
-
-
             <div id="div_id_sexo" class="form-group">
-
                 <label class = "pregunta" onclick="PlaySound('a1')">1. Género</label>
                 <div class="controls">
                         <input type="radio" name="sexo" value="0" hidden="" checked="true"/>
@@ -178,7 +171,6 @@
                     <label onclick="PlaySound('b4-2')" onmouseout="StopSound('b4-2')"><input type="radio" name="personal_capacitado" value="2" /> No <br></label>
                 </div>
             </div>
-
             <div id="div_id_donde_escucho" class="form-group">
                 <label class = "pregunta" onclick="PlaySound('b5')" onmouseout="StopSound('b5')">5. ¿Dónde escuchaste sobre los Programas de Salud Sexual y Reproductiva y VIH?</label>
                 <div class="controls " onchange="SelectChanged();">
@@ -196,7 +188,6 @@
                     <input class="textinput textInput form-control" id="id_especifica_escucho" maxlength="45" name="especifica_escucho" type="text" placeholder="Especifique Lugar">
                 </div>
             </div>
-
             <div id="div_id_consige_condones" class="form-group">
                 <label class = "pregunta" onclick="PlaySound('b6')" onmouseout="StopSound('b6')">6.1 ¿En tu comunidad donde consigues los condones?
                 </label>
@@ -216,7 +207,6 @@
                     <input class="textinput textInput form-control" id="id_otro_lugar_condones" maxlength="45" name="otro_lugar_condones" type="text" placeholder="Especifique Lugar">
                 </div>
             </div>
-
             <div id="div_id_consigue_pruebas" class="form-group">
                 <label class = "pregunta" onclick="PlaySound('b7')" onmouseout="StopSound('b7')">6.2 ¿En tu comunidad donde consigues las pruebas de embarazo?
                 </label>
@@ -236,7 +226,6 @@
                     <input class="textinput textInput form-control" id="id_otro_lugar_pruebas" maxlength="45" name="id_otro_lugar_pruebas" type="text" placeholder="Especifique Lugar">
                 </div>
             </div>
-
             <div id="div_id_consigue_metodos" class="form-group">
                 <label class = "pregunta" onclick="PlaySound('b8')" onmouseout="StopSound('b8')">6.3 ¿En tu comunidad donde consigues Métodos de Planificación Familiar?
                 </label>
@@ -259,7 +248,6 @@
 
         <div id="groupC" name="groupC">
             <h3>C. Sobre comportamientos y riesgo sexual</h3>
-
             <div id="div_id_id_inicio_relacion" class="form-group">
                 <label class = "pregunta" onclick="PlaySound('c1')" onmouseout="StopSound('c1')">1. ¿A qué edad iniciaste tus relaciones sexuales?</label>
                 <div class="controls " onchange="SelectChanged();">
@@ -358,7 +346,6 @@
                         <td>    <label> <input type="radio" name="ulcera" value="1" /> Si </label></td>
                         <td>   <label><input type="radio" name="ulcera" value="2" /> No</label></td>
                     </tr>
-
                 </table>
                 </div>
             </div>
