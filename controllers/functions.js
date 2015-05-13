@@ -8,12 +8,6 @@ function SelectChanged() {
         ocultar('div_id_otra_cultura');
     }
 
-    if(document.myform.vivienda.value == "5") {
-        mostrar('div_id_otra_vivienda');
-    } else {
-        ocultar('div_id_otra_vivienda');
-    }
-
     if(document.myform.idservicio_salud.value == "6") {
         mostrar('div_id_otro_servicio');
     } else {
@@ -36,12 +30,6 @@ function SelectChanged() {
         mostrar('div_id_otro_lugar_condones');
     } else {
         ocultar('div_id_otro_lugar_condones');
-    }
-
-    if(document.myform.consigue_pruebas.value == "6") {
-        mostrar('div_id_otro_lugar_pruebas');
-    } else {
-        ocultar('div_id_otro_lugar_pruebas');
     }
 
     if(document.myform.consigue_metodos.value == "6") {
