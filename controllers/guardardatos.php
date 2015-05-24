@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Monitoreo</title>
-</head>
-<body>
 <?php
 /**
  * Created by PhpStorm.
@@ -269,7 +262,7 @@ if ($mysqli === false) {
                                                                                                                                                                                         $stmt->bind_param('sdis', $idrespuestatexto, $norespuesta, $idencuesta, $texto);
                                                                                                                                                                                         if ($stmt->execute()) {
                                                                                                                                                                                             $mysqli->close();
-                                                                                                                                                                                            header('Location: ../index.php');
+                                                                                                                                                                                            redir();
                                                                                                                                                                                         } else {
                                                                                                                                                                                             echo "ERROR: No fue posible ejecutar consulta: $sql. " . $mysqli->error;
                                                                                                                                                                                         }
@@ -404,5 +397,14 @@ if ($mysqli === false) {
     }
     //</editor-fold>
 }
+
+function redir(){
+    if (headers_sent()) {
+        echo "<!DOCTYPE HTML> <html lang='en-US'> <head> <meta charset='UTF-8'> <meta http-equiv='refresh' content='1;url=http://www.parlamentoninez.org/monitoreo'> <script type='text/javascript'> window.location.href = 'http://www.parlamentoninez.org/monitoreo' </script> <title>Redireccion</title> </head> <body> <!-- Note: don't tell people to `click` the link, just tell them that it is a link. --> Si no es redirigido a la página de inicio, pulse el siguiente enlace <a href='http://www.parlamentoninez.org/monitoreo'>INICIO</a> </body> </html>";
+    }
+    else {
+        exit(header("Location: http://www.parlamentoninez.org/monitoreo"));
+    }
+}
+
 ?>
-</body>

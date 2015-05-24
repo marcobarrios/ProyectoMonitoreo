@@ -14,7 +14,7 @@
 </head>
 <body>
 <header>
-    <h1>Me Muevo Por Mis Derechos Sexuales</h1>
+    <h1>Me Muevo Por Mis Derechos Sexuales y Reproductivos</h1>
     <div id = "btn-login">
         <a href="#" class="btn">Iniciar Encuesta</a>
     </div>
