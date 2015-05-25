@@ -36,7 +36,7 @@
         </div>
 
         <div id="div_id_rango_edad" class="form-group">
-            <label class = "pregunta" onclick="PlaySound('a2')">2. Rango de Edad.</label>
+            <label class = "pregunta" onclick="PlaySound('a2')">2. Rango de edad.</label>
             <div class="controls">
                 <input type="radio" name="rangoedad" value="0" hidden="" checked="true"/>
                 <label><input type="radio" name="rangoedad" value="1"/> 10 a 12 años <br></label>
@@ -49,7 +49,7 @@
         </div>
 
         <div id="div_id_estado_civil" class="form-group">
-            <label class = "pregunta" onclick="PlaySound('a3')" onmouseout="StopSound('a3')">3. Estado Civil.</label>
+            <label class = "pregunta" onclick="PlaySound('a3')" onmouseout="StopSound('a3')">3. Estado civil.</label>
             <div class="controls">
                 <input type="radio" name="estadocivil" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('a3-1')" onmouseout="StopSound('a3-1')"><input type="radio" name="estadocivil" value="1"/> Casado <br></label>
@@ -74,7 +74,7 @@
             <label class = "pregunta">¿En que trabajas?</label>
             <div class="controls" onchange="SelectChanged();">
                 <input type="radio" name="optrabajo" value="0" hidden="" checked="true"/>
-                <label><input type="radio" name="otrotrabajo" value="1"/> Oficios Domésticos <br></label>
+                <label><input type="radio" name="otrotrabajo" value="1"/> Oficios domésticos <br></label>
                 <label><input type="radio" name="otrotrabajo" value="2"/> Agricultura <br></label>
                 <label><input type="radio" name="otrotrabajo" value="3"/> Tejeduría <br></label>
                 <label><input type="radio" name="otrotrabajo" value="4"/> Comerciante <br></label>
@@ -87,9 +87,9 @@
         </div>
 
         <div id="div_id_otrotrabajo" class="form-group">
-            <label for="id_otrotrabajo" class="control-label ">Especifica Otro Trabajo</label>
+            <label for="id_otrotrabajo" class="control-label ">Especifica otro trabajo</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="id_otro_trabajo" maxlength="45" name="otro_trabajo" type="text" placeholder="Especifique Otro Trabajo">
+                <input class="textinput textInput form-control" id="id_otro_trabajo" maxlength="45" name="otro_trabajo" type="text" placeholder="Ingresa otro trabajo">
             </div>
         </div>
 
@@ -110,7 +110,7 @@
         <div id="div_id_otra_cultura" class="form-group">
             <label for="id_otra_cultura" class="control-label ">Especifica tu cultura</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="id_otra_cultura" maxlength="45" name="otra_cultura" type="text" placeholder="Especifique cultura">
+                <input class="textinput textInput form-control" id="id_otra_cultura" maxlength="45" name="otra_cultura" type="text" placeholder="Ingresa cultura">
             </div>
         </div>
     </div>
@@ -134,7 +134,7 @@
         <div id="div_id_otro_servicio" class="form-group">
             <label for="id_otro_servicio" class="control-label ">Especifica otro servicio o establecimiento</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="id_otro_servicio" maxlength="45" name="otro_servicio_salud" type="text" placeholder="Especifique Servicio o Establecimiento">
+                <input class="textinput textInput form-control" id="id_otro_servicio" maxlength="45" name="otro_servicio_salud" type="text" placeholder="Especifica servicio o establecimiento">
             </div>
         </div>
 
@@ -142,9 +142,9 @@
             <label class = "pregunta" onclick="PlaySound('b2')" onmouseout="StopSound('b2')">2. Las veces que has visitado el centro o puesto de Salud.</label>
             <div class="controls ">
                 <input type="radio" name="veces_visita" value="0" hidden="" checked="true"/>
-                <label onclick="PlaySound('b2-1')" onmouseout="StopSound('b2-1')"><input type="radio" name="veces_visita" value="1" /> Una Vez <br></label>
-                <label onclick="PlaySound('b2-2')" onmouseout="StopSound('b2-2')"><input type="radio" name="veces_visita" value="2" /> Solo en Caso de Emergencia <br></label>
-                <label onclick="PlaySound('b2-3')" onmouseout="StopSound('b2-3')"><input type="radio" name="veces_visita" value="3" /> De Vez en Cuando <br></label>
+                <label onclick="PlaySound('b2-1')" onmouseout="StopSound('b2-1')"><input type="radio" name="veces_visita" value="1" /> Una vez <br></label>
+                <label onclick="PlaySound('b2-2')" onmouseout="StopSound('b2-2')"><input type="radio" name="veces_visita" value="2" /> Solo en caso de emergencia <br></label>
+                <label onclick="PlaySound('b2-3')" onmouseout="StopSound('b2-3')"><input type="radio" name="veces_visita" value="3" /> De vez en cuando <br></label>
             </div>
         </div>
 
@@ -152,19 +152,19 @@
             <label class = "pregunta" onclick="PlaySound('b3')" onmouseout="StopSound('b3')">3. ¿Cuál fue el motivo por el que te  acercaste al centro o puesto de salud?</label>
             <div class="controls" onchange="SelectChanged();">
                 <input type="radio" name="motivo_acercamiento" value="0" hidden="" checked="true"/>
-                <label onclick="PlaySound('b3-1')" onmouseout="StopSound('b3-1')"><input type="radio" name="motivo_acercamiento" value="1" /> Por Planificación Familiar <br></label>
-                <label onclick="PlaySound('b3-2')" onmouseout="StopSound('b3-2')"><input type="radio" name="motivo_acercamiento" value="2" /> Por Información sobre Sexualidad <br></label>
-                <label onclick="PlaySound('b3-3')" onmouseout="StopSound('b3-3')"><input type="radio" name="motivo_acercamiento" value="3" /> Demanda de Condones <br></label>
+                <label onclick="PlaySound('b3-1')" onmouseout="StopSound('b3-1')"><input type="radio" name="motivo_acercamiento" value="1" /> Por planificación familiar <br></label>
+                <label onclick="PlaySound('b3-2')" onmouseout="StopSound('b3-2')"><input type="radio" name="motivo_acercamiento" value="2" /> Por información sobre sexualidad <br></label>
+                <label onclick="PlaySound('b3-3')" onmouseout="StopSound('b3-3')"><input type="radio" name="motivo_acercamiento" value="3" /> Demanda de condones <br></label>
                 <label onclick="PlaySound('b3-4')" onmouseout="StopSound('b3-4')"><input type="radio" name="motivo_acercamiento" value="4" /> Pruebas de VIH <br></label>
-                <label onclick="PlaySound('b3-5')" onmouseout="StopSound('b3-5')"><input type="radio" name="motivo_acercamiento" value="5" /> Por Riesgo de Abuso Sexual <br></label>
-                <label onclick="PlaySound('b3-6')" onmouseout="StopSound('b3-6')"><input type="radio" name="motivo_acercamiento" value="6" /> Por Alcoholismo o drogas <br></label>
+                <label onclick="PlaySound('b3-5')" onmouseout="StopSound('b3-5')"><input type="radio" name="motivo_acercamiento" value="5" /> Por riesgo de abuso sexual <br></label>
+                <label onclick="PlaySound('b3-6')" onmouseout="StopSound('b3-6')"><input type="radio" name="motivo_acercamiento" value="6" /> Por alcoholismo o drogas <br></label>
                 <label onclick="PlaySound('b3-7')" onmouseout="StopSound('b3-7')"><input type="radio" name="motivo_acercamiento" value="7" /> Otros <br></label>
             </div>
         </div>
         <div id="div_id_especifica_motivo" class="form-group">
             <label for="id_especifica_motivo" class="control-label ">Especifica otro motivo</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="id_especifica_motivo" maxlength="45" name="especifica_motivo" type="text" placeholder="Especifique Motivo">
+                <input class="textinput textInput form-control" id="id_especifica_motivo" maxlength="45" name="especifica_motivo" type="text" placeholder="Especifica motivo">
             </div>
         </div>
 
@@ -180,17 +180,17 @@
             <label class = "pregunta" onclick="PlaySound('b5')" onmouseout="StopSound('b5')">5. ¿Dónde escuchaste sobre los Programas de Salud Sexual y Reproductiva y VIH?</label>
             <div class="controls " onchange="SelectChanged();">
                 <input type="radio" name="donde_escucho" value="0" hidden="" checked="true"/>
-                <label onclick="PlaySound('b5-1')" onmouseout="StopSound('b5-1')"><input type="radio" name="donde_escucho" value="1" /> Medios de Comunicación Local <br></label>
+                <label onclick="PlaySound('b5-1')" onmouseout="StopSound('b5-1')"><input type="radio" name="donde_escucho" value="1" /> Medios de comunicación local <br></label>
                 <label onclick="PlaySound('b5-2')" onmouseout="StopSound('b5-2')"><input type="radio" name="donde_escucho" value="2" /> Amigos <br></label>
                 <label onclick="PlaySound('b5-3')" onmouseout="StopSound('b5-3')"><input type="radio" name="donde_escucho" value="3" /> Escuelas <br></label>
-                <label onclick="PlaySound('b5-4')" onmouseout="StopSound('b5-4')"><input type="radio" name="donde_escucho" value="4" /> Centro de Salud <br></label>
+                <label onclick="PlaySound('b5-4')" onmouseout="StopSound('b5-4')"><input type="radio" name="donde_escucho" value="4" /> Centro de salud <br></label>
                 <label onclick="PlaySound('b5-5')" onmouseout="StopSound('b5-5')"><input type="radio" name="donde_escucho" value="5" /> Otros <br></label>
             </div>
         </div>
         <div id="div_id_especifica_escucho" class="form-group">
-            <label for="id_especifica_escucho" class="control-label ">Especifica Lugar</label>
+            <label for="id_especifica_escucho" class="control-label ">Especifica lugar</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="id_especifica_escucho" maxlength="45" name="especifica_escucho" type="text" placeholder="Especifique Lugar">
+                <input class="textinput textInput form-control" id="id_especifica_escucho" maxlength="45" name="especifica_escucho" type="text" placeholder="Especifica lugar">
             </div>
         </div>
         <div id="div_id_consige_condones" class="form-group">
@@ -204,13 +204,13 @@
                 <label onclick="PlaySound('b6-5')" onmouseout="StopSound('b6-5')"><input type="radio" name="consigue_condones" value="4" /> Hospital <br></label>
                 <label onclick="PlaySound('b6-6')" onmouseout="StopSound('b6-6')"><input type="radio" name="consigue_condones" value="5" /> Comadronas <br></label>
                 <label onclick="PlaySound('b6-7')" onmouseout="StopSound('b6-7')"><input type="radio" name="consigue_condones" value="6" /> Otros <br></label>
-                <label><input type="radio" name="consigue_condones" value="7" /> En Ningún Lugar <br></label>
+                <label><input type="radio" name="consigue_condones" value="7" /> En ningún lugar <br></label>
             </div>
         </div>
         <div id="div_id_otro_lugar_condones" class="form-group">
-            <label for="id_otro_lugar_condones" class="control-label ">Especifica Lugar</label>
+            <label for="id_otro_lugar_condones" class="control-label ">Especifica lugar</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="id_otro_lugar_condones" maxlength="45" name="otro_lugar_condones" type="text" placeholder="Especifique Lugar">
+                <input class="textinput textInput form-control" id="id_otro_lugar_condones" maxlength="45" name="otro_lugar_condones" type="text" placeholder="Especifica lugar">
             </div>
         </div>
 
@@ -230,9 +230,9 @@
         </div>
 
         <div id="div_id_otro_lugar_metodos" class="form-group">
-            <label for="id_otro_lugar_metodos" class="control-label ">Especifica Lugar</label>
+            <label for="id_otro_lugar_metodos" class="control-label ">Especifica lugar</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="id_otro_lugar_metodos" maxlength="45" name="id_otro_lugar_metodos" type="text" placeholder="Especifique Lugar">
+                <input class="textinput textInput form-control" id="id_otro_lugar_metodos" maxlength="45" name="id_otro_lugar_metodos" type="text" placeholder="Especifica lugar">
             </div>
         </div>
     </div>
@@ -243,9 +243,9 @@
             <label class = "pregunta" onclick="PlaySound('c1')" onmouseout="StopSound('c1')">1. ¿A qué edad iniciaste tus relaciones sexuales?</label>
             <div class="controls " onchange="SelectChanged();">
                 <input type="radio" name="inicio_relacion" value="0" hidden="" checked="true"/>
-                <label onclick="PlaySound('c1-1')" onmouseout="StopSound('c1-1')"><input type="radio" name="inicio_relacion" value="1" /> 10 a 15 años <br></label>
-                <label onclick="PlaySound('c1-2')" onmouseout="StopSound('c1-2')"><input type="radio" name="inicio_relacion" value="2" /> 16 a 18 años <br></label>
-                <label onclick="PlaySound('c1-3')" onmouseout="StopSound('c1-3')"><input type="radio" name="inicio_relacion" value="3" /> 19 a 24 años <br></label>
+                <label onclick="PlaySound('c1-1')" onmouseout="StopSound('c1-1')"><input type="radio" name="inicio_relacion" value="1" /> De 10 a 15 años <br></label>
+                <label onclick="PlaySound('c1-2')" onmouseout="StopSound('c1-2')"><input type="radio" name="inicio_relacion" value="2" /> De 16 a 18 años <br></label>
+                <label onclick="PlaySound('c1-3')" onmouseout="StopSound('c1-3')"><input type="radio" name="inicio_relacion" value="3" /> De 19 a 24 años <br></label>
                 <label onclick="PlaySound('c1-4')" onmouseout="StopSound('c1-4')"><input type="radio" name="inicio_relacion" value="4" /> No he tenido relaciones sexuales <br></label>
             </div>
         </div>
@@ -256,8 +256,8 @@
             <div class="controls ">
                 <input type="radio" name="relacion_6meses" value="0" hidden="" checked="true"/>
                 <label><input type="radio" name="frecuenciarelaciones" value="1" /> Siempre <br></label>
-                <label><input type="radio" name="frecuenciarelaciones" value="2" /> De Vez en Cuando <br></label>
-                <label><input type="radio" name="frecuenciarelaciones" value="3" /> Solo Una Vez <br></label>
+                <label><input type="radio" name="frecuenciarelaciones" value="2" /> De vez en cuando <br></label>
+                <label><input type="radio" name="frecuenciarelaciones" value="3" /> Solo una vez <br></label>
             </div>
         </div>
 
@@ -276,10 +276,10 @@
             <label class = "pregunta" onclick="PlaySound('c4')" onmouseout="StopSound('c4')">4. ¿Con quién tuviste relaciones sexuales la última vez?</label>
             <div class="controls ">
                 <input type="radio" name="quien_relacion" value="0" hidden="" checked="true"/>
-                <label onclick="PlaySound('c4-1')" onmouseout="StopSound('c4-1')"><input type="radio" name="quien_relacion" value="1" /> Novia o Novio <br></label>
-                <label onclick="PlaySound('c4-2')" onmouseout="StopSound('c4-2')"><input type="radio" name="quien_relacion" value="2" /> Amigo o Amiga <br></label>
-                <label onclick="PlaySound('c4-3')" onmouseout="StopSound('c4-3')"><input type="radio" name="quien_relacion" value="3" /> Trabajadora de Sexo <br></label>
-                <label onclick="PlaySound('c4-4')" onmouseout="StopSound('c4-4')"><input type="radio" name="quien_relacion" value="4" /> Persona Desconocida <br></label>
+                <label onclick="PlaySound('c4-1')" onmouseout="StopSound('c4-1')"><input type="radio" name="quien_relacion" value="1" /> Novia o novio <br></label>
+                <label onclick="PlaySound('c4-2')" onmouseout="StopSound('c4-2')"><input type="radio" name="quien_relacion" value="2" /> Amigo o amiga <br></label>
+                <label onclick="PlaySound('c4-3')" onmouseout="StopSound('c4-3')"><input type="radio" name="quien_relacion" value="3" /> Trabajadora de sexo <br></label>
+                <label onclick="PlaySound('c4-4')" onmouseout="StopSound('c4-4')"><input type="radio" name="quien_relacion" value="4" /> Persona desconocida <br></label>
             </div>
         </div>
 
@@ -301,6 +301,13 @@
             </div>
         </div>
 
+        <div id="div_pasoscondon" class="form-group">
+            <label for="id_pasoscondon" class="control-label ">Menciona los pasos del uso correcto del condón. </label>
+            <div class="controls ">
+              <textarea rows="4" cols="40" placeholder="Ingresa los pasos aquí:" maxlength="255" id="pasoscondon" name="pasoscondon"></textarea>
+            </div>
+        </div>
+
         <div id="div_id_servicio_sugerido" class="form-group">
             <label class = "pregunta" onclick="PlaySound('c8')" onmouseout="StopSound('c8')">7. ¿Qué servicios sugieres que se brinden en el centro salud para buena atención a los adolescentes?</label>
             <div class="controls " onchange="SelectChanged();">
@@ -314,9 +321,9 @@
             </div>
         </div>
         <div id="div_otro_servicio_sugerido" class="form-group">
-            <label for="id_otro_servicio_sugerido" class="control-label ">Especifica Otro</label>
+            <label for="id_otro_servicio_sugerido" class="control-label ">Especifica otro servicio</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="otro_servicio_sugerido" maxlength="45" name="otro_servicio_sugerido" type="text" placeholder="Especifique Otro">
+                <input class="textinput textInput form-control" id="otro_servicio_sugerido" maxlength="45" name="otro_servicio_sugerido" type="text" placeholder="Especifica otro servicio">
             </div>
         </div>
     </div>
@@ -329,7 +336,7 @@
             <div class="controls">
                 <input type="radio" name="quien_debe_utilizar" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('d1-1')" onmouseout="StopSound('d1-1')"><input type="radio" name="quien_debe_utilizar" value="1" /> Hombres <br></label>
-                <label onclick="PlaySound('d1-2')" onmouseout="StopSound('d1-2')"><input type="radio" name="quien_debe_utilizar" value="2" /> Hombres y Mujeres <br></label>
+                <label onclick="PlaySound('d1-2')" onmouseout="StopSound('d1-2')"><input type="radio" name="quien_debe_utilizar" value="2" /> Hombres y mujeres <br></label>
                 <label onclick="PlaySound('d1-3')" onmouseout="StopSound('d1-3')"><input type="radio" name="quien_debe_utilizar" value="3" /> Trabajadoras del Sexo  <br></label>
                 <label onclick="PlaySound('d1-4')" onmouseout="StopSound('d1-4')"><input type="radio" name="quien_debe_utilizar" value="4" /> Para los de la ciudad <br></label>
             </div>
@@ -353,9 +360,9 @@
             </div>
         </div>
         <div id="div_porque_derecho_relacion" class="form-group">
-            <label for="id_otra_cultura" class="control-label " onclick="PlaySound('d4-3')" onmouseout="StopSound('d4-3')">Especifica Por Qué</label>
+            <label for="id_otra_cultura" class="control-label " onclick="PlaySound('d4-3')" onmouseout="StopSound('d4-3')">Especifica por qué</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="porque_derecho_relacion" maxlength="45" name="porque_derecho_relacion" type="text">
+                <input class="textinput textInput form-control" id="porque_derecho_relacion" maxlength="45" name="porque_derecho_relacion" type="text" placeholder="Especifica por qué">
             </div>
         </div>
 
@@ -368,9 +375,9 @@
             </div>
         </div>
         <div id="div_porque_derecho_condon" class="form-group">
-            <label for="id_otra_cultura" class="control-label " onclick="PlaySound('d5-3')" onmouseout="StopSound('d5-3')">Especifica Por Qué</label>
+            <label for="id_otra_cultura" class="control-label " onclick="PlaySound('d5-3')" onmouseout="StopSound('d5-3')">Especifica por qué</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="porque_derecho_condon" maxlength="45" name="porque_derecho_condon" type="text">
+                <input class="textinput textInput form-control" id="porque_derecho_condon" maxlength="45" name="porque_derecho_condon" type="text" placeholder="Especifica por qué">
             </div>
         </div>
 
@@ -378,16 +385,16 @@
             <label class = "pregunta" onclick="PlaySound('d6')" onmouseout="StopSound('d6')">5. ¿Cuál es la respuesta de la atención de los servicios de salud en relación a los condones y otros métodos de planificación familiar?</label>
             <div class="controls " onchange="SelectChanged();">
                 <input type="radio" name="por_idioma" value="0" hidden="" checked="true"/>
-                <label onclick="PlaySound('d6-1')" onmouseout="StopSound('d6-1')"><input type="radio" name="por_idioma" value="1" /> Sólo se Proporcionan a mayores de edad <br></label>
-                <label onclick="PlaySound('d6-2')" onmouseout="StopSound('d6-2')"><input type="radio" name="por_idioma" value="2" /> Se debe Firmar un consentimiento <br></label>
+                <label onclick="PlaySound('d6-1')" onmouseout="StopSound('d6-1')"><input type="radio" name="por_idioma" value="1" /> Sólo se proporcionan a mayores de edad <br></label>
+                <label onclick="PlaySound('d6-2')" onmouseout="StopSound('d6-2')"><input type="radio" name="por_idioma" value="2" /> Se debe firmar un consentimiento <br></label>
                 <label onclick="PlaySound('d6-3')" onmouseout="StopSound('d6-3')"><input type="radio" name="por_idioma" value="3" /> Se debe estar acompañado por un adulto <br></label>
                 <label onclick="PlaySound('d6-4')" onmouseout="StopSound('d6-4')"><input type="radio" name="por_idioma" value="4" /> Otro <br></label>
             </div>
         </div>
         <div id="div_id_otra_razon" class="form-group">
-            <label for="id_otra_razon" class="control-label ">Especifica Otra Razon</label>
+            <label for="id_otra_razon" class="control-label ">Especifica otra razon</label>
             <div class="controls ">
-                <input class="textinput textInput form-control" id="id_otra_razon" maxlength="45" name="id_otra_razon" type="text" placeholder="Especifique Otra Razon">
+                <input class="textinput textInput form-control" id="id_otra_razon" maxlength="45" name="id_otra_razon" type="text" placeholder="Especifica otra razon">
             </div>
         </div>
     </div>
@@ -443,7 +450,7 @@
             <div class="controls ">
                 <input type="radio" name="horario_atencion" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('f2-1')" onmouseout="StopSound('f2-1')"><input type="radio" name="horario_atencion" value="1" /> Accesible <br></label>
-                <label onclick="PlaySound('f2-2')" onmouseout="StopSound('f2-2')"><input type="radio" name="horario_atencion" value="2" /> Poco Accesible <br></label>
+                <label onclick="PlaySound('f2-2')" onmouseout="StopSound('f2-2')"><input type="radio" name="horario_atencion" value="2" /> Poco accesible <br></label>
                 <label onclick="PlaySound('f2-3')" onmouseout="StopSound('f2-3')"><input type="radio" name="horario_atencion" value="3" /> Inaccesible <br></label>
             </div>
         </div>

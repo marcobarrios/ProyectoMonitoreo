@@ -8,16 +8,23 @@ function SelectChanged() {
         ocultar('div_id_otra_cultura');
     }
 
-    if(document.myform.dedica.value == "2" || document.myform.dedica.value == "3") {
-        mostrar('div_id_trabajo');
-    } else {
-        ocultar('div_id_trabajo');
-    }
-
     if(document.myform.otrotrabajo.value == "9") {
         mostrar('div_id_otrotrabajo');
     } else {
         ocultar('div_id_otrotrabajo');
+    }
+
+    if(document.myform.dedica.value == "2" || document.myform.dedica.value == "3") {
+        mostrar('div_id_trabajo');
+    } else {
+        ocultar('div_id_trabajo');
+        ocultar('div_id_otrotrabajo');
+    }
+
+    if(document.myform.sabe_condon.value == "1") {
+        mostrar('div_pasoscondon');
+    } else {
+        ocultar('div_pasoscondon');
     }
 
     if(document.myform.idservicio_salud.value == "6") {
@@ -88,6 +95,7 @@ function mostrar(id){
 window.onload = function() {
     ocultar('div_id_otra_cultura');
     ocultar('div_id_trabajo');
+    ocultar('div_pasoscondon');
     ocultar('div_id_otrotrabajo');
     ocultar('div_id_otra_vivienda');
     ocultar('div_id_otro_servicio');
