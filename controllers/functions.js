@@ -8,6 +8,18 @@ function SelectChanged() {
         ocultar('div_id_otra_cultura');
     }
 
+    if(document.myform.dedica.value == "2" || document.myform.dedica.value == "3") {
+        mostrar('div_id_trabajo');
+    } else {
+        ocultar('div_id_trabajo');
+    }
+
+    if(document.myform.otrotrabajo.value == "9") {
+        mostrar('div_id_otrotrabajo');
+    } else {
+        ocultar('div_id_otrotrabajo');
+    }
+
     if(document.myform.idservicio_salud.value == "6") {
         mostrar('div_id_otro_servicio');
     } else {
@@ -39,12 +51,12 @@ function SelectChanged() {
     }
 
     if(document.myform.inicio_relacion.value != "4") {
-        mostrar('div_id_relacion_6meses');
+        mostrar('div_id_frecuenciarelacion');
         mostrar('div_id_estado_relacion');
         mostrar('div_id_quien_relacion');
         mostrar('div_id_utilizo_condon');
     } else {
-        ocultar('div_id_relacion_6meses');
+        ocultar('div_id_frecuenciarelacion');
         ocultar('div_id_estado_relacion');
         ocultar('div_id_quien_relacion');
         ocultar('div_id_utilizo_condon');
@@ -75,6 +87,8 @@ function mostrar(id){
 
 window.onload = function() {
     ocultar('div_id_otra_cultura');
+    ocultar('div_id_trabajo');
+    ocultar('div_id_otrotrabajo');
     ocultar('div_id_otra_vivienda');
     ocultar('div_id_otro_servicio');
     ocultar('div_id_especifica_motivo');
