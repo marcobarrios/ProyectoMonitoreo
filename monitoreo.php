@@ -1,7 +1,7 @@
 <!--Created by Marco Barrios on 12/02/2015.-->
 <!DOCTYPE html>
 <html>
-<head lang="en">
+<head lang="es">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Instrumento de Monitoreo</title>
@@ -30,8 +30,8 @@
             <label class = "pregunta" onclick="PlaySound('a1')">1. Género.</label>
             <div class="controls">
                 <input type="radio" name="sexo" value="0" hidden="" checked="true"/>
-                <label onclick="PlaySound('a1-1')" onmouseout="StopSound('a1-1')"><input type="radio" name="sexo" value="1"/> Femenino <br></label>
-                <label onclick="PlaySound('a1-2')" onmouseout="StopSound('a1-2')"><input type="radio" name="sexo" value="2" /> Masculino <br></label>
+                <label onclick="PlaySound('a1-1')" onmouseout="StopSound('a1-1')"><input type="radio" name="genero" value="1"/> Femenino <br></label>
+                <label onclick="PlaySound('a1-2')" onmouseout="StopSound('a1-2')"><input type="radio" name="genero" value="2" /> Masculino <br></label>
             </div>
         </div>
 

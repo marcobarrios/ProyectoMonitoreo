@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
+<head lang="es">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Consentimiento</title>
@@ -12,15 +12,15 @@
 <body>
 
 <header>
-    <h1>Hoja de consentimiento</h1>
+    <h1>Hoja de Consentimiento</h1>
 </header>
 
 <section id="box-condition">
-    <p id = "condition">Esta hoja de consentimiento pretende conocer su nivel de satisfacción y de respuesta a
+    <p id = "condition">Esta hoja de consentimiento pretende conocer tu nivel de satisfacción y de respuesta a
         través de un monitoreo a los servicios sexuales y reproductivos, en especial los programas
         en favor de adolescentes y jóvenes, comprendidos entre las edades de 10 a 24 años.
         Encontrarás una serie de preguntas que debes responder. Esta información es de carácter
-        confidencial y no se le comunicara a nadie, la encueta no menciona el nombre de ninguna
+        confidencial y no se le comunicará a nadie, la encuesta no menciona el nombre de ninguna
         persona y tendrá como fin que demandemos que la calidad de los servicios respondan a
         las demandas de las y los adolescentes de los municipios priorizados. El cuestionario te
         tomara unos 10 minutos  y es completamente voluntario. Si  no quieres participar, esto no
@@ -32,7 +32,7 @@
         <span id="accept-condition">¿Aceptas entonces llenar el cuestionario?</span>
     <p>
     <div>
-        <a href="monitoreo.php?idiomas=<?php echo $_GET['idiomas'];?>" class = "btn btn-danger"><img src="images/maya2.png" width="20px" alt=""/> Si acepto</a>
+        <a href="monitoreo.php?idiomas=<?php echo $_GET['idiomas'];?>" class = "btn btn-success"><img src="images/maya2.png" width="20px" alt=""/> Si acepto</a>
         <a href="index.php" class = "btn btn-danger"><img src="images/maya2.png" width="20px" alt=""/> No acepto</a>
     </div>
 </section>

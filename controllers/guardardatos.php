@@ -5,14 +5,12 @@
  * Date: 16/02/2015
  * Time: 6:47 PM
  */
-require '../index.php';
-
-$mysqli = new mysqli("localhost", "root", "", "monitoreo");
+$mysqli = new mysqli("monitoreoparla2.db.11193368.hostedresource.com", "monitoreoparla2", "VS02#VMxh4", "monitoreoparla2");
 if ($mysqli === false) {
     die ("ERROR: No se estableció la conexión. " . mysqli_connect_error());
 } else {
     //<editor-fold desc="INGRESO DE ENCUESTA">
-    $sql = "INSERT INTO tblEncuestas(idEncuesta, fechaEncuesta, latitudEncuesta, longitudEncuesta, altitudEncuesta) VALUES (?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO tblencuestas(idEncuesta, fechaEncuesta, latitudEncuesta, longitudEncuesta, altitudEncuesta) VALUES (?, ?, ?, ?, ?)";
     if ($stmt = $mysqli->prepare($sql)) {
         $idenc = '';
         $hoy = getdate();
@@ -23,17 +21,17 @@ if ($mysqli === false) {
 
         $stmt->bind_param('isddd', $idenc, $fechaEncuesta, $latitud, $longitud, $altitud);
         if ($stmt->execute()) {
-                $sql = "SELECT MAX(idEncuesta) AS 'idEncuesta' FROM tblEncuestas";
-                $result = $mysqli->query($sql);
-                $row = $result->fetch_object();
-                $idencuesta = $row->idEncuesta;
+            $sql = "SELECT MAX(idEncuesta) AS 'idEncuesta' FROM tblencuestas";
+            $result = $mysqli->query($sql);
+            $row = $result->fetch_object();
+            $idencuesta = $row->idEncuesta;
 
             //<editor-fold desc="INSERCION DE RESPUESTAS A LA BASE DE DATOS">
-            $sql = "INSERT INTO tblRespuestas(idRespuesta, idPregunta, idNoRespuesta, idEncuesta) VALUES (?, ?, ?, ?)";
+            $sql = "INSERT INTO tblrespuestas(idRespuesta, idPregunta, idNoRespuesta, idEncuesta) VALUES (?, ?, ?, ?)";
             if ($stmt = $mysqli->prepare($sql)) {
                 $idrepuesta = '';
                 $nopregunta = 1.1;
-                $respuesta = $_POST['sexo'];
+                $respuesta = $_POST['genero'];
 
                 $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                 if ($stmt->execute()) {
@@ -199,7 +197,7 @@ if ($mysqli === false) {
 
                                                                                                                                     $stmt->bind_param('sdii', $idrespuesta, $nopregunta, $respuesta, $idencuesta);
                                                                                                                                     if ($stmt->execute()) {
-                                                                                                                                        $sql = "INSERT INTO tblRespuestaTextos(idRespuestaTexto, noRespuesta, idEncuesta, texto) VALUES (?, ?, ?, ?)";
+                                                                                                                                        $sql = "INSERT INTO tblrespuestatextos(idRespuestaTexto, noRespuesta, idEncuesta, texto) VALUES (?, ?, ?, ?)";
                                                                                                                                         if ($stmt = $mysqli->prepare($sql)) {
                                                                                                                                             $idrespuestatexto = '';
                                                                                                                                             $norespuesta = 1.5;
