@@ -3,7 +3,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name = "viewport" content= "width=device-width, minimum-scale=1, maximum-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Instrumento de Monitoreo</title>
     <link rel = "stylesheet" href = "styles/normalize.css"/>
     <link rel="stylesheet" href="styles/styles.css">
@@ -491,7 +491,6 @@ elseif($idioma == "mam")
     include("audios/audios.php");
     var1($idioma);
 }
-
 ?>
 
 <script type="text/javascript" src="controllers/functions.js"></script>
