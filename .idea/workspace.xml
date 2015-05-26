@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e29ccc-b2c5-4ce6-924a-ae781b6d1e5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consentimiento.php" afterPath="$PROJECT_DIR$/consentimiento.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/audios/mam/A.3.1 CASADO (A).wav" afterPath="$PROJECT_DIR$/audios/mam/A.3.1 CASADO.wav" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/guardardatos.php" afterPath="$PROJECT_DIR$/controllers/guardardatos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoreo.php" afterPath="$PROJECT_DIR$/monitoreo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,8 +33,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="2106">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="2106">
+              <caret line="5" column="101" selection-start-line="5" selection-start-column="101" selection-end-line="5" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -44,19 +43,23 @@
       <file leaf-file-name="consentimiento.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consentimiento.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="954">
+            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="954">
               <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monitoreo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="monitoreo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/monitoreo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.0" vertical-offset="378" max-vertical-offset="9072">
-              <caret line="33" column="114" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
-              <folding />
+            <state vertical-scroll-proportion="0.55785125" vertical-offset="0" max-vertical-offset="4086">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <folding>
+                <element signature="n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,18 +74,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guardardatos.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="guardardatos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.446281" vertical-offset="378" max-vertical-offset="7434">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state vertical-scroll-proportion="-8.0" vertical-offset="4824" max-vertical-offset="8064">
+              <caret line="280" column="218" selection-start-line="280" selection-start-column="218" selection-end-line="280" selection-end-column="218" />
               <folding>
-                <marker date="1432618882866" expanded="true" signature="391:406" placeholder="INSERT INTO ..." />
-                <marker date="1432618882866" expanded="true" signature="391:517" placeholder="INSERT INTO ..." />
-                <marker date="1432618882866" expanded="true" signature="1025:1081" placeholder="SELECT MAX(i..tblencuestas..." />
-                <marker date="1432618882866" expanded="true" signature="1073:1081" placeholder="SELECT MAX(i..tblEncuestas..." />
-                <marker date="1432618882866" expanded="true" signature="1315:1412" placeholder="INSERT INTO ..." />
-                <marker date="1432618882866" expanded="true" signature="17272:17372" placeholder="INSERT INTO ..." />
+                <marker date="1432666895409" expanded="true" signature="391:517" placeholder="INSERT INTO ..." />
+                <marker date="1432666895409" expanded="true" signature="1025:1081" placeholder="SELECT MAX(i..tblencuestas..." />
+                <marker date="1432666895409" expanded="true" signature="1315:1412" placeholder="INSERT INTO ..." />
+                <marker date="1432666895409" expanded="true" signature="18986:19086" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -121,8 +122,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="44" />
+    <option name="x" value="84" />
+    <option name="y" value="37" />
     <option name="width" value="1190" />
     <option name="height" value="645" />
   </component>
@@ -164,48 +165,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ProyectoMonitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Monitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoMonitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Monitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoMonitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Monitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoMonitoreo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audiophp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,11 +342,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432516891198</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Cambio de idioma de los html y correcciones ortograficas">
+      <created>1432618923397</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1432618923397</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="44" width="1190" height="645" extended-state="0" />
+    <frame x="84" y="37" width="1190" height="645" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -397,7 +362,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19444445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17255892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -440,10 +405,13 @@
     <MESSAGE value="Agregada Hoja de Consentimiento" />
     <MESSAGE value="Modificaciones en Cuestionario" />
     <MESSAGE value="Ultimas modificaciones al cuestionario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ultimas modificaciones al cuestionario" />
+    <MESSAGE value="Cambio de idioma de los html y correcciones ortograficas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio de idioma de los html y correcciones ortograficas" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -777,39 +745,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consentimiento.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="954">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="954">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoreo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="378" max-vertical-offset="9072">
-          <caret line="33" column="114" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="2106">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="2106">
+          <caret line="5" column="101" selection-start-line="5" selection-start-column="101" selection-end-line="5" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.446281" vertical-offset="378" max-vertical-offset="7434">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state vertical-scroll-proportion="-8.0" vertical-offset="4824" max-vertical-offset="8064">
+          <caret line="280" column="218" selection-start-line="280" selection-start-column="218" selection-end-line="280" selection-end-column="218" />
           <folding>
-            <marker date="1432618882866" expanded="true" signature="391:406" placeholder="INSERT INTO ..." />
-            <marker date="1432618882866" expanded="true" signature="391:517" placeholder="INSERT INTO ..." />
-            <marker date="1432618882866" expanded="true" signature="1025:1081" placeholder="SELECT MAX(i..tblencuestas..." />
-            <marker date="1432618882866" expanded="true" signature="1073:1081" placeholder="SELECT MAX(i..tblEncuestas..." />
-            <marker date="1432618882866" expanded="true" signature="1315:1412" placeholder="INSERT INTO ..." />
-            <marker date="1432618882866" expanded="true" signature="17272:17372" placeholder="INSERT INTO ..." />
+            <marker date="1432666895409" expanded="true" signature="391:517" placeholder="INSERT INTO ..." />
+            <marker date="1432666895409" expanded="true" signature="1025:1081" placeholder="SELECT MAX(i..tblencuestas..." />
+            <marker date="1432666895409" expanded="true" signature="1315:1412" placeholder="INSERT INTO ..." />
+            <marker date="1432666895409" expanded="true" signature="18986:19086" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoreo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55785125" vertical-offset="0" max-vertical-offset="4086">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -32,6 +32,8 @@
                 <input type="radio" name="sexo" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('a1-1')" onmouseout="StopSound('a1-1')"><input type="radio" name="genero" value="1"/> Femenino <br></label>
                 <label onclick="PlaySound('a1-2')" onmouseout="StopSound('a1-2')"><input type="radio" name="genero" value="2" /> Masculino <br></label>
+                <label><input type="radio" name="genero" value="3"/>No se la respuesta <br></label>
+                <label><input type="radio" name="genero" value="4"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -45,6 +47,8 @@
                 <label onclick="PlaySound('a2-3')" onmouseout="StopSound('a2-3')"><input type="radio" name="rangoedad" value="3"/> 19 a 21 años <br></label>
                 <label onclick="PlaySound('a2-4')" onmouseout="StopSound('a2-4')"><input type="radio" name="rangoedad" value="4"/> 22 a 25 años <br></label>
                 <label onclick="PlaySound('a2-5')" onmouseout="StopSound('a2-5')"><input type="radio" name="rangoedad" value="5"/> Más de 25 años <br></label>
+                <label><input type="radio" name="rangoedad" value="6"/>No se la respuesta <br></label>
+                <label><input type="radio" name="rangoedad" value="7"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -56,6 +60,8 @@
                 <label onclick="PlaySound('a3-3')" onmouseout="StopSound('a3-3')"><input type="radio" name="estadocivil" value="2"/> Soltero <br></label>
                 <label onclick="PlaySound('a3-2')" onmouseout="StopSound('a3-2')"><input type="radio" name="estadocivil" value="3"/> Unido <br></label>
                 <label onclick="PlaySound('a3-4')" onmouseout="StopSound('a3-4')"><input type="radio" name="estadocivil" value="4"/> Divorciado <br></label>
+                <label><input type="radio" name="estadocivil" value="5"/>No se la respuesta <br></label>
+                <label><input type="radio" name="estadocivil" value="6"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -67,6 +73,8 @@
                 <label onclick="PlaySound('a4-2')" onmouseout="StopSound('a4-2')"><input type="radio" name="dedica" value="2"/> Trabaja <br></label>
                 <label onclick="PlaySound('a4-3')" onmouseout="StopSound('a4-3')"><input type="radio" name="dedica" value="3"/> Ambos <br></label>
                 <label onclick="PlaySound('a4-4')" onmouseout="StopSound('a4-4')"><input type="radio" name="dedica" value="4"/> Ninguno <br></label>
+                <label><input type="radio" name="dedica" value="5"/>No se la respuesta <br></label>
+                <label><input type="radio" name="dedica" value="6"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -83,6 +91,8 @@
                 <label><input type="radio" name="otrotrabajo" value="7"/> Maestro <br></label>
                 <label><input type="radio" name="otrotrabajo" value="8"/> Zapatero <br></label>
                 <label><input type="radio" name="otrotrabajo" value="9"/> Otro <br></label>
+                <label><input type="radio" name="otrotrabajo" value="10"/>No se la respuesta <br></label>
+                <label><input type="radio" name="otrotrabajo" value="11"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -105,6 +115,8 @@
                 <label onclick="PlaySound('a5-6')" onmouseout="StopSound('a5-6')"><input type="radio" name="cultura" value="6"/> Maya Ixil <br></label>
                 <label onclick="PlaySound('a5-7')" onmouseout="StopSound('a5-7')"><input type="radio" name="cultura" value="7" /> Maya Aguacateco <br></label>
                 <label onclick="PlaySound('a5-8')" onmouseout="StopSound('a5-8')"><input type="radio" name="cultura" value="8" /> Otro <br></label>
+                <label><input type="radio" name="cultura" value="9"/>No se la respuesta <br></label>
+                <label><input type="radio" name="cultura" value="10"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_id_otra_cultura" class="form-group">
@@ -129,6 +141,8 @@
                 <label onclick="PlaySound('b1-4')" onmouseout="StopSound('b1-4')"><input type="radio" name="idservicio_salud" value="4" /> Espacios Amigables <br></label>
                 <label onclick="PlaySound('b1-5')" onmouseout="StopSound('b1-5')"><input type="radio" name="idservicio_salud" value="5" /> ONG <br></label>
                 <label onclick="PlaySound('b1-6')" onmouseout="StopSound('b1-6')"><input type="radio" name="idservicio_salud" value="6" /> Otros <br></label>
+                <label><input type="radio" name="idservicio_salud" value="7"/>No se la respuesta <br></label>
+                <label><input type="radio" name="idservicio_salud" value="8"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_id_otro_servicio" class="form-group">
@@ -145,6 +159,8 @@
                 <label onclick="PlaySound('b2-1')" onmouseout="StopSound('b2-1')"><input type="radio" name="veces_visita" value="1" /> Una vez <br></label>
                 <label onclick="PlaySound('b2-2')" onmouseout="StopSound('b2-2')"><input type="radio" name="veces_visita" value="2" /> Solo en caso de emergencia <br></label>
                 <label onclick="PlaySound('b2-3')" onmouseout="StopSound('b2-3')"><input type="radio" name="veces_visita" value="3" /> De vez en cuando <br></label>
+                <label><input type="radio" name="veces_visita" value="4"/>No se la respuesta <br></label>
+                <label><input type="radio" name="veces_visita" value="5"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -159,6 +175,8 @@
                 <label onclick="PlaySound('b3-5')" onmouseout="StopSound('b3-5')"><input type="radio" name="motivo_acercamiento" value="5" /> Por riesgo de abuso sexual <br></label>
                 <label onclick="PlaySound('b3-6')" onmouseout="StopSound('b3-6')"><input type="radio" name="motivo_acercamiento" value="6" /> Por alcoholismo o drogas <br></label>
                 <label onclick="PlaySound('b3-7')" onmouseout="StopSound('b3-7')"><input type="radio" name="motivo_acercamiento" value="7" /> Otros <br></label>
+                <label><input type="radio" name="motivo_acercamiento" value="8"/>No se la respuesta <br></label>
+                <label><input type="radio" name="motivo_acercamiento" value="9"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_id_especifica_motivo" class="form-group">
@@ -174,6 +192,8 @@
                 <input type="radio" name="personal_capacitado" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('b4-1')" onmouseout="StopSound('b4-1')"><input type="radio" name="personal_capacitado" value="1" /> Sí <br></label>
                 <label onclick="PlaySound('b4-2')" onmouseout="StopSound('b4-2')"><input type="radio" name="personal_capacitado" value="2" /> No <br></label>
+                <label><input type="radio" name="personal_capacitado" value="3"/>No se la respuesta <br></label>
+                <label><input type="radio" name="personal_capacitado" value="4"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_id_donde_escucho" class="form-group">
@@ -185,6 +205,8 @@
                 <label onclick="PlaySound('b5-3')" onmouseout="StopSound('b5-3')"><input type="radio" name="donde_escucho" value="3" /> Escuelas <br></label>
                 <label onclick="PlaySound('b5-4')" onmouseout="StopSound('b5-4')"><input type="radio" name="donde_escucho" value="4" /> Centro de salud <br></label>
                 <label onclick="PlaySound('b5-5')" onmouseout="StopSound('b5-5')"><input type="radio" name="donde_escucho" value="5" /> Otros <br></label>
+                <label><input type="radio" name="donde_escucho" value="6"/>No se la respuesta <br></label>
+                <label><input type="radio" name="donde_escucho" value="7"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_id_especifica_escucho" class="form-group">
@@ -205,6 +227,8 @@
                 <label onclick="PlaySound('b6-6')" onmouseout="StopSound('b6-6')"><input type="radio" name="consigue_condones" value="5" /> Comadronas <br></label>
                 <label onclick="PlaySound('b6-7')" onmouseout="StopSound('b6-7')"><input type="radio" name="consigue_condones" value="6" /> Otros <br></label>
                 <label><input type="radio" name="consigue_condones" value="7" /> En ningún lugar <br></label>
+                <label><input type="radio" name="consigue_condones" value="8"/>No se la respuesta <br></label>
+                <label><input type="radio" name="consigue_condones" value="9"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_id_otro_lugar_condones" class="form-group">
@@ -226,6 +250,8 @@
                 <label onclick="PlaySound('b8-5')" onmouseout="StopSound('b8-5')"><input type="radio" name="consigue_metodos" value="5" /> Comadronas <br></label>
                 <label onclick="PlaySound('b8-6')" onmouseout="StopSound('b8-6')"><input type="radio" name="consigue_metodos" value="6" /> Otros <br></label>
                 <label><input type="radio" name="consigue_metodos" value="7" /> En Ningun Lugar <br></label>
+                <label><input type="radio" name="consigue_metodos" value="8"/>No se la respuesta <br></label>
+                <label><input type="radio" name="consigue_metodos" value="9"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -237,7 +263,7 @@
         </div>
     </div>
 
-    <div id="groupC" name="groupC">
+    <div id="groupC" name="groupC"  >
         <h3>C. Sobre comportamientos y riesgo sexual</h3>
         <div id="div_id_id_inicio_relacion" class="form-group">
             <label class = "pregunta" onclick="PlaySound('c1')" onmouseout="StopSound('c1')">1. ¿A qué edad iniciaste tus relaciones sexuales?</label>
@@ -247,17 +273,21 @@
                 <label onclick="PlaySound('c1-2')" onmouseout="StopSound('c1-2')"><input type="radio" name="inicio_relacion" value="2" /> De 16 a 18 años <br></label>
                 <label onclick="PlaySound('c1-3')" onmouseout="StopSound('c1-3')"><input type="radio" name="inicio_relacion" value="3" /> De 19 a 24 años <br></label>
                 <label onclick="PlaySound('c1-4')" onmouseout="StopSound('c1-4')"><input type="radio" name="inicio_relacion" value="4" /> No he tenido relaciones sexuales <br></label>
+                <label><input type="radio" name="inicio_relacion" value="5"/>No se la respuesta <br></label>
+                <label><input type="radio" name="inicio_relacion" value="6"/>No quiero contestar <br></label>
             </div>
         </div>
 
         <div id="div_id_frecuenciarelacion" class="form-group">
-            <label class = "pregunta">2. ¿Con qué frecuencia tienes relaciones sexueales?
+            <label class = "pregunta">2. ¿Con qué frecuencia tienes relaciones sexuales?
             </label>
             <div class="controls ">
                 <input type="radio" name="relacion_6meses" value="0" hidden="" checked="true"/>
                 <label><input type="radio" name="frecuenciarelaciones" value="1" /> Siempre <br></label>
                 <label><input type="radio" name="frecuenciarelaciones" value="2" /> De vez en cuando <br></label>
                 <label><input type="radio" name="frecuenciarelaciones" value="3" /> Solo una vez <br></label>
+                <label><input type="radio" name="frecuenciarelaciones" value="4"/>No se la respuesta <br></label>
+                <label><input type="radio" name="frecuenciarelaciones" value="5"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -267,8 +297,10 @@
                 <input type="radio" name="estado_relacion" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('c3-1')" onmouseout="StopSound('c3-1')"><input type="radio" name="estado_relacion" value="1" /> En estado de ebriedad <br></label>
                 <label onclick="PlaySound('c3-2')" onmouseout="StopSound('c3-2')"><input type="radio" name="estado_relacion" value="2" /> Bajo efectos de drogas  <br></label>
-                <label onclick="PlaySound('c3-3')" onmouseout="StopSound('c3-3')"><input type="radio" name="estado_relacion" value="3" /> Fuiste abusada(o) sexualmente <br></label>
+                <label><input type="radio" name="estado_relacion" value="3" /> Fuiste abusada(o) sexualmente <br></label>
                 <label><input type="radio" name="estado_relacion" value="4" /> Fue de forma consensuada <br></label>
+                <label><input type="radio" name="estado_relacion" value="5"/>No se la respuesta <br></label>
+                <label><input type="radio" name="estado_relacion" value="6"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -280,6 +312,8 @@
                 <label onclick="PlaySound('c4-2')" onmouseout="StopSound('c4-2')"><input type="radio" name="quien_relacion" value="2" /> Amigo o amiga <br></label>
                 <label onclick="PlaySound('c4-3')" onmouseout="StopSound('c4-3')"><input type="radio" name="quien_relacion" value="3" /> Trabajadora de sexo <br></label>
                 <label onclick="PlaySound('c4-4')" onmouseout="StopSound('c4-4')"><input type="radio" name="quien_relacion" value="4" /> Persona desconocida <br></label>
+                <label><input type="radio" name="quien_relacion" value="5"/>No se la respuesta <br></label>
+                <label><input type="radio" name="quien_relacion" value="6"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -289,15 +323,19 @@
                 <input type="radio" name="utilizo_condon" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('c5-1')" onmouseout="StopSound('c5-1')"><input type="radio" name="utilizo_condon" value="1" /> Si <br></label>
                 <label onclick="PlaySound('c5-2')" onmouseout="StopSound('c5-2')"><input type="radio" name="utilizo_condon" value="2" /> No <br></label>
+                <label><input type="radio" name="utilizo_condon" value="3"/>No se la respuesta <br></label>
+                <label><input type="radio" name="utilizo_condon" value="4"/>No quiero contestar <br></label>
             </div>
         </div>
 
         <div id="div_id_sabe_condon" class="form-group">
-            <label class = "pregunta" onclick="PlaySound('c6')" onmouseout="StopSound('c6')">6. ¿Sabes cómo usar un Condón correctamente?</label>
+            <label class = "pregunta" onclick="PlaySound('c6')" onmouseout="StopSound('c6')">6. ¿Sabes cómo colocar un condón?</label>
             <div class="controls " onchange="SelectChanged();">
                 <input type="radio" name="sabe_condon" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('c6-1')" onmouseout="StopSound('c6-1')"><input type="radio" name="sabe_condon" value="1" /> Si <br></label>
                 <label onclick="PlaySound('c6-2')" onmouseout="StopSound('c6-2')"><input type="radio" name="sabe_condon" value="2" /> No <br></label>
+                <label><input type="radio" name="sabe_condon" value="3"/>No se la respuesta <br></label>
+                <label><input type="radio" name="sabe_condon" value="4"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -318,6 +356,8 @@
                 <label onclick="PlaySound('c8-4')" onmouseout="StopSound('c8-4')"><input type="radio" name="servicio_sugerido" value="4" /> Métodos de Planificacion Familiar <br></label>
                 <label onclick="PlaySound('c8-5')" onmouseout="StopSound('c8-5')"><input type="radio" name="servicio_sugerido" value="5" /> Condones <br></label>
                 <label onclick="PlaySound('c8-6')" onmouseout="StopSound('c8-6')"><input type="radio" name="servicio_sugerido" value="6" /> Otros <br></label>
+                <label><input type="radio" name="servicio_sugerido" value="7"/>No se la respuesta <br></label>
+                <label><input type="radio" name="servicio_sugerido" value="8"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_otro_servicio_sugerido" class="form-group">
@@ -339,6 +379,8 @@
                 <label onclick="PlaySound('d1-2')" onmouseout="StopSound('d1-2')"><input type="radio" name="quien_debe_utilizar" value="2" /> Hombres y mujeres <br></label>
                 <label onclick="PlaySound('d1-3')" onmouseout="StopSound('d1-3')"><input type="radio" name="quien_debe_utilizar" value="3" /> Trabajadoras del Sexo  <br></label>
                 <label onclick="PlaySound('d1-4')" onmouseout="StopSound('d1-4')"><input type="radio" name="quien_debe_utilizar" value="4" /> Para los de la ciudad <br></label>
+                <label><input type="radio" name="quien_debe_utilizar" value="5"/>No se la respuesta <br></label>
+                <label><input type="radio" name="quien_debe_utilizar" value="6"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -348,6 +390,8 @@
                 <input type="radio" name="hablarcondonpareja" value="0" hidden="" checked="true"/>
                 <label><input type="radio" name="hablarcondonpareja" value="1" /> Sí <br></label>
                 <label><input type="radio" name="hablarcondonpareja" value="2" /> No <br></label>
+                <label><input type="radio" name="hablarcondonpareja" value="3"/>No se la respuesta <br></label>
+                <label><input type="radio" name="hablarcondonpareja" value="4"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -357,6 +401,8 @@
                 <input type="radio" name="mujer_derecho_relacion" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('d4-1')" onmouseout="StopSound('d4-1')"><input type="radio" name="mujer_derecho_relacion" value="1" /> Si <br></label>
                 <label onclick="PlaySound('d4-2')" onmouseout="StopSound('d4-2')"><input type="radio" name="mujer_derecho_relacion" value="2" /> No <br></label>
+                <label><input type="radio" name="mujer_derecho_relacion" value="3"/>No se la respuesta <br></label>
+                <label><input type="radio" name="mujer_derecho_relacion" value="4"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_porque_derecho_relacion" class="form-group">
@@ -372,6 +418,8 @@
                 <input type="radio" name="mujer_derecho_condon" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('d5-1')" onmouseout="StopSound('d5-1')"><input type="radio" name="mujer_derecho_condon" value="1" /> Si <br></label>
                 <label onclick="PlaySound('d5-2')" onmouseout="StopSound('d5-2')"><input type="radio" name="mujer_derecho_condon" value="2" /> No <br></label>
+                <label><input type="radio" name="mujer_derecho_condon" value="3"/>No se la respuesta <br></label>
+                <label><input type="radio" name="mujer_derecho_condon" value="4"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_porque_derecho_condon" class="form-group">
@@ -389,6 +437,8 @@
                 <label onclick="PlaySound('d6-2')" onmouseout="StopSound('d6-2')"><input type="radio" name="por_idioma" value="2" /> Se debe firmar un consentimiento <br></label>
                 <label onclick="PlaySound('d6-3')" onmouseout="StopSound('d6-3')"><input type="radio" name="por_idioma" value="3" /> Se debe estar acompañado por un adulto <br></label>
                 <label onclick="PlaySound('d6-4')" onmouseout="StopSound('d6-4')"><input type="radio" name="por_idioma" value="4" /> Otro <br></label>
+                <label><input type="radio" name="por_idioma" value="5"/>No se la respuesta <br></label>
+                <label><input type="radio" name="por_idioma" value="6"/>No quiero contestar <br></label>
             </div>
         </div>
         <div id="div_id_otra_razon" class="form-group">
@@ -408,6 +458,8 @@
                 <input type="radio" name="existe_servicio" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('e1-1')" onmouseout="StopSound('e1-1')"><input type="radio" name="existe_servicio" value="1" /> Si <br></label>
                 <label onclick="PlaySound('e1-2')" onmouseout="StopSound('e1-2')"><input type="radio" name="existe_servicio" value="2" /> No <br></label>
+                <label><input type="radio" name="existe_servicio" value="3"/>No se la respuesta <br></label>
+                <label><input type="radio" name="existe_servicio" value="4"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -417,6 +469,9 @@
                 <input type="radio" name="existe_kit" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('e2-1')" onmouseout="StopSound('e2-1')"><input type="radio" name="existe_kit" value="1" /> Si <br></label>
                 <label onclick="PlaySound('e2-2')" onmouseout="StopSound('e2-2')"><input type="radio" name="existe_kit" value="2" /> No <br></label>
+                <label><input type="radio" name="existe_kit" value="3" />No se </label>
+                <label><input type="radio" name="existe_kit" value="4"/>No se la respuesta <br></label>
+                <label><input type="radio" name="existe_kit" value="5"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -426,6 +481,8 @@
                 <input type="radio" name="prestador_conoce" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('e3-1')" onmouseout="StopSound('e3-1')"><input type="radio" name="prestador_conoce" value="1" /> Sí <br></label>
                 <label onclick="PlaySound('e3-2')" onmouseout="StopSound('e3-2')"><input type="radio" name="prestador_conoce" value="2" /> No <br></label>
+                <label><input type="radio" name="prestador_conoce" value="3"/>No se la respuesta <br></label>
+                <label><input type="radio" name="prestador_conoce" value="4"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -442,6 +499,8 @@
                 <label onclick="PlaySound('f1-2')" onmouseout="StopSound('f1-2')"><input type="radio" name="califica_servicio" value="2" /> Bueno <br></label>
                 <label onclick="PlaySound('f1-3')" onmouseout="StopSound('f1-3')"><input type="radio" name="califica_servicio" value="3" /> Pésimo <br></label>
                 <label onclick="PlaySound('f1-4')" onmouseout="StopSound('f1-4')"><input type="radio" name="califica_servicio" value="4" /> Deficiente <br></label>
+                <label><input type="radio" name="califica_servicio" value="5"/>No se la respuesta <br></label>
+                <label><input type="radio" name="califica_servicio" value="6"/>No quiero contestar <br></label>
             </div>
         </div>
 
@@ -452,6 +511,8 @@
                 <label onclick="PlaySound('f2-1')" onmouseout="StopSound('f2-1')"><input type="radio" name="horario_atencion" value="1" /> Accesible <br></label>
                 <label onclick="PlaySound('f2-2')" onmouseout="StopSound('f2-2')"><input type="radio" name="horario_atencion" value="2" /> Poco accesible <br></label>
                 <label onclick="PlaySound('f2-3')" onmouseout="StopSound('f2-3')"><input type="radio" name="horario_atencion" value="3" /> Inaccesible <br></label>
+                <label><input type="radio" name="horario_atencion" value="4"/>No se la respuesta <br></label>
+                <label><input type="radio" name="horario_atencion" value="5"/>No quiero contestar <br></label>
             </div>
         </div>
     </div>
