@@ -6,6 +6,7 @@
  * Time: 6:47 PM
  */
 $mysqli = new mysqli("monitoreoparla2.db.11193368.hostedresource.com", "monitoreoparla2", "VS02#VMxh4", "monitoreoparla2");
+//$mysqli = new mysqli("localhost", "root", "", "monitoreo");
 if ($mysqli === false) {
     die ("ERROR: No se estableció la conexión. " . mysqli_connect_error());
 } else {

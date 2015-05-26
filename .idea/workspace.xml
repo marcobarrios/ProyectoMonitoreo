@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e29ccc-b2c5-4ce6-924a-ae781b6d1e5e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/audios/mam/A.3.1 CASADO (A).wav" afterPath="$PROJECT_DIR$/audios/mam/A.3.1 CASADO.wav" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/guardardatos.php" afterPath="$PROJECT_DIR$/controllers/guardardatos.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoreo.php" afterPath="$PROJECT_DIR$/monitoreo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -33,7 +32,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="2106">
+            <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="2106">
               <caret line="5" column="101" selection-start-line="5" selection-start-column="101" selection-end-line="5" selection-end-column="101" />
               <folding />
             </state>
@@ -50,15 +49,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monitoreo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="monitoreo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monitoreo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55785125" vertical-offset="0" max-vertical-offset="4086">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state vertical-scroll-proportion="-8.518518" vertical-offset="418" max-vertical-offset="1512">
+              <caret line="489" column="34" selection-start-line="489" selection-start-column="34" selection-end-line="489" selection-end-column="34" />
               <folding>
                 <element signature="n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,16 +76,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guardardatos.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="guardardatos.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.0" vertical-offset="4824" max-vertical-offset="8064">
-              <caret line="280" column="218" selection-start-line="280" selection-start-column="218" selection-end-line="280" selection-end-column="218" />
+            <state vertical-scroll-proportion="0.21799308" vertical-offset="0" max-vertical-offset="8082">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <marker date="1432666895409" expanded="true" signature="391:517" placeholder="INSERT INTO ..." />
-                <marker date="1432666895409" expanded="true" signature="1025:1081" placeholder="SELECT MAX(i..tblencuestas..." />
-                <marker date="1432666895409" expanded="true" signature="1315:1412" placeholder="INSERT INTO ..." />
-                <marker date="1432666895409" expanded="true" signature="18986:19086" placeholder="INSERT INTO ..." />
+                <marker date="1432670892230" expanded="true" signature="453:579" placeholder="INSERT INTO ..." />
+                <marker date="1432670892230" expanded="true" signature="1087:1143" placeholder="SELECT MAX(i..tblencuestas..." />
+                <marker date="1432670892230" expanded="true" signature="1377:1474" placeholder="INSERT INTO ..." />
+                <marker date="1432670892230" expanded="true" signature="19048:19148" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -122,10 +124,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="84" />
-    <option name="y" value="37" />
-    <option name="width" value="1190" />
-    <option name="height" value="645" />
+    <option name="x" value="-1" />
+    <option name="y" value="30" />
+    <option name="width" value="1368" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -348,13 +350,20 @@
       <option name="project" value="LOCAL" />
       <updated>1432618923397</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Proyecto entregado 26/05/2015">
+      <created>1432666924532</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1432666924532</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="37" width="1190" height="645" extended-state="0" />
+    <frame x="-1" y="30" width="1368" height="739" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -362,7 +371,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17255892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1500732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -371,7 +380,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -406,7 +414,8 @@
     <MESSAGE value="Modificaciones en Cuestionario" />
     <MESSAGE value="Ultimas modificaciones al cuestionario" />
     <MESSAGE value="Cambio de idioma de los html y correcciones ortograficas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio de idioma de los html y correcciones ortograficas" />
+    <MESSAGE value="Proyecto entregado 26/05/2015" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto entregado 26/05/2015" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -753,33 +762,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="2106">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="2106">
           <caret line="5" column="101" selection-start-line="5" selection-start-column="101" selection-end-line="5" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="4824" max-vertical-offset="8064">
-          <caret line="280" column="218" selection-start-line="280" selection-start-column="218" selection-end-line="280" selection-end-column="218" />
-          <folding>
-            <marker date="1432666895409" expanded="true" signature="391:517" placeholder="INSERT INTO ..." />
-            <marker date="1432666895409" expanded="true" signature="1025:1081" placeholder="SELECT MAX(i..tblencuestas..." />
-            <marker date="1432666895409" expanded="true" signature="1315:1412" placeholder="INSERT INTO ..." />
-            <marker date="1432666895409" expanded="true" signature="18986:19086" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monitoreo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55785125" vertical-offset="0" max-vertical-offset="4086">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state vertical-scroll-proportion="-8.518518" vertical-offset="418" max-vertical-offset="1512">
+          <caret line="489" column="34" selection-start-line="489" selection-start-column="34" selection-end-line="489" selection-end-column="34" />
           <folding>
             <element signature="n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/guardardatos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21799308" vertical-offset="0" max-vertical-offset="8082">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1432670892230" expanded="true" signature="453:579" placeholder="INSERT INTO ..." />
+            <marker date="1432670892230" expanded="true" signature="1087:1143" placeholder="SELECT MAX(i..tblencuestas..." />
+            <marker date="1432670892230" expanded="true" signature="1377:1474" placeholder="INSERT INTO ..." />
+            <marker date="1432670892230" expanded="true" signature="19048:19148" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
