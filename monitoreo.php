@@ -32,6 +32,7 @@
                 <input type="radio" name="sexo" value="0" hidden="" checked="true"/>
                 <label onclick="PlaySound('a1-1')" onmouseout="StopSound('a1-1')"><input type="radio" name="sexo" value="1"/> Femenino <br></label>
                 <label onclick="PlaySound('a1-2')" onmouseout="StopSound('a1-2')"><input type="radio" name="sexo" value="2" /> Masculino <br></label>
+                <label><input type="radio" name="sexo" value="3" /> Transgénero <br></label>
             </div>
         </div>
 
