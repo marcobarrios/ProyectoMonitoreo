@@ -35,6 +35,7 @@ body
 {
 	font-family: arial;
 	font-size: 20px;
+	background: #eeeeee;
 }
 footer
 {
@@ -70,7 +71,7 @@ header a
 	color: white;
 	background: #ff4842;
 	border-radius: 10px;
-	margin: 2em 0.5em 0 0;
+	margin: 1em 0.5em 0 0;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -94,56 +95,65 @@ header a:hover
 	background: #efefef;
 	background-image: url("../images/fidiomas.jpg");
 }
-#idiomas a img{
+a img{
 	-webkit-transition: 1.1s;
 	-o-transition: 1.1s;
 	-moz-transition: 1.1s;
 }
-#idiomas a img:hover{
+a img:hover{
 	-webkit-transform:rotate(360deg);
 	-o-transform:rotate(360deg);
 	-moz-transform:rotate(360deg);
 	-ms-transform:rotate(360deg);
 }
 
-#facebook
-{
-	padding: 1.5em;
-	text-align: center;
+#img-cel{
+	width: 200px;
 	display: none;
 }
-#facebook a
-{
-	background: #133783;
-	border-radius: 4px;
-	color: white;
-	text-decoration: none;
-	padding: 1em;
-	font-family: arial, icomoon;
-}
+
 .img-footer
 {
 	width: 200px;
 	margin-top: 0.7em;
 	margin-bottom: -0.5em;
 }
+#s-footer{
+	display: none;
+}
 #box-img
 {
 	margin: 1em;
 }
 
+#condition{
+	text-align: justify;
+	padding: 0 3.5em 2.5em 3.5em;
+	position: relative;
+	font-size: 1.1em;
+}
+#accept-condition{
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	text-align: center;
+}
+#box-condition div{
+	text-align: center;
+	margin: 1em;
+}
+
+@media screen and (max-width: 1130px) {
+	header a{
+		margin: 1px;
+		padding: 0;
+	}
+}
+
+
 @media screen and (max-width: 650px) {
-	header
-	{
-	background-image: url("../images/header.jpg");
-
-	}
-	header a
-	{
-		color: white;
-
-	}
-
 	#box-img
 	{
 		margin: 0;
@@ -152,9 +162,60 @@ header a:hover
 	header h1
 	{
 		font-size: 2.5em;
-		text-shadow: 0.5px 0.5px 0.5px green;
 	}
 	#idiomas a{
 		margin: 5px;
+	}
+	#condition{
+		text-align: justify;
+		padding: 0 2.5em 2.5em 2.5em;
+		position: relative;
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	header a{
+		position: relative;
+		width: 90%;
+	}
+	#btn-login{
+		text-align: center;
+		margin: 0 0 10px 0;
+	}
+	#img-cel{
+		display: block;
+		margin: 0 auto;
+	}
+	#img-cel figure div span{
+		color: #263238;
+		font-size: 0.7em;
+		border-bottom: solid #263238;
+		display: inline-block;
+		width: 100%;
+	}
+	#img-cel figure{
+		position: relative;
+		margin: 1em;
+
+	}
+	#img-cel figure img{
+		width: 150px;
+	}
+	#img-cel figure div{
+		text-align: center;
+	}
+	.img-footer{
+		display: none;
+	}
+	#s-footer{
+		display: block;
+		color: #000000;
+	}
+	#condition{
+		text-align: justify;
+		padding: 0 1em 2.7em 1em;
+		position: relative;
+		font-size: 0.9em;
 	}
 }
